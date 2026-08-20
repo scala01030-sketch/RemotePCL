@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: local.remotepcl.input.RemoteInputAgentV10
+Agent-Class: local.remotepcl.input.RemoteInputAgentV10
+Can-Redefine-Classes: false
+Can-Retransform-Classes: false

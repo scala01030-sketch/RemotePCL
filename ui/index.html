@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RemotePCL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">REMOTE MINECRAFT · PHASE 1</p>
+        <h1>RemotePCL</h1>
+        <p class="subtitle">选择 Minecraft B，启动手机串流与本地预览。</p>
+      </div>
+      <div id="statusBadge" class="status-badge idle"><span></span><strong>尚未运行</strong></div>
+    </header>
+
+    <section class="flow-card" aria-label="工作流程">
+      <div class="flow-step"><b>1</b><span>捕获<br><small>Minecraft B</small></span></div>
+      <i>→</i><div class="flow-step"><b>2</b><span>编码<br><small>H.264 NVENC</small></span></div>
+      <i>→</i><div class="flow-step"><b>3</b><span>帧数据<br><small>EncodedFrame</small></span></div>
+      <i>→</i><div class="flow-step"><b>4</b><span>解码<br><small>NVDEC</small></span></div>
+      <i>→</i><div class="flow-step"><b>5</b><span>预览<br><small>本机窗口</small></span></div>
+    </section>
+
+    <section class="workspace">
+      <div class="control-panel">
+        <div class="section-heading"><span>01</span><div><h2>选择游戏窗口</h2><p>请先同时启动两个 Minecraft，再选择用于远程操作的第二个实例。</p></div></div>
+        <div class="field-row">
+          <label for="windowSelect">检测到的 Java 窗口</label>
+          <div class="select-action"><select id="windowSelect"><option value="">请点击“刷新实例”</option></select><button id="refreshButton" class="secondary">刷新实例</button></div>
+          <p id="windowHint" class="hint">程序不会自动切换到其他 Minecraft。</p>
+        </div>
+
+        <div class="section-heading compact"><span>02</span><div><h2>画面设置</h2><p>默认设置适合 1080p 低延迟串流。</p></div></div>
+        <div class="settings-grid">
+          <label>帧率<select id="fpsSelect"><option value="60">60 FPS（推荐）</option><option value="30">30 FPS（兼容）</option></select></label>
+          <label>码率<select id="bitrateSelect"><option value="12M">12 Mbps（推荐画质）</option><option value="8M">8 Mbps（均衡）</option><option value="6M">6 Mbps</option></select></label>
+        </div>
+
+        <div class="section-heading compact"><span>03</span><div><h2>开始预览</h2><p>预览显示的是编码后再解码的真实画面。</p></div></div>
+        <div class="primary-actions"><button id="startButton" class="primary" disabled>开始串流预览</button><button id="stopButton" class="danger" disabled>停止</button></div>
+      </div>
+
+      <aside class="side-panel">
+        <section class="preview-panel" aria-label="本地解码预览">
+          <div class="preview-header"><div><p class="eyebrow">LOCAL DECODED PREVIEW</p><h2>本地预览</h2></div><span id="previewStatus">等待启动</span></div>
+          <div class="preview-stage">
+            <img id="previewImage" alt="Minecraft 解码预览">
+            <div id="previewPlaceholder"><strong>画面将在这里显示</strong><small>选择窗口并点击“开始串流预览”</small></div>
+          </div>
+        </section>
+        <section class="log-panel">
+        <div class="log-header"><div><p class="eyebrow">BACKGROUND LOG</p><h2>后台日志</h2></div><button id="clearLogButton" class="text-button">清空显示</button></div>
+        <p id="logPath" class="log-path">日志文件准备中…</p>
+        <div id="logOutput" class="log-output" role="log" aria-live="polite"></div>
+        </section>
+      </aside>
+    </section>
+  </main>
+  <div id="pairingBackdrop" class="dialog-backdrop" hidden></div>
+  <section id="pairingDialog" class="pairing-dialog" role="dialog" aria-modal="true" aria-labelledby="pairingTitle" hidden>
+    <p class="eyebrow">PHONE PAIRING</p>
+    <h2 id="pairingTitle">新的配对码</h2>
+    <strong id="hostPairingPin">------</strong>
+    <p id="hostPhoneUrl">手机与电脑连接同一局域网后打开显示的地址。</p>
+    <div><button id="copyPairingButton" class="primary">复制配对信息</button><button id="closePairingButton" class="danger">关闭</button></div>
+  </section>
+  <script src="renderer.js"></script>
+</body>
+</html>

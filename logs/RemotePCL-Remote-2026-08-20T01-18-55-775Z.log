@@ -1,0 +1,37 @@
+[2026-08-20T01:18:55.982Z] [BRIDGE] agent-loader | {"type":"agent-loader","level":"info","detail":"REMOTE_INPUT_AGENT_ATTACHED pid=9492"}
+[2026-08-20T01:18:55.992Z] [BRIDGE] ready | {"type":"ready","ok":true,"pid":9492,"hwnd":"3539592","adapter":"minecraft-agent-v1 pid=9492"}
+[2026-08-20T01:18:55.998Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967293,"appliedTicks":"20123903669000","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:18:56.018Z] [INFO] REMOTE_SESSION_STARTED | PID=9492, HWND=0x360288, 854x480
+[2026-08-20T01:18:56.019Z] [MEDIA] VIDEO_CONFIGURATION | codec=H264, format=ANNEX_B, capture=854x480, encode=854x480, bitrate=8M, fps=60, jpegFallback=854x480
+[2026-08-20T01:19:13.256Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T01:19:13.258Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T01:19:13.260Z] [INPUT] INPUT_RECEIVED | seq=920001, action=ESC, phase=tap
+[2026-08-20T01:19:13.316Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920001,"appliedTicks":"20141220762200","screenOpen":false,"screenClass":"","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:13.316Z] [INPUT] INPUT_APPLIED | seq=920001, action=ESC
+[2026-08-20T01:19:13.317Z] [INPUT] INPUT_RECEIVED | seq=920002, action=ESC, phase=tap
+[2026-08-20T01:19:13.372Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920002,"appliedTicks":"20141277208800","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:13.372Z] [INPUT] INPUT_APPLIED | seq=920002, action=ESC
+[2026-08-20T01:19:13.373Z] [INPUT] INPUT_RECEIVED | seq=920003, action=GUI_POINTER, phase=tap
+[2026-08-20T01:19:13.378Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920003,"appliedTicks":"20141283194200","screenOpen":false,"screenClass":"","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:13.378Z] [INPUT] INPUT_APPLIED | seq=920003, action=GUI_POINTER
+[2026-08-20T01:19:13.379Z] [INPUT] INPUT_RECEIVED | seq=920004, action=INVENTORY, phase=tap
+[2026-08-20T01:19:13.434Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920004,"appliedTicks":"20141338943100","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:13.434Z] [INPUT] INPUT_APPLIED | seq=920004, action=INVENTORY
+[2026-08-20T01:19:13.435Z] [INPUT] INPUT_RECEIVED | seq=920005, action=ESC, phase=tap
+[2026-08-20T01:19:13.493Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920005,"appliedTicks":"20141398647300","screenOpen":false,"screenClass":"","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:13.494Z] [INPUT] INPUT_APPLIED | seq=920005, action=ESC
+[2026-08-20T01:19:13.498Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T01:19:13.507Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"20141412204900","screenOpen":false,"screenClass":"","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:19.659Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T01:19:19.662Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T01:19:19.663Z] [INPUT] INPUT_RECEIVED | seq=930001, action=ESC, phase=tap
+[2026-08-20T01:19:19.719Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":930001,"appliedTicks":"20147623824500","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:19.719Z] [INPUT] INPUT_APPLIED | seq=930001, action=ESC
+[2026-08-20T01:19:19.721Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T01:19:19.721Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T01:19:19.723Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T01:19:19.724Z] [INPUT] INPUT_RECEIVED | seq=930002, action=ESC, phase=tap
+[2026-08-20T01:19:19.776Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":930002,"appliedTicks":"20147681780500","screenOpen":false,"screenClass":"","guiWidth":427,"guiHeight":240}
+[2026-08-20T01:19:19.777Z] [INPUT] INPUT_APPLIED | seq=930002, action=ESC
+[2026-08-20T01:19:19.778Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T01:19:19.783Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"20147687839700","screenOpen":false,"screenClass":"","guiWidth":427,"guiHeight":240}

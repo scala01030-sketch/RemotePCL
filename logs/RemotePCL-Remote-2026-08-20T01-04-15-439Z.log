@@ -1,0 +1,2 @@
+[2026-08-20T01:04:15.611Z] [BRIDGE] agent-loader | {"type":"agent-loader","level":"info","detail":"REMOTE_INPUT_AGENT_ATTACHED pid=9492"}
+[2026-08-20T01:04:25.464Z] [ERROR] REMOTE_SESSION_START_FAILED | Error: Target input agent startup timed out. ↩     at Timeout._onTimeout (E:\RemotePCL\src\remote\windows-input-bridge.js:72:45) ↩     at listOnTimeout (node:internal/timers:581:17) ↩     at process.processTimers (node:internal/timers:519:7)

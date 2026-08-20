@@ -1,0 +1,62 @@
+[2026-08-20T00:08:49.111Z] [BRIDGE] agent-loader | {"type":"agent-loader","level":"info","detail":"REMOTE_INPUT_AGENT_ATTACHED pid=11192"}
+[2026-08-20T00:08:49.122Z] [BRIDGE] ready | {"type":"ready","ok":true,"pid":11192,"hwnd":"656556","adapter":"minecraft-agent-v1 pid=11192"}
+[2026-08-20T00:08:49.133Z] [INFO] REMOTE_SESSION_STARTED | PID=11192, HWND=0xA04AC, 854x470
+[2026-08-20T00:08:49.133Z] [MEDIA] VIDEO_CONFIGURATION | codec=H264, format=ANNEX_B, capture=854x470, encode=854x470, bitrate=8M, fps=60, jpegFallback=854x470
+[2026-08-20T00:09:15.863Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:09:15.866Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:09:15.868Z] [INFO] VIDEO_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:09:15.979Z] [INPUT] INPUT_RECEIVED | seq=900002, action=SNEAK, phase=down
+[2026-08-20T00:09:15.988Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900002,"appliedTicks":"15943894157300","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:15.989Z] [INPUT] INPUT_APPLIED | seq=900002, action=SNEAK
+[2026-08-20T00:09:16.796Z] [INPUT] INPUT_RECEIVED | seq=900003, action=SNEAK, phase=up
+[2026-08-20T00:09:16.808Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900003,"appliedTicks":"15944713823900","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:16.808Z] [INPUT] INPUT_APPLIED | seq=900003, action=SNEAK
+[2026-08-20T00:09:17.184Z] [INFO] VIDEO_SOCKET_DISCONNECTED
+[2026-08-20T00:09:17.184Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:09:17.193Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"15945098706500","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:17.246Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:09:17.248Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:09:17.250Z] [INFO] VIDEO_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:09:17.354Z] [INPUT] INPUT_RECEIVED | seq=900002, action=FORWARD, phase=down
+[2026-08-20T00:09:17.359Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900002,"appliedTicks":"15945265264200","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:17.360Z] [INPUT] INPUT_APPLIED | seq=900002, action=FORWARD
+[2026-08-20T00:09:17.360Z] [INPUT] INPUT_RECEIVED | seq=900003, action=SPRINT, phase=down
+[2026-08-20T00:09:17.372Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900003,"appliedTicks":"15945278338300","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:17.373Z] [INPUT] INPUT_APPLIED | seq=900003, action=SPRINT
+[2026-08-20T00:09:18.183Z] [INPUT] INPUT_RECEIVED | seq=900004, action=SPRINT, phase=up
+[2026-08-20T00:09:18.196Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900004,"appliedTicks":"15946101979700","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:18.197Z] [INPUT] INPUT_APPLIED | seq=900004, action=SPRINT
+[2026-08-20T00:09:18.197Z] [INPUT] INPUT_RECEIVED | seq=900005, action=FORWARD, phase=up
+[2026-08-20T00:09:18.210Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900005,"appliedTicks":"15946115684000","screenOpen":false,"screenClass":""}
+[2026-08-20T00:09:18.210Z] [INPUT] INPUT_APPLIED | seq=900005, action=FORWARD
+[2026-08-20T00:09:18.587Z] [INFO] VIDEO_SOCKET_DISCONNECTED
+[2026-08-20T00:09:18.588Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:09:18.594Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"15946500469800","screenOpen":false,"screenClass":""}
+[2026-08-20T00:11:06.482Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:11:06.485Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:11:06.486Z] [INFO] VIDEO_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:11:07.077Z] [INPUT] INPUT_RECEIVED | seq=910001, action=LOOK, phase=delta
+[2026-08-20T00:11:07.086Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":910001,"appliedTicks":"16054991262900","screenOpen":false,"screenClass":""}
+[2026-08-20T00:11:07.087Z] [INPUT] INPUT_APPLIED | seq=910001, action=LOOK
+[2026-08-20T00:11:08.070Z] [INPUT] INPUT_RECEIVED | seq=910002, action=LOOK, phase=delta
+[2026-08-20T00:11:08.083Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":910002,"appliedTicks":"16055987946800","screenOpen":false,"screenClass":""}
+[2026-08-20T00:11:08.083Z] [INPUT] INPUT_APPLIED | seq=910002, action=LOOK
+[2026-08-20T00:11:08.163Z] [INFO] VIDEO_SOCKET_DISCONNECTED
+[2026-08-20T00:11:08.164Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:11:08.175Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16056080648800","screenOpen":false,"screenClass":""}
+[2026-08-20T00:11:24.558Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:11:24.560Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:11:24.561Z] [INPUT] INPUT_RECEIVED | seq=1, action=ESC, phase=tap
+[2026-08-20T00:11:24.622Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":1,"appliedTicks":"16072527615300","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen"}
+[2026-08-20T00:11:24.623Z] [INPUT] INPUT_APPLIED | seq=1, action=ESC
+[2026-08-20T00:11:24.626Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:11:24.637Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16072541898300","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen"}
+[2026-08-20T00:11:38.417Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:11:38.419Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:11:38.420Z] [INPUT] INPUT_RECEIVED | seq=2, action=GUI_POINTER, phase=tap
+[2026-08-20T00:11:38.424Z] [BRIDGE] input-ack | {"type":"input-ack","ok":false,"seq":2,"appliedTicks":"16086329750100","screenOpen":false,"screenClass":"","error":"net.minecraft.client.gui.screens.PauseScreen.mouseClicked/3"}
+[2026-08-20T00:11:38.425Z] [ERROR] INPUT_REJECTED | seq=2, net.minecraft.client.gui.screens.PauseScreen.mouseClicked/3
+[2026-08-20T00:11:38.427Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:11:38.437Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16086342237700","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen"}
+[2026-08-20T00:11:57.430Z] [INFO] REMOTE_SESSION_STOPPING | SIGINT
+[2026-08-20T00:11:57.451Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967295,"appliedTicks":"16105355877300","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen"}

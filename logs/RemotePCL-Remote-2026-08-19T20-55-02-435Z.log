@@ -1,0 +1,1758 @@
+[2026-08-19T20:55:02.717Z] [BRIDGE] ready | {"hwnd":"656556","ok":true,"pid":11192,"type":"ready"}
+[2026-08-19T20:55:02.735Z] [INFO] REMOTE_SESSION_STARTED | PID=11192, HWND=0xA04AC, 854x480
+[2026-08-19T20:56:35.566Z] [INFO] CONTROL_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T20:56:35.571Z] [INFO] PHONE_PAIRED | 192.168.2.5
+[2026-08-19T20:56:35.583Z] [INFO] VIDEO_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T20:57:04.292Z] [INFO] CONTROL_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T20:57:04.296Z] [INFO] PHONE_PAIRED | 192.168.2.5
+[2026-08-19T20:57:04.303Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-19T20:57:04.316Z] [INFO] VIDEO_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T20:57:24.940Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-19T20:57:24.989Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":44328949883,"type":"input-ack","seq":4294967294}
+[2026-08-19T21:06:25.886Z] [INFO] CONTROL_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T21:06:25.890Z] [WARN] PAIRING_REJECTED | attempt=1, remote=192.168.2.5
+[2026-08-19T21:06:38.530Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-19T21:06:38.556Z] [INFO] CONTROL_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T21:06:38.561Z] [INFO] PHONE_PAIRED | 192.168.2.5
+[2026-08-19T21:06:38.578Z] [INFO] VIDEO_CLIENT_CONNECTED | 192.168.2.5
+[2026-08-19T21:06:54.030Z] [INPUT] INPUT_RECEIVED | seq=1, action=FORWARD, phase=down
+[2026-08-19T21:06:54.075Z] [BRIDGE] input-ack | {"ok":false,"error":"TARGET_NOT_FOREGROUND","appliedTicks":50019805262,"type":"input-ack","seq":1}
+[2026-08-19T21:06:54.076Z] [ERROR] INPUT_REJECTED | seq=1, TARGET_NOT_FOREGROUND
+[2026-08-19T21:06:54.323Z] [INPUT] INPUT_RECEIVED | seq=2, action=FORWARD, phase=up
+[2026-08-19T21:06:54.350Z] [BRIDGE] input-ack | {"ok":false,"error":"TARGET_NOT_FOREGROUND","appliedTicks":50022553263,"type":"input-ack","seq":2}
+[2026-08-19T21:06:54.351Z] [ERROR] INPUT_REJECTED | seq=2, TARGET_NOT_FOREGROUND
+[2026-08-19T21:06:55.579Z] [INPUT] INPUT_RECEIVED | seq=3, action=SPRINT, phase=down
+[2026-08-19T21:06:55.614Z] [BRIDGE] input-ack | {"ok":false,"error":"TARGET_NOT_FOREGROUND","appliedTicks":50035198330,"type":"input-ack","seq":3}
+[2026-08-19T21:06:55.615Z] [ERROR] INPUT_REJECTED | seq=3, TARGET_NOT_FOREGROUND
+[2026-08-19T21:06:55.657Z] [INPUT] INPUT_RECEIVED | seq=4, action=SPRINT, phase=up
+[2026-08-19T21:06:55.692Z] [BRIDGE] input-ack | {"ok":false,"error":"TARGET_NOT_FOREGROUND","appliedTicks":50035979525,"type":"input-ack","seq":4}
+[2026-08-19T21:06:55.693Z] [ERROR] INPUT_REJECTED | seq=4, TARGET_NOT_FOREGROUND
+[2026-08-19T21:06:57.694Z] [INPUT] INPUT_RECEIVED | seq=5, action=FORWARD, phase=down
+[2026-08-19T21:06:57.724Z] [BRIDGE] input-ack | {"ok":false,"error":"TARGET_NOT_FOREGROUND","appliedTicks":50056292300,"type":"input-ack","seq":5}
+[2026-08-19T21:06:57.725Z] [ERROR] INPUT_REJECTED | seq=5, TARGET_NOT_FOREGROUND
+[2026-08-19T21:06:57.890Z] [INPUT] INPUT_RECEIVED | seq=6, action=FORWARD, phase=up
+[2026-08-19T21:06:57.912Z] [BRIDGE] input-ack | {"ok":false,"error":"TARGET_NOT_FOREGROUND","appliedTicks":50058178766,"type":"input-ack","seq":6}
+[2026-08-19T21:06:57.913Z] [ERROR] INPUT_REJECTED | seq=6, TARGET_NOT_FOREGROUND
+[2026-08-19T21:07:07.281Z] [INPUT] INPUT_RECEIVED | seq=7, action=FORWARD, phase=down
+[2026-08-19T21:07:07.293Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50151981698,"type":"input-ack","seq":7}
+[2026-08-19T21:07:07.293Z] [INPUT] INPUT_APPLIED | seq=7, action=FORWARD
+[2026-08-19T21:07:07.878Z] [INPUT] INPUT_RECEIVED | seq=8, action=FORWARD, phase=up
+[2026-08-19T21:07:07.881Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50157857593,"type":"input-ack","seq":8}
+[2026-08-19T21:07:07.881Z] [INPUT] INPUT_APPLIED | seq=8, action=FORWARD
+[2026-08-19T21:07:08.390Z] [INPUT] INPUT_RECEIVED | seq=9, action=LOOK, phase=delta
+[2026-08-19T21:07:08.396Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163016080,"type":"input-ack","seq":9}
+[2026-08-19T21:07:08.397Z] [INPUT] INPUT_APPLIED | seq=9, action=LOOK
+[2026-08-19T21:07:08.406Z] [INPUT] INPUT_RECEIVED | seq=10, action=LOOK, phase=delta
+[2026-08-19T21:07:08.408Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163133603,"type":"input-ack","seq":10}
+[2026-08-19T21:07:08.408Z] [INPUT] INPUT_APPLIED | seq=10, action=LOOK
+[2026-08-19T21:07:08.422Z] [INPUT] INPUT_RECEIVED | seq=11, action=LOOK, phase=delta
+[2026-08-19T21:07:08.423Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163289982,"type":"input-ack","seq":11}
+[2026-08-19T21:07:08.424Z] [INPUT] INPUT_APPLIED | seq=11, action=LOOK
+[2026-08-19T21:07:08.439Z] [INPUT] INPUT_RECEIVED | seq=12, action=LOOK, phase=delta
+[2026-08-19T21:07:08.440Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163456636,"type":"input-ack","seq":12}
+[2026-08-19T21:07:08.441Z] [INPUT] INPUT_APPLIED | seq=12, action=LOOK
+[2026-08-19T21:07:08.458Z] [INPUT] INPUT_RECEIVED | seq=13, action=LOOK, phase=delta
+[2026-08-19T21:07:08.459Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163648204,"type":"input-ack","seq":13}
+[2026-08-19T21:07:08.460Z] [INPUT] INPUT_APPLIED | seq=13, action=LOOK
+[2026-08-19T21:07:08.475Z] [INPUT] INPUT_RECEIVED | seq=14, action=LOOK, phase=delta
+[2026-08-19T21:07:08.477Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163822408,"type":"input-ack","seq":14}
+[2026-08-19T21:07:08.477Z] [INPUT] INPUT_APPLIED | seq=14, action=LOOK
+[2026-08-19T21:07:08.489Z] [INPUT] INPUT_RECEIVED | seq=15, action=LOOK, phase=delta
+[2026-08-19T21:07:08.490Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50163956729,"type":"input-ack","seq":15}
+[2026-08-19T21:07:08.491Z] [INPUT] INPUT_APPLIED | seq=15, action=LOOK
+[2026-08-19T21:07:08.507Z] [INPUT] INPUT_RECEIVED | seq=16, action=LOOK, phase=delta
+[2026-08-19T21:07:08.509Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50164144569,"type":"input-ack","seq":16}
+[2026-08-19T21:07:08.509Z] [INPUT] INPUT_APPLIED | seq=16, action=LOOK
+[2026-08-19T21:07:08.522Z] [INPUT] INPUT_RECEIVED | seq=17, action=LOOK, phase=delta
+[2026-08-19T21:07:08.523Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50164289627,"type":"input-ack","seq":17}
+[2026-08-19T21:07:08.524Z] [INPUT] INPUT_APPLIED | seq=17, action=LOOK
+[2026-08-19T21:07:08.545Z] [INPUT] INPUT_RECEIVED | seq=18, action=LOOK, phase=delta
+[2026-08-19T21:07:08.547Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50164523269,"type":"input-ack","seq":18}
+[2026-08-19T21:07:08.548Z] [INPUT] INPUT_APPLIED | seq=18, action=LOOK
+[2026-08-19T21:07:09.043Z] [INPUT] INPUT_RECEIVED | seq=19, action=LOOK, phase=delta
+[2026-08-19T21:07:09.045Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50169503703,"type":"input-ack","seq":19}
+[2026-08-19T21:07:09.045Z] [INPUT] INPUT_APPLIED | seq=19, action=LOOK
+[2026-08-19T21:07:09.059Z] [INPUT] INPUT_RECEIVED | seq=20, action=LOOK, phase=delta
+[2026-08-19T21:07:09.060Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50169659291,"type":"input-ack","seq":20}
+[2026-08-19T21:07:09.061Z] [INPUT] INPUT_APPLIED | seq=20, action=LOOK
+[2026-08-19T21:07:09.082Z] [INPUT] INPUT_RECEIVED | seq=21, action=LOOK, phase=delta
+[2026-08-19T21:07:09.084Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50169891983,"type":"input-ack","seq":21}
+[2026-08-19T21:07:09.084Z] [INPUT] INPUT_APPLIED | seq=21, action=LOOK
+[2026-08-19T21:07:09.093Z] [INPUT] INPUT_RECEIVED | seq=22, action=LOOK, phase=delta
+[2026-08-19T21:07:09.094Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50169991497,"type":"input-ack","seq":22}
+[2026-08-19T21:07:09.094Z] [INPUT] INPUT_APPLIED | seq=22, action=LOOK
+[2026-08-19T21:07:09.105Z] [INPUT] INPUT_RECEIVED | seq=23, action=LOOK, phase=delta
+[2026-08-19T21:07:09.107Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50170121200,"type":"input-ack","seq":23}
+[2026-08-19T21:07:09.107Z] [INPUT] INPUT_APPLIED | seq=23, action=LOOK
+[2026-08-19T21:07:09.123Z] [INPUT] INPUT_RECEIVED | seq=24, action=LOOK, phase=delta
+[2026-08-19T21:07:09.124Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50170295992,"type":"input-ack","seq":24}
+[2026-08-19T21:07:09.124Z] [INPUT] INPUT_APPLIED | seq=24, action=LOOK
+[2026-08-19T21:07:09.139Z] [INPUT] INPUT_RECEIVED | seq=25, action=LOOK, phase=delta
+[2026-08-19T21:07:09.140Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50170456307,"type":"input-ack","seq":25}
+[2026-08-19T21:07:09.141Z] [INPUT] INPUT_APPLIED | seq=25, action=LOOK
+[2026-08-19T21:07:09.163Z] [INPUT] INPUT_RECEIVED | seq=26, action=LOOK, phase=delta
+[2026-08-19T21:07:09.165Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50170706276,"type":"input-ack","seq":26}
+[2026-08-19T21:07:09.166Z] [INPUT] INPUT_APPLIED | seq=26, action=LOOK
+[2026-08-19T21:07:09.176Z] [INPUT] INPUT_RECEIVED | seq=27, action=LOOK, phase=delta
+[2026-08-19T21:07:09.177Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50170828926,"type":"input-ack","seq":27}
+[2026-08-19T21:07:09.178Z] [INPUT] INPUT_APPLIED | seq=27, action=LOOK
+[2026-08-19T21:07:09.191Z] [INPUT] INPUT_RECEIVED | seq=28, action=LOOK, phase=delta
+[2026-08-19T21:07:09.192Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50170979598,"type":"input-ack","seq":28}
+[2026-08-19T21:07:09.193Z] [INPUT] INPUT_APPLIED | seq=28, action=LOOK
+[2026-08-19T21:07:09.208Z] [INPUT] INPUT_RECEIVED | seq=29, action=LOOK, phase=delta
+[2026-08-19T21:07:09.209Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50171146343,"type":"input-ack","seq":29}
+[2026-08-19T21:07:09.209Z] [INPUT] INPUT_APPLIED | seq=29, action=LOOK
+[2026-08-19T21:07:09.222Z] [INPUT] INPUT_RECEIVED | seq=30, action=LOOK, phase=delta
+[2026-08-19T21:07:09.223Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50171285689,"type":"input-ack","seq":30}
+[2026-08-19T21:07:09.223Z] [INPUT] INPUT_APPLIED | seq=30, action=LOOK
+[2026-08-19T21:07:09.240Z] [INPUT] INPUT_RECEIVED | seq=31, action=LOOK, phase=delta
+[2026-08-19T21:07:09.241Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50171466022,"type":"input-ack","seq":31}
+[2026-08-19T21:07:09.242Z] [INPUT] INPUT_APPLIED | seq=31, action=LOOK
+[2026-08-19T21:07:09.255Z] [INPUT] INPUT_RECEIVED | seq=32, action=LOOK, phase=delta
+[2026-08-19T21:07:09.256Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50171617650,"type":"input-ack","seq":32}
+[2026-08-19T21:07:09.257Z] [INPUT] INPUT_APPLIED | seq=32, action=LOOK
+[2026-08-19T21:07:09.272Z] [INPUT] INPUT_RECEIVED | seq=33, action=LOOK, phase=delta
+[2026-08-19T21:07:09.273Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50171787443,"type":"input-ack","seq":33}
+[2026-08-19T21:07:09.274Z] [INPUT] INPUT_APPLIED | seq=33, action=LOOK
+[2026-08-19T21:07:09.288Z] [INPUT] INPUT_RECEIVED | seq=34, action=LOOK, phase=delta
+[2026-08-19T21:07:09.290Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50171952955,"type":"input-ack","seq":34}
+[2026-08-19T21:07:09.290Z] [INPUT] INPUT_APPLIED | seq=34, action=LOOK
+[2026-08-19T21:07:09.307Z] [INPUT] INPUT_RECEIVED | seq=35, action=LOOK, phase=delta
+[2026-08-19T21:07:09.308Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50172135887,"type":"input-ack","seq":35}
+[2026-08-19T21:07:09.308Z] [INPUT] INPUT_APPLIED | seq=35, action=LOOK
+[2026-08-19T21:07:09.322Z] [INPUT] INPUT_RECEIVED | seq=36, action=LOOK, phase=delta
+[2026-08-19T21:07:09.323Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50172286334,"type":"input-ack","seq":36}
+[2026-08-19T21:07:09.324Z] [INPUT] INPUT_APPLIED | seq=36, action=LOOK
+[2026-08-19T21:07:09.338Z] [INPUT] INPUT_RECEIVED | seq=37, action=LOOK, phase=delta
+[2026-08-19T21:07:09.340Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50172450643,"type":"input-ack","seq":37}
+[2026-08-19T21:07:09.340Z] [INPUT] INPUT_APPLIED | seq=37, action=LOOK
+[2026-08-19T21:07:09.355Z] [INPUT] INPUT_RECEIVED | seq=38, action=LOOK, phase=delta
+[2026-08-19T21:07:09.356Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50172618043,"type":"input-ack","seq":38}
+[2026-08-19T21:07:09.357Z] [INPUT] INPUT_APPLIED | seq=38, action=LOOK
+[2026-08-19T21:07:09.373Z] [INPUT] INPUT_RECEIVED | seq=39, action=LOOK, phase=delta
+[2026-08-19T21:07:09.374Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50172795175,"type":"input-ack","seq":39}
+[2026-08-19T21:07:09.374Z] [INPUT] INPUT_APPLIED | seq=39, action=LOOK
+[2026-08-19T21:07:09.388Z] [INPUT] INPUT_RECEIVED | seq=40, action=LOOK, phase=delta
+[2026-08-19T21:07:09.390Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50172952432,"type":"input-ack","seq":40}
+[2026-08-19T21:07:09.390Z] [INPUT] INPUT_APPLIED | seq=40, action=LOOK
+[2026-08-19T21:07:09.406Z] [INPUT] INPUT_RECEIVED | seq=41, action=LOOK, phase=delta
+[2026-08-19T21:07:09.408Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50173131636,"type":"input-ack","seq":41}
+[2026-08-19T21:07:09.408Z] [INPUT] INPUT_APPLIED | seq=41, action=LOOK
+[2026-08-19T21:07:09.422Z] [INPUT] INPUT_RECEIVED | seq=42, action=LOOK, phase=delta
+[2026-08-19T21:07:09.423Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50173284327,"type":"input-ack","seq":42}
+[2026-08-19T21:07:09.423Z] [INPUT] INPUT_APPLIED | seq=42, action=LOOK
+[2026-08-19T21:07:09.740Z] [INPUT] INPUT_RECEIVED | seq=43, action=LOOK, phase=delta
+[2026-08-19T21:07:09.741Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50176467580,"type":"input-ack","seq":43}
+[2026-08-19T21:07:09.742Z] [INPUT] INPUT_APPLIED | seq=43, action=LOOK
+[2026-08-19T21:07:09.894Z] [INPUT] INPUT_RECEIVED | seq=44, action=FORWARD, phase=down
+[2026-08-19T21:07:09.895Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50178009673,"type":"input-ack","seq":44}
+[2026-08-19T21:07:09.896Z] [INPUT] INPUT_APPLIED | seq=44, action=FORWARD
+[2026-08-19T21:07:11.140Z] [INPUT] INPUT_RECEIVED | seq=45, action=LOOK, phase=delta
+[2026-08-19T21:07:11.141Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50190465712,"type":"input-ack","seq":45}
+[2026-08-19T21:07:11.141Z] [INPUT] INPUT_APPLIED | seq=45, action=LOOK
+[2026-08-19T21:07:11.171Z] [INPUT] INPUT_RECEIVED | seq=46, action=LOOK, phase=delta
+[2026-08-19T21:07:11.172Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50190774897,"type":"input-ack","seq":46}
+[2026-08-19T21:07:11.172Z] [INPUT] INPUT_APPLIED | seq=46, action=LOOK
+[2026-08-19T21:07:11.178Z] [INPUT] INPUT_RECEIVED | seq=47, action=LOOK, phase=delta
+[2026-08-19T21:07:11.179Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50190848497,"type":"input-ack","seq":47}
+[2026-08-19T21:07:11.180Z] [INPUT] INPUT_APPLIED | seq=47, action=LOOK
+[2026-08-19T21:07:11.190Z] [INPUT] INPUT_RECEIVED | seq=48, action=LOOK, phase=delta
+[2026-08-19T21:07:11.191Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50190966794,"type":"input-ack","seq":48}
+[2026-08-19T21:07:11.192Z] [INPUT] INPUT_APPLIED | seq=48, action=LOOK
+[2026-08-19T21:07:11.218Z] [INPUT] INPUT_RECEIVED | seq=49, action=LOOK, phase=delta
+[2026-08-19T21:07:11.219Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50191248365,"type":"input-ack","seq":49}
+[2026-08-19T21:07:11.220Z] [INPUT] INPUT_APPLIED | seq=49, action=LOOK
+[2026-08-19T21:07:11.222Z] [INPUT] INPUT_RECEIVED | seq=50, action=LOOK, phase=delta
+[2026-08-19T21:07:11.223Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50191288618,"type":"input-ack","seq":50}
+[2026-08-19T21:07:11.224Z] [INPUT] INPUT_APPLIED | seq=50, action=LOOK
+[2026-08-19T21:07:11.240Z] [INPUT] INPUT_RECEIVED | seq=51, action=LOOK, phase=delta
+[2026-08-19T21:07:11.241Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50191465838,"type":"input-ack","seq":51}
+[2026-08-19T21:07:11.241Z] [INPUT] INPUT_APPLIED | seq=51, action=LOOK
+[2026-08-19T21:07:11.255Z] [INPUT] INPUT_RECEIVED | seq=52, action=LOOK, phase=delta
+[2026-08-19T21:07:11.256Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50191619802,"type":"input-ack","seq":52}
+[2026-08-19T21:07:11.257Z] [INPUT] INPUT_APPLIED | seq=52, action=LOOK
+[2026-08-19T21:07:11.274Z] [INPUT] INPUT_RECEIVED | seq=53, action=LOOK, phase=delta
+[2026-08-19T21:07:11.275Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50191806894,"type":"input-ack","seq":53}
+[2026-08-19T21:07:11.276Z] [INPUT] INPUT_APPLIED | seq=53, action=LOOK
+[2026-08-19T21:07:11.291Z] [INPUT] INPUT_RECEIVED | seq=54, action=LOOK, phase=delta
+[2026-08-19T21:07:11.292Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50191979201,"type":"input-ack","seq":54}
+[2026-08-19T21:07:11.293Z] [INPUT] INPUT_APPLIED | seq=54, action=LOOK
+[2026-08-19T21:07:11.306Z] [INPUT] INPUT_RECEIVED | seq=55, action=LOOK, phase=delta
+[2026-08-19T21:07:11.308Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192130263,"type":"input-ack","seq":55}
+[2026-08-19T21:07:11.308Z] [INPUT] INPUT_APPLIED | seq=55, action=LOOK
+[2026-08-19T21:07:11.342Z] [INPUT] INPUT_RECEIVED | seq=56, action=LOOK, phase=delta
+[2026-08-19T21:07:11.342Z] [INPUT] INPUT_RECEIVED | seq=57, action=LOOK, phase=delta
+[2026-08-19T21:07:11.343Z] [INPUT] INPUT_RECEIVED | seq=58, action=FORWARD, phase=up
+[2026-08-19T21:07:11.343Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192488300,"type":"input-ack","seq":56}
+[2026-08-19T21:07:11.344Z] [INPUT] INPUT_APPLIED | seq=56, action=LOOK
+[2026-08-19T21:07:11.351Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192564650,"type":"input-ack","seq":57}
+[2026-08-19T21:07:11.351Z] [INPUT] INPUT_APPLIED | seq=57, action=LOOK
+[2026-08-19T21:07:11.352Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192568812,"type":"input-ack","seq":58}
+[2026-08-19T21:07:11.352Z] [INPUT] INPUT_APPLIED | seq=58, action=FORWARD
+[2026-08-19T21:07:11.357Z] [INPUT] INPUT_RECEIVED | seq=59, action=LOOK, phase=delta
+[2026-08-19T21:07:11.358Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192637620,"type":"input-ack","seq":59}
+[2026-08-19T21:07:11.359Z] [INPUT] INPUT_APPLIED | seq=59, action=LOOK
+[2026-08-19T21:07:11.382Z] [INPUT] INPUT_RECEIVED | seq=60, action=LOOK, phase=delta
+[2026-08-19T21:07:11.384Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192891564,"type":"input-ack","seq":60}
+[2026-08-19T21:07:11.384Z] [INPUT] INPUT_APPLIED | seq=60, action=LOOK
+[2026-08-19T21:07:11.388Z] [INPUT] INPUT_RECEIVED | seq=61, action=LOOK, phase=delta
+[2026-08-19T21:07:11.389Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50192950775,"type":"input-ack","seq":61}
+[2026-08-19T21:07:11.390Z] [INPUT] INPUT_APPLIED | seq=61, action=LOOK
+[2026-08-19T21:07:11.441Z] [INPUT] INPUT_RECEIVED | seq=62, action=LOOK, phase=delta
+[2026-08-19T21:07:11.442Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50193477001,"type":"input-ack","seq":62}
+[2026-08-19T21:07:11.442Z] [INPUT] INPUT_APPLIED | seq=62, action=LOOK
+[2026-08-19T21:07:11.783Z] [INPUT] INPUT_RECEIVED | seq=63, action=RIGHT, phase=down
+[2026-08-19T21:07:11.784Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50196895882,"type":"input-ack","seq":63}
+[2026-08-19T21:07:11.784Z] [INPUT] INPUT_APPLIED | seq=63, action=RIGHT
+[2026-08-19T21:07:12.756Z] [INPUT] INPUT_RECEIVED | seq=64, action=LOOK, phase=delta
+[2026-08-19T21:07:12.757Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50206630887,"type":"input-ack","seq":64}
+[2026-08-19T21:07:12.758Z] [INPUT] INPUT_APPLIED | seq=64, action=LOOK
+[2026-08-19T21:07:12.782Z] [INPUT] INPUT_RECEIVED | seq=65, action=LOOK, phase=delta
+[2026-08-19T21:07:12.784Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50206897239,"type":"input-ack","seq":65}
+[2026-08-19T21:07:12.784Z] [INPUT] INPUT_APPLIED | seq=65, action=LOOK
+[2026-08-19T21:07:12.792Z] [INPUT] INPUT_RECEIVED | seq=66, action=LOOK, phase=delta
+[2026-08-19T21:07:12.793Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50206991053,"type":"input-ack","seq":66}
+[2026-08-19T21:07:12.794Z] [INPUT] INPUT_APPLIED | seq=66, action=LOOK
+[2026-08-19T21:07:12.811Z] [INPUT] INPUT_RECEIVED | seq=67, action=LOOK, phase=delta
+[2026-08-19T21:07:12.813Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207186492,"type":"input-ack","seq":67}
+[2026-08-19T21:07:12.813Z] [INPUT] INPUT_APPLIED | seq=67, action=LOOK
+[2026-08-19T21:07:12.815Z] [INPUT] INPUT_RECEIVED | seq=68, action=RIGHT, phase=up
+[2026-08-19T21:07:12.816Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207221292,"type":"input-ack","seq":68}
+[2026-08-19T21:07:12.816Z] [INPUT] INPUT_APPLIED | seq=68, action=RIGHT
+[2026-08-19T21:07:12.821Z] [INPUT] INPUT_RECEIVED | seq=69, action=LOOK, phase=delta
+[2026-08-19T21:07:12.822Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207283416,"type":"input-ack","seq":69}
+[2026-08-19T21:07:12.823Z] [INPUT] INPUT_APPLIED | seq=69, action=LOOK
+[2026-08-19T21:07:12.826Z] [INPUT] INPUT_RECEIVED | seq=70, action=LOOK, phase=delta
+[2026-08-19T21:07:12.827Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207334089,"type":"input-ack","seq":70}
+[2026-08-19T21:07:12.828Z] [INPUT] INPUT_APPLIED | seq=70, action=LOOK
+[2026-08-19T21:07:12.832Z] [INPUT] INPUT_RECEIVED | seq=71, action=LOOK, phase=delta
+[2026-08-19T21:07:12.832Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207383843,"type":"input-ack","seq":71}
+[2026-08-19T21:07:12.833Z] [INPUT] INPUT_APPLIED | seq=71, action=LOOK
+[2026-08-19T21:07:12.856Z] [INPUT] INPUT_RECEIVED | seq=72, action=LOOK, phase=delta
+[2026-08-19T21:07:12.858Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207634803,"type":"input-ack","seq":72}
+[2026-08-19T21:07:12.858Z] [INPUT] INPUT_APPLIED | seq=72, action=LOOK
+[2026-08-19T21:07:12.867Z] [INPUT] INPUT_RECEIVED | seq=73, action=LOOK, phase=delta
+[2026-08-19T21:07:12.868Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207744684,"type":"input-ack","seq":73}
+[2026-08-19T21:07:12.869Z] [INPUT] INPUT_APPLIED | seq=73, action=LOOK
+[2026-08-19T21:07:12.879Z] [INPUT] INPUT_RECEIVED | seq=74, action=LOOK, phase=delta
+[2026-08-19T21:07:12.881Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50207865265,"type":"input-ack","seq":74}
+[2026-08-19T21:07:12.881Z] [INPUT] INPUT_APPLIED | seq=74, action=LOOK
+[2026-08-19T21:07:12.907Z] [INPUT] INPUT_RECEIVED | seq=75, action=LOOK, phase=delta
+[2026-08-19T21:07:12.909Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50208147553,"type":"input-ack","seq":75}
+[2026-08-19T21:07:12.909Z] [INPUT] INPUT_APPLIED | seq=75, action=LOOK
+[2026-08-19T21:07:12.924Z] [INPUT] INPUT_RECEIVED | seq=76, action=LOOK, phase=delta
+[2026-08-19T21:07:12.926Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50208319917,"type":"input-ack","seq":76}
+[2026-08-19T21:07:12.926Z] [INPUT] INPUT_APPLIED | seq=76, action=LOOK
+[2026-08-19T21:07:12.938Z] [INPUT] INPUT_RECEIVED | seq=77, action=LOOK, phase=delta
+[2026-08-19T21:07:12.939Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50208453081,"type":"input-ack","seq":77}
+[2026-08-19T21:07:12.940Z] [INPUT] INPUT_APPLIED | seq=77, action=LOOK
+[2026-08-19T21:07:12.955Z] [INPUT] INPUT_RECEIVED | seq=78, action=LOOK, phase=delta
+[2026-08-19T21:07:12.956Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50208619992,"type":"input-ack","seq":78}
+[2026-08-19T21:07:12.956Z] [INPUT] INPUT_APPLIED | seq=78, action=LOOK
+[2026-08-19T21:07:12.971Z] [INPUT] INPUT_RECEIVED | seq=79, action=LOOK, phase=delta
+[2026-08-19T21:07:12.973Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50208787462,"type":"input-ack","seq":79}
+[2026-08-19T21:07:12.973Z] [INPUT] INPUT_APPLIED | seq=79, action=LOOK
+[2026-08-19T21:07:12.989Z] [INPUT] INPUT_RECEIVED | seq=80, action=LOOK, phase=delta
+[2026-08-19T21:07:12.990Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50208961281,"type":"input-ack","seq":80}
+[2026-08-19T21:07:12.991Z] [INPUT] INPUT_APPLIED | seq=80, action=LOOK
+[2026-08-19T21:07:13.007Z] [INPUT] INPUT_RECEIVED | seq=81, action=LOOK, phase=delta
+[2026-08-19T21:07:13.009Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50209147151,"type":"input-ack","seq":81}
+[2026-08-19T21:07:13.009Z] [INPUT] INPUT_APPLIED | seq=81, action=LOOK
+[2026-08-19T21:07:13.021Z] [INPUT] INPUT_RECEIVED | seq=82, action=LOOK, phase=delta
+[2026-08-19T21:07:13.023Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50209286961,"type":"input-ack","seq":82}
+[2026-08-19T21:07:13.023Z] [INPUT] INPUT_APPLIED | seq=82, action=LOOK
+[2026-08-19T21:07:13.038Z] [INPUT] INPUT_RECEIVED | seq=83, action=LOOK, phase=delta
+[2026-08-19T21:07:13.039Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50209453831,"type":"input-ack","seq":83}
+[2026-08-19T21:07:13.040Z] [INPUT] INPUT_APPLIED | seq=83, action=LOOK
+[2026-08-19T21:07:13.055Z] [INPUT] INPUT_RECEIVED | seq=84, action=LOOK, phase=delta
+[2026-08-19T21:07:13.056Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50209619477,"type":"input-ack","seq":84}
+[2026-08-19T21:07:13.056Z] [INPUT] INPUT_APPLIED | seq=84, action=LOOK
+[2026-08-19T21:07:13.074Z] [INPUT] INPUT_RECEIVED | seq=85, action=LOOK, phase=delta
+[2026-08-19T21:07:13.075Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50209808004,"type":"input-ack","seq":85}
+[2026-08-19T21:07:13.075Z] [INPUT] INPUT_APPLIED | seq=85, action=LOOK
+[2026-08-19T21:07:13.088Z] [INPUT] INPUT_RECEIVED | seq=86, action=LOOK, phase=delta
+[2026-08-19T21:07:13.089Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50209953426,"type":"input-ack","seq":86}
+[2026-08-19T21:07:13.090Z] [INPUT] INPUT_APPLIED | seq=86, action=LOOK
+[2026-08-19T21:07:13.105Z] [INPUT] INPUT_RECEIVED | seq=87, action=LOOK, phase=delta
+[2026-08-19T21:07:13.106Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50210121552,"type":"input-ack","seq":87}
+[2026-08-19T21:07:13.107Z] [INPUT] INPUT_APPLIED | seq=87, action=LOOK
+[2026-08-19T21:07:13.121Z] [INPUT] INPUT_RECEIVED | seq=88, action=LOOK, phase=delta
+[2026-08-19T21:07:13.123Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50210288077,"type":"input-ack","seq":88}
+[2026-08-19T21:07:13.123Z] [INPUT] INPUT_APPLIED | seq=88, action=LOOK
+[2026-08-19T21:07:13.141Z] [INPUT] INPUT_RECEIVED | seq=89, action=LOOK, phase=delta
+[2026-08-19T21:07:13.142Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50210481397,"type":"input-ack","seq":89}
+[2026-08-19T21:07:13.142Z] [INPUT] INPUT_APPLIED | seq=89, action=LOOK
+[2026-08-19T21:07:13.156Z] [INPUT] INPUT_RECEIVED | seq=90, action=LOOK, phase=delta
+[2026-08-19T21:07:13.157Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50210634736,"type":"input-ack","seq":90}
+[2026-08-19T21:07:13.158Z] [INPUT] INPUT_APPLIED | seq=90, action=LOOK
+[2026-08-19T21:07:13.172Z] [INPUT] INPUT_RECEIVED | seq=91, action=LOOK, phase=delta
+[2026-08-19T21:07:13.173Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50210792613,"type":"input-ack","seq":91}
+[2026-08-19T21:07:13.174Z] [INPUT] INPUT_APPLIED | seq=91, action=LOOK
+[2026-08-19T21:07:13.188Z] [INPUT] INPUT_RECEIVED | seq=92, action=LOOK, phase=delta
+[2026-08-19T21:07:13.190Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50210956535,"type":"input-ack","seq":92}
+[2026-08-19T21:07:13.190Z] [INPUT] INPUT_APPLIED | seq=92, action=LOOK
+[2026-08-19T21:07:13.205Z] [INPUT] INPUT_RECEIVED | seq=93, action=LOOK, phase=delta
+[2026-08-19T21:07:13.206Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50211121058,"type":"input-ack","seq":93}
+[2026-08-19T21:07:13.207Z] [INPUT] INPUT_APPLIED | seq=93, action=LOOK
+[2026-08-19T21:07:13.222Z] [INPUT] INPUT_RECEIVED | seq=94, action=LOOK, phase=delta
+[2026-08-19T21:07:13.223Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50211290705,"type":"input-ack","seq":94}
+[2026-08-19T21:07:13.223Z] [INPUT] INPUT_APPLIED | seq=94, action=LOOK
+[2026-08-19T21:07:13.240Z] [INPUT] INPUT_RECEIVED | seq=95, action=LOOK, phase=delta
+[2026-08-19T21:07:13.242Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50211478723,"type":"input-ack","seq":95}
+[2026-08-19T21:07:13.242Z] [INPUT] INPUT_APPLIED | seq=95, action=LOOK
+[2026-08-19T21:07:13.259Z] [INPUT] INPUT_RECEIVED | seq=96, action=LOOK, phase=delta
+[2026-08-19T21:07:13.260Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50211662338,"type":"input-ack","seq":96}
+[2026-08-19T21:07:13.261Z] [INPUT] INPUT_APPLIED | seq=96, action=LOOK
+[2026-08-19T21:07:13.281Z] [INPUT] INPUT_RECEIVED | seq=97, action=LOOK, phase=delta
+[2026-08-19T21:07:13.282Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50211884670,"type":"input-ack","seq":97}
+[2026-08-19T21:07:13.283Z] [INPUT] INPUT_APPLIED | seq=97, action=LOOK
+[2026-08-19T21:07:13.289Z] [INPUT] INPUT_RECEIVED | seq=98, action=LOOK, phase=delta
+[2026-08-19T21:07:13.290Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50211959265,"type":"input-ack","seq":98}
+[2026-08-19T21:07:13.290Z] [INPUT] INPUT_APPLIED | seq=98, action=LOOK
+[2026-08-19T21:07:13.755Z] [INPUT] INPUT_RECEIVED | seq=99, action=LOOK, phase=delta
+[2026-08-19T21:07:13.757Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50216627000,"type":"input-ack","seq":99}
+[2026-08-19T21:07:13.757Z] [INPUT] INPUT_APPLIED | seq=99, action=LOOK
+[2026-08-19T21:07:13.779Z] [INPUT] INPUT_RECEIVED | seq=100, action=LOOK, phase=delta
+[2026-08-19T21:07:13.780Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50216859342,"type":"input-ack","seq":100}
+[2026-08-19T21:07:13.780Z] [INPUT] INPUT_APPLIED | seq=100, action=LOOK
+[2026-08-19T21:07:13.791Z] [INPUT] INPUT_RECEIVED | seq=101, action=LOOK, phase=delta
+[2026-08-19T21:07:13.792Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50216983340,"type":"input-ack","seq":101}
+[2026-08-19T21:07:13.793Z] [INPUT] INPUT_APPLIED | seq=101, action=LOOK
+[2026-08-19T21:07:13.820Z] [INPUT] INPUT_RECEIVED | seq=102, action=LOOK, phase=delta
+[2026-08-19T21:07:13.822Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50217275853,"type":"input-ack","seq":102}
+[2026-08-19T21:07:13.822Z] [INPUT] INPUT_APPLIED | seq=102, action=LOOK
+[2026-08-19T21:07:13.827Z] [INPUT] INPUT_RECEIVED | seq=103, action=LOOK, phase=delta
+[2026-08-19T21:07:13.828Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50217343570,"type":"input-ack","seq":103}
+[2026-08-19T21:07:13.829Z] [INPUT] INPUT_APPLIED | seq=103, action=LOOK
+[2026-08-19T21:07:13.859Z] [INPUT] INPUT_RECEIVED | seq=104, action=LOOK, phase=delta
+[2026-08-19T21:07:13.861Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50217666392,"type":"input-ack","seq":104}
+[2026-08-19T21:07:13.861Z] [INPUT] INPUT_APPLIED | seq=104, action=LOOK
+[2026-08-19T21:07:13.901Z] [INPUT] INPUT_RECEIVED | seq=105, action=LOOK, phase=delta
+[2026-08-19T21:07:13.902Z] [INPUT] INPUT_RECEIVED | seq=106, action=LOOK, phase=delta
+[2026-08-19T21:07:13.903Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218090775,"type":"input-ack","seq":105}
+[2026-08-19T21:07:13.904Z] [INPUT] INPUT_APPLIED | seq=105, action=LOOK
+[2026-08-19T21:07:13.904Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218096997,"type":"input-ack","seq":106}
+[2026-08-19T21:07:13.904Z] [INPUT] INPUT_APPLIED | seq=106, action=LOOK
+[2026-08-19T21:07:13.905Z] [INPUT] INPUT_RECEIVED | seq=107, action=LOOK, phase=delta
+[2026-08-19T21:07:13.906Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218116457,"type":"input-ack","seq":107}
+[2026-08-19T21:07:13.906Z] [INPUT] INPUT_APPLIED | seq=107, action=LOOK
+[2026-08-19T21:07:13.931Z] [INPUT] INPUT_RECEIVED | seq=108, action=LOOK, phase=delta
+[2026-08-19T21:07:13.933Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218389845,"type":"input-ack","seq":108}
+[2026-08-19T21:07:13.933Z] [INPUT] INPUT_APPLIED | seq=108, action=LOOK
+[2026-08-19T21:07:13.943Z] [INPUT] INPUT_RECEIVED | seq=109, action=LOOK, phase=delta
+[2026-08-19T21:07:13.944Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218499043,"type":"input-ack","seq":109}
+[2026-08-19T21:07:13.944Z] [INPUT] INPUT_APPLIED | seq=109, action=LOOK
+[2026-08-19T21:07:13.959Z] [INPUT] INPUT_RECEIVED | seq=110, action=LOOK, phase=delta
+[2026-08-19T21:07:13.960Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218660681,"type":"input-ack","seq":110}
+[2026-08-19T21:07:13.961Z] [INPUT] INPUT_APPLIED | seq=110, action=LOOK
+[2026-08-19T21:07:13.976Z] [INPUT] INPUT_RECEIVED | seq=111, action=LOOK, phase=delta
+[2026-08-19T21:07:13.977Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218830191,"type":"input-ack","seq":111}
+[2026-08-19T21:07:13.977Z] [INPUT] INPUT_APPLIED | seq=111, action=LOOK
+[2026-08-19T21:07:13.990Z] [INPUT] INPUT_RECEIVED | seq=112, action=LOOK, phase=delta
+[2026-08-19T21:07:13.992Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50218975338,"type":"input-ack","seq":112}
+[2026-08-19T21:07:13.992Z] [INPUT] INPUT_APPLIED | seq=112, action=LOOK
+[2026-08-19T21:07:14.015Z] [INPUT] INPUT_RECEIVED | seq=113, action=LOOK, phase=delta
+[2026-08-19T21:07:14.016Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50219219876,"type":"input-ack","seq":113}
+[2026-08-19T21:07:14.016Z] [INPUT] INPUT_APPLIED | seq=113, action=LOOK
+[2026-08-19T21:07:14.027Z] [INPUT] INPUT_RECEIVED | seq=114, action=LOOK, phase=delta
+[2026-08-19T21:07:14.029Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50219347333,"type":"input-ack","seq":114}
+[2026-08-19T21:07:14.029Z] [INPUT] INPUT_APPLIED | seq=114, action=LOOK
+[2026-08-19T21:07:14.043Z] [INPUT] INPUT_RECEIVED | seq=115, action=LOOK, phase=delta
+[2026-08-19T21:07:14.044Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50219499594,"type":"input-ack","seq":115}
+[2026-08-19T21:07:14.044Z] [INPUT] INPUT_APPLIED | seq=115, action=LOOK
+[2026-08-19T21:07:14.058Z] [INPUT] INPUT_RECEIVED | seq=116, action=LOOK, phase=delta
+[2026-08-19T21:07:14.059Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50219650243,"type":"input-ack","seq":116}
+[2026-08-19T21:07:14.060Z] [INPUT] INPUT_APPLIED | seq=116, action=LOOK
+[2026-08-19T21:07:14.074Z] [INPUT] INPUT_RECEIVED | seq=117, action=LOOK, phase=delta
+[2026-08-19T21:07:14.076Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50219815357,"type":"input-ack","seq":117}
+[2026-08-19T21:07:14.076Z] [INPUT] INPUT_APPLIED | seq=117, action=LOOK
+[2026-08-19T21:07:14.093Z] [INPUT] INPUT_RECEIVED | seq=118, action=LOOK, phase=delta
+[2026-08-19T21:07:14.094Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220003448,"type":"input-ack","seq":118}
+[2026-08-19T21:07:14.095Z] [INPUT] INPUT_APPLIED | seq=118, action=LOOK
+[2026-08-19T21:07:14.108Z] [INPUT] INPUT_RECEIVED | seq=119, action=LOOK, phase=delta
+[2026-08-19T21:07:14.109Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220154021,"type":"input-ack","seq":119}
+[2026-08-19T21:07:14.110Z] [INPUT] INPUT_APPLIED | seq=119, action=LOOK
+[2026-08-19T21:07:14.125Z] [INPUT] INPUT_RECEIVED | seq=120, action=LOOK, phase=delta
+[2026-08-19T21:07:14.127Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220331851,"type":"input-ack","seq":120}
+[2026-08-19T21:07:14.128Z] [INPUT] INPUT_APPLIED | seq=120, action=LOOK
+[2026-08-19T21:07:14.139Z] [INPUT] INPUT_RECEIVED | seq=121, action=LOOK, phase=delta
+[2026-08-19T21:07:14.140Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220460896,"type":"input-ack","seq":121}
+[2026-08-19T21:07:14.140Z] [INPUT] INPUT_APPLIED | seq=121, action=LOOK
+[2026-08-19T21:07:14.157Z] [INPUT] INPUT_RECEIVED | seq=122, action=LOOK, phase=delta
+[2026-08-19T21:07:14.158Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220645164,"type":"input-ack","seq":122}
+[2026-08-19T21:07:14.159Z] [INPUT] INPUT_APPLIED | seq=122, action=LOOK
+[2026-08-19T21:07:14.187Z] [INPUT] INPUT_RECEIVED | seq=123, action=LOOK, phase=delta
+[2026-08-19T21:07:14.189Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220949800,"type":"input-ack","seq":123}
+[2026-08-19T21:07:14.189Z] [INPUT] INPUT_APPLIED | seq=123, action=LOOK
+[2026-08-19T21:07:14.190Z] [INPUT] INPUT_RECEIVED | seq=124, action=LOOK, phase=delta
+[2026-08-19T21:07:14.191Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50220967649,"type":"input-ack","seq":124}
+[2026-08-19T21:07:14.191Z] [INPUT] INPUT_APPLIED | seq=124, action=LOOK
+[2026-08-19T21:07:14.213Z] [INPUT] INPUT_RECEIVED | seq=125, action=LOOK, phase=delta
+[2026-08-19T21:07:14.214Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50221199195,"type":"input-ack","seq":125}
+[2026-08-19T21:07:14.214Z] [INPUT] INPUT_APPLIED | seq=125, action=LOOK
+[2026-08-19T21:07:14.228Z] [INPUT] INPUT_RECEIVED | seq=126, action=LOOK, phase=delta
+[2026-08-19T21:07:14.229Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50221354641,"type":"input-ack","seq":126}
+[2026-08-19T21:07:14.230Z] [INPUT] INPUT_APPLIED | seq=126, action=LOOK
+[2026-08-19T21:07:14.245Z] [INPUT] INPUT_RECEIVED | seq=127, action=LOOK, phase=delta
+[2026-08-19T21:07:14.247Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50221528379,"type":"input-ack","seq":127}
+[2026-08-19T21:07:14.247Z] [INPUT] INPUT_APPLIED | seq=127, action=LOOK
+[2026-08-19T21:07:14.261Z] [INPUT] INPUT_RECEIVED | seq=128, action=LOOK, phase=delta
+[2026-08-19T21:07:14.262Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50221680723,"type":"input-ack","seq":128}
+[2026-08-19T21:07:14.262Z] [INPUT] INPUT_APPLIED | seq=128, action=LOOK
+[2026-08-19T21:07:14.279Z] [INPUT] INPUT_RECEIVED | seq=129, action=LOOK, phase=delta
+[2026-08-19T21:07:14.280Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50221864536,"type":"input-ack","seq":129}
+[2026-08-19T21:07:14.281Z] [INPUT] INPUT_APPLIED | seq=129, action=LOOK
+[2026-08-19T21:07:14.672Z] [INPUT] INPUT_RECEIVED | seq=130, action=LOOK, phase=delta
+[2026-08-19T21:07:14.674Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50225795636,"type":"input-ack","seq":130}
+[2026-08-19T21:07:14.674Z] [INPUT] INPUT_APPLIED | seq=130, action=LOOK
+[2026-08-19T21:07:14.704Z] [INPUT] INPUT_RECEIVED | seq=131, action=LOOK, phase=delta
+[2026-08-19T21:07:14.705Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50226113831,"type":"input-ack","seq":131}
+[2026-08-19T21:07:14.706Z] [INPUT] INPUT_APPLIED | seq=131, action=LOOK
+[2026-08-19T21:07:14.715Z] [INPUT] INPUT_RECEIVED | seq=132, action=LOOK, phase=delta
+[2026-08-19T21:07:14.716Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50226221452,"type":"input-ack","seq":132}
+[2026-08-19T21:07:14.717Z] [INPUT] INPUT_APPLIED | seq=132, action=LOOK
+[2026-08-19T21:07:14.740Z] [INPUT] INPUT_RECEIVED | seq=133, action=LOOK, phase=delta
+[2026-08-19T21:07:14.742Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50226477602,"type":"input-ack","seq":133}
+[2026-08-19T21:07:14.742Z] [INPUT] INPUT_APPLIED | seq=133, action=LOOK
+[2026-08-19T21:07:14.764Z] [INPUT] INPUT_RECEIVED | seq=134, action=LOOK, phase=delta
+[2026-08-19T21:07:14.765Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50226709125,"type":"input-ack","seq":134}
+[2026-08-19T21:07:14.765Z] [INPUT] INPUT_APPLIED | seq=134, action=LOOK
+[2026-08-19T21:07:14.772Z] [INPUT] INPUT_RECEIVED | seq=135, action=LOOK, phase=delta
+[2026-08-19T21:07:14.774Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50226797275,"type":"input-ack","seq":135}
+[2026-08-19T21:07:14.774Z] [INPUT] INPUT_APPLIED | seq=135, action=LOOK
+[2026-08-19T21:07:14.791Z] [INPUT] INPUT_RECEIVED | seq=136, action=LOOK, phase=delta
+[2026-08-19T21:07:14.792Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50226984791,"type":"input-ack","seq":136}
+[2026-08-19T21:07:14.793Z] [INPUT] INPUT_APPLIED | seq=136, action=LOOK
+[2026-08-19T21:07:14.805Z] [INPUT] INPUT_RECEIVED | seq=137, action=LOOK, phase=delta
+[2026-08-19T21:07:14.807Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50227124830,"type":"input-ack","seq":137}
+[2026-08-19T21:07:14.807Z] [INPUT] INPUT_APPLIED | seq=137, action=LOOK
+[2026-08-19T21:07:14.840Z] [INPUT] INPUT_RECEIVED | seq=138, action=LOOK, phase=delta
+[2026-08-19T21:07:14.841Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50227470713,"type":"input-ack","seq":138}
+[2026-08-19T21:07:14.841Z] [INPUT] INPUT_APPLIED | seq=138, action=LOOK
+[2026-08-19T21:07:14.859Z] [INPUT] INPUT_RECEIVED | seq=139, action=LOOK, phase=delta
+[2026-08-19T21:07:14.861Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50227666242,"type":"input-ack","seq":139}
+[2026-08-19T21:07:14.861Z] [INPUT] INPUT_APPLIED | seq=139, action=LOOK
+[2026-08-19T21:07:14.877Z] [INPUT] INPUT_RECEIVED | seq=140, action=LOOK, phase=delta
+[2026-08-19T21:07:14.879Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50227846715,"type":"input-ack","seq":140}
+[2026-08-19T21:07:14.879Z] [INPUT] INPUT_APPLIED | seq=140, action=LOOK
+[2026-08-19T21:07:14.897Z] [INPUT] INPUT_RECEIVED | seq=141, action=LOOK, phase=delta
+[2026-08-19T21:07:14.898Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50228042023,"type":"input-ack","seq":141}
+[2026-08-19T21:07:14.899Z] [INPUT] INPUT_APPLIED | seq=141, action=LOOK
+[2026-08-19T21:07:14.910Z] [INPUT] INPUT_RECEIVED | seq=142, action=LOOK, phase=delta
+[2026-08-19T21:07:14.911Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50228172617,"type":"input-ack","seq":142}
+[2026-08-19T21:07:14.912Z] [INPUT] INPUT_APPLIED | seq=142, action=LOOK
+[2026-08-19T21:07:14.928Z] [INPUT] INPUT_RECEIVED | seq=143, action=LOOK, phase=delta
+[2026-08-19T21:07:14.929Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50228353790,"type":"input-ack","seq":143}
+[2026-08-19T21:07:14.930Z] [INPUT] INPUT_APPLIED | seq=143, action=LOOK
+[2026-08-19T21:07:14.944Z] [INPUT] INPUT_RECEIVED | seq=144, action=LOOK, phase=delta
+[2026-08-19T21:07:14.945Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50228507734,"type":"input-ack","seq":144}
+[2026-08-19T21:07:14.945Z] [INPUT] INPUT_APPLIED | seq=144, action=LOOK
+[2026-08-19T21:07:14.969Z] [INPUT] INPUT_RECEIVED | seq=145, action=LOOK, phase=delta
+[2026-08-19T21:07:14.971Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50228767205,"type":"input-ack","seq":145}
+[2026-08-19T21:07:14.971Z] [INPUT] INPUT_APPLIED | seq=145, action=LOOK
+[2026-08-19T21:07:14.978Z] [INPUT] INPUT_RECEIVED | seq=146, action=LOOK, phase=delta
+[2026-08-19T21:07:14.979Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50228847392,"type":"input-ack","seq":146}
+[2026-08-19T21:07:14.979Z] [INPUT] INPUT_APPLIED | seq=146, action=LOOK
+[2026-08-19T21:07:14.996Z] [INPUT] INPUT_RECEIVED | seq=147, action=LOOK, phase=delta
+[2026-08-19T21:07:14.997Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50229032349,"type":"input-ack","seq":147}
+[2026-08-19T21:07:14.998Z] [INPUT] INPUT_APPLIED | seq=147, action=LOOK
+[2026-08-19T21:07:15.021Z] [INPUT] INPUT_RECEIVED | seq=148, action=LOOK, phase=delta
+[2026-08-19T21:07:15.023Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50229285166,"type":"input-ack","seq":148}
+[2026-08-19T21:07:15.023Z] [INPUT] INPUT_APPLIED | seq=148, action=LOOK
+[2026-08-19T21:07:15.030Z] [INPUT] INPUT_RECEIVED | seq=149, action=LOOK, phase=delta
+[2026-08-19T21:07:15.032Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50229378114,"type":"input-ack","seq":149}
+[2026-08-19T21:07:15.032Z] [INPUT] INPUT_APPLIED | seq=149, action=LOOK
+[2026-08-19T21:07:15.051Z] [INPUT] INPUT_RECEIVED | seq=150, action=LOOK, phase=delta
+[2026-08-19T21:07:15.054Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50229595047,"type":"input-ack","seq":150}
+[2026-08-19T21:07:15.054Z] [INPUT] INPUT_APPLIED | seq=150, action=LOOK
+[2026-08-19T21:07:15.058Z] [INPUT] INPUT_RECEIVED | seq=151, action=LOOK, phase=delta
+[2026-08-19T21:07:15.059Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50229652701,"type":"input-ack","seq":151}
+[2026-08-19T21:07:15.060Z] [INPUT] INPUT_APPLIED | seq=151, action=LOOK
+[2026-08-19T21:07:15.094Z] [INPUT] INPUT_RECEIVED | seq=152, action=LOOK, phase=delta
+[2026-08-19T21:07:15.095Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50230011163,"type":"input-ack","seq":152}
+[2026-08-19T21:07:15.096Z] [INPUT] INPUT_APPLIED | seq=152, action=LOOK
+[2026-08-19T21:07:15.114Z] [INPUT] INPUT_RECEIVED | seq=153, action=LOOK, phase=delta
+[2026-08-19T21:07:15.116Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50230214652,"type":"input-ack","seq":153}
+[2026-08-19T21:07:15.116Z] [INPUT] INPUT_APPLIED | seq=153, action=LOOK
+[2026-08-19T21:07:15.123Z] [INPUT] INPUT_RECEIVED | seq=154, action=LOOK, phase=delta
+[2026-08-19T21:07:15.124Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50230300884,"type":"input-ack","seq":154}
+[2026-08-19T21:07:15.125Z] [INPUT] INPUT_APPLIED | seq=154, action=LOOK
+[2026-08-19T21:07:15.149Z] [INPUT] INPUT_RECEIVED | seq=155, action=LOOK, phase=delta
+[2026-08-19T21:07:15.151Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50230565783,"type":"input-ack","seq":155}
+[2026-08-19T21:07:15.151Z] [INPUT] INPUT_APPLIED | seq=155, action=LOOK
+[2026-08-19T21:07:15.181Z] [INPUT] INPUT_RECEIVED | seq=156, action=LOOK, phase=delta
+[2026-08-19T21:07:15.181Z] [INPUT] INPUT_RECEIVED | seq=157, action=LOOK, phase=delta
+[2026-08-19T21:07:15.182Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50230882926,"type":"input-ack","seq":156}
+[2026-08-19T21:07:15.183Z] [INPUT] INPUT_APPLIED | seq=156, action=LOOK
+[2026-08-19T21:07:15.183Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50230887234,"type":"input-ack","seq":157}
+[2026-08-19T21:07:15.183Z] [INPUT] INPUT_APPLIED | seq=157, action=LOOK
+[2026-08-19T21:07:15.193Z] [INPUT] INPUT_RECEIVED | seq=158, action=LOOK, phase=delta
+[2026-08-19T21:07:15.195Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50231006008,"type":"input-ack","seq":158}
+[2026-08-19T21:07:15.195Z] [INPUT] INPUT_APPLIED | seq=158, action=LOOK
+[2026-08-19T21:07:15.232Z] [INPUT] INPUT_RECEIVED | seq=159, action=LOOK, phase=delta
+[2026-08-19T21:07:15.233Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50231390993,"type":"input-ack","seq":159}
+[2026-08-19T21:07:15.233Z] [INPUT] INPUT_APPLIED | seq=159, action=LOOK
+[2026-08-19T21:07:15.243Z] [INPUT] INPUT_RECEIVED | seq=160, action=LOOK, phase=delta
+[2026-08-19T21:07:15.244Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50231503216,"type":"input-ack","seq":160}
+[2026-08-19T21:07:15.245Z] [INPUT] INPUT_APPLIED | seq=160, action=LOOK
+[2026-08-19T21:07:15.269Z] [INPUT] INPUT_RECEIVED | seq=161, action=LOOK, phase=delta
+[2026-08-19T21:07:15.271Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50231768750,"type":"input-ack","seq":161}
+[2026-08-19T21:07:15.272Z] [INPUT] INPUT_APPLIED | seq=161, action=LOOK
+[2026-08-19T21:07:15.279Z] [INPUT] INPUT_RECEIVED | seq=162, action=LOOK, phase=delta
+[2026-08-19T21:07:15.280Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50231862718,"type":"input-ack","seq":162}
+[2026-08-19T21:07:15.281Z] [INPUT] INPUT_APPLIED | seq=162, action=LOOK
+[2026-08-19T21:07:15.307Z] [INPUT] INPUT_RECEIVED | seq=163, action=LOOK, phase=delta
+[2026-08-19T21:07:15.308Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50232139125,"type":"input-ack","seq":163}
+[2026-08-19T21:07:15.308Z] [INPUT] INPUT_APPLIED | seq=163, action=LOOK
+[2026-08-19T21:07:15.325Z] [INPUT] INPUT_RECEIVED | seq=164, action=LOOK, phase=delta
+[2026-08-19T21:07:15.326Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50232323920,"type":"input-ack","seq":164}
+[2026-08-19T21:07:15.327Z] [INPUT] INPUT_APPLIED | seq=164, action=LOOK
+[2026-08-19T21:07:15.362Z] [INPUT] INPUT_RECEIVED | seq=165, action=LOOK, phase=delta
+[2026-08-19T21:07:15.363Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50232691596,"type":"input-ack","seq":165}
+[2026-08-19T21:07:15.364Z] [INPUT] INPUT_APPLIED | seq=165, action=LOOK
+[2026-08-19T21:07:15.372Z] [INPUT] INPUT_RECEIVED | seq=166, action=LOOK, phase=delta
+[2026-08-19T21:07:15.374Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50232795545,"type":"input-ack","seq":166}
+[2026-08-19T21:07:15.374Z] [INPUT] INPUT_APPLIED | seq=166, action=LOOK
+[2026-08-19T21:07:15.392Z] [INPUT] INPUT_RECEIVED | seq=167, action=LOOK, phase=delta
+[2026-08-19T21:07:15.394Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50232995928,"type":"input-ack","seq":167}
+[2026-08-19T21:07:15.394Z] [INPUT] INPUT_APPLIED | seq=167, action=LOOK
+[2026-08-19T21:07:15.421Z] [INPUT] INPUT_RECEIVED | seq=168, action=LOOK, phase=delta
+[2026-08-19T21:07:15.423Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50233289088,"type":"input-ack","seq":168}
+[2026-08-19T21:07:15.423Z] [INPUT] INPUT_APPLIED | seq=168, action=LOOK
+[2026-08-19T21:07:15.431Z] [INPUT] INPUT_RECEIVED | seq=169, action=LOOK, phase=delta
+[2026-08-19T21:07:15.432Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50233383829,"type":"input-ack","seq":169}
+[2026-08-19T21:07:15.433Z] [INPUT] INPUT_APPLIED | seq=169, action=LOOK
+[2026-08-19T21:07:15.452Z] [INPUT] INPUT_RECEIVED | seq=170, action=LOOK, phase=delta
+[2026-08-19T21:07:15.453Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50233594232,"type":"input-ack","seq":170}
+[2026-08-19T21:07:15.454Z] [INPUT] INPUT_APPLIED | seq=170, action=LOOK
+[2026-08-19T21:07:15.461Z] [INPUT] INPUT_RECEIVED | seq=171, action=LOOK, phase=delta
+[2026-08-19T21:07:15.462Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50233681598,"type":"input-ack","seq":171}
+[2026-08-19T21:07:15.463Z] [INPUT] INPUT_APPLIED | seq=171, action=LOOK
+[2026-08-19T21:07:15.497Z] [INPUT] INPUT_RECEIVED | seq=172, action=LOOK, phase=delta
+[2026-08-19T21:07:15.499Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50234047918,"type":"input-ack","seq":172}
+[2026-08-19T21:07:15.499Z] [INPUT] INPUT_APPLIED | seq=172, action=LOOK
+[2026-08-19T21:07:15.508Z] [INPUT] INPUT_RECEIVED | seq=173, action=LOOK, phase=delta
+[2026-08-19T21:07:15.509Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50234152110,"type":"input-ack","seq":173}
+[2026-08-19T21:07:15.510Z] [INPUT] INPUT_APPLIED | seq=173, action=LOOK
+[2026-08-19T21:07:15.529Z] [INPUT] INPUT_RECEIVED | seq=174, action=LOOK, phase=delta
+[2026-08-19T21:07:15.531Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50234365838,"type":"input-ack","seq":174}
+[2026-08-19T21:07:15.531Z] [INPUT] INPUT_APPLIED | seq=174, action=LOOK
+[2026-08-19T21:07:15.541Z] [INPUT] INPUT_RECEIVED | seq=175, action=LOOK, phase=delta
+[2026-08-19T21:07:15.542Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50234481856,"type":"input-ack","seq":175}
+[2026-08-19T21:07:15.543Z] [INPUT] INPUT_APPLIED | seq=175, action=LOOK
+[2026-08-19T21:07:15.705Z] [INPUT] INPUT_RECEIVED | seq=176, action=LOOK, phase=delta
+[2026-08-19T21:07:15.707Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50236125253,"type":"input-ack","seq":176}
+[2026-08-19T21:07:15.707Z] [INPUT] INPUT_APPLIED | seq=176, action=LOOK
+[2026-08-19T21:07:15.723Z] [INPUT] INPUT_RECEIVED | seq=177, action=LOOK, phase=delta
+[2026-08-19T21:07:15.724Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50236299473,"type":"input-ack","seq":177}
+[2026-08-19T21:07:15.724Z] [INPUT] INPUT_APPLIED | seq=177, action=LOOK
+[2026-08-19T21:07:15.747Z] [INPUT] INPUT_RECEIVED | seq=178, action=LOOK, phase=delta
+[2026-08-19T21:07:15.748Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50236544209,"type":"input-ack","seq":178}
+[2026-08-19T21:07:15.749Z] [INPUT] INPUT_APPLIED | seq=178, action=LOOK
+[2026-08-19T21:07:15.761Z] [INPUT] INPUT_RECEIVED | seq=179, action=LOOK, phase=delta
+[2026-08-19T21:07:15.762Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50236682732,"type":"input-ack","seq":179}
+[2026-08-19T21:07:15.763Z] [INPUT] INPUT_APPLIED | seq=179, action=LOOK
+[2026-08-19T21:07:15.788Z] [INPUT] INPUT_RECEIVED | seq=180, action=LOOK, phase=delta
+[2026-08-19T21:07:15.790Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50236957473,"type":"input-ack","seq":180}
+[2026-08-19T21:07:15.790Z] [INPUT] INPUT_APPLIED | seq=180, action=LOOK
+[2026-08-19T21:07:15.800Z] [INPUT] INPUT_RECEIVED | seq=181, action=LOOK, phase=delta
+[2026-08-19T21:07:15.801Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50237072209,"type":"input-ack","seq":181}
+[2026-08-19T21:07:15.802Z] [INPUT] INPUT_APPLIED | seq=181, action=LOOK
+[2026-08-19T21:07:15.820Z] [INPUT] INPUT_RECEIVED | seq=182, action=LOOK, phase=delta
+[2026-08-19T21:07:15.822Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50237269961,"type":"input-ack","seq":182}
+[2026-08-19T21:07:15.822Z] [INPUT] INPUT_APPLIED | seq=182, action=LOOK
+[2026-08-19T21:07:15.829Z] [INPUT] INPUT_RECEIVED | seq=183, action=LOOK, phase=delta
+[2026-08-19T21:07:15.830Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50237365008,"type":"input-ack","seq":183}
+[2026-08-19T21:07:15.831Z] [INPUT] INPUT_APPLIED | seq=183, action=LOOK
+[2026-08-19T21:07:15.861Z] [INPUT] INPUT_RECEIVED | seq=184, action=LOOK, phase=delta
+[2026-08-19T21:07:15.862Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50237685032,"type":"input-ack","seq":184}
+[2026-08-19T21:07:15.863Z] [INPUT] INPUT_APPLIED | seq=184, action=LOOK
+[2026-08-19T21:07:15.889Z] [INPUT] INPUT_RECEIVED | seq=185, action=LOOK, phase=delta
+[2026-08-19T21:07:15.890Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50237960725,"type":"input-ack","seq":185}
+[2026-08-19T21:07:15.891Z] [INPUT] INPUT_APPLIED | seq=185, action=LOOK
+[2026-08-19T21:07:15.921Z] [INPUT] INPUT_RECEIVED | seq=186, action=LOOK, phase=delta
+[2026-08-19T21:07:15.922Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50238283941,"type":"input-ack","seq":186}
+[2026-08-19T21:07:15.923Z] [INPUT] INPUT_APPLIED | seq=186, action=LOOK
+[2026-08-19T21:07:15.934Z] [INPUT] INPUT_RECEIVED | seq=187, action=LOOK, phase=delta
+[2026-08-19T21:07:15.935Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50238411741,"type":"input-ack","seq":187}
+[2026-08-19T21:07:15.936Z] [INPUT] INPUT_APPLIED | seq=187, action=LOOK
+[2026-08-19T21:07:15.956Z] [INPUT] INPUT_RECEIVED | seq=188, action=LOOK, phase=delta
+[2026-08-19T21:07:15.957Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50238633274,"type":"input-ack","seq":188}
+[2026-08-19T21:07:15.958Z] [INPUT] INPUT_APPLIED | seq=188, action=LOOK
+[2026-08-19T21:07:15.989Z] [INPUT] INPUT_RECEIVED | seq=189, action=LOOK, phase=delta
+[2026-08-19T21:07:15.991Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50238965934,"type":"input-ack","seq":189}
+[2026-08-19T21:07:15.991Z] [INPUT] INPUT_APPLIED | seq=189, action=LOOK
+[2026-08-19T21:07:16.013Z] [INPUT] INPUT_RECEIVED | seq=190, action=LOOK, phase=delta
+[2026-08-19T21:07:16.015Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50239206521,"type":"input-ack","seq":190}
+[2026-08-19T21:07:16.015Z] [INPUT] INPUT_APPLIED | seq=190, action=LOOK
+[2026-08-19T21:07:16.025Z] [INPUT] INPUT_RECEIVED | seq=191, action=LOOK, phase=delta
+[2026-08-19T21:07:16.027Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50239330193,"type":"input-ack","seq":191}
+[2026-08-19T21:07:16.032Z] [INPUT] INPUT_APPLIED | seq=191, action=LOOK
+[2026-08-19T21:07:16.051Z] [INPUT] INPUT_RECEIVED | seq=192, action=LOOK, phase=delta
+[2026-08-19T21:07:16.052Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50239581719,"type":"input-ack","seq":192}
+[2026-08-19T21:07:16.053Z] [INPUT] INPUT_APPLIED | seq=192, action=LOOK
+[2026-08-19T21:07:16.059Z] [INPUT] INPUT_RECEIVED | seq=193, action=LOOK, phase=delta
+[2026-08-19T21:07:16.061Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50239674046,"type":"input-ack","seq":193}
+[2026-08-19T21:07:16.062Z] [INPUT] INPUT_APPLIED | seq=193, action=LOOK
+[2026-08-19T21:07:16.091Z] [INPUT] INPUT_RECEIVED | seq=194, action=LOOK, phase=delta
+[2026-08-19T21:07:16.092Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50239983107,"type":"input-ack","seq":194}
+[2026-08-19T21:07:16.093Z] [INPUT] INPUT_APPLIED | seq=194, action=LOOK
+[2026-08-19T21:07:16.126Z] [INPUT] INPUT_RECEIVED | seq=195, action=LOOK, phase=delta
+[2026-08-19T21:07:16.127Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50240331622,"type":"input-ack","seq":195}
+[2026-08-19T21:07:16.128Z] [INPUT] INPUT_APPLIED | seq=195, action=LOOK
+[2026-08-19T21:07:16.153Z] [INPUT] INPUT_RECEIVED | seq=196, action=LOOK, phase=delta
+[2026-08-19T21:07:16.155Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50240608107,"type":"input-ack","seq":196}
+[2026-08-19T21:07:16.155Z] [INPUT] INPUT_APPLIED | seq=196, action=LOOK
+[2026-08-19T21:07:16.162Z] [INPUT] INPUT_RECEIVED | seq=197, action=LOOK, phase=delta
+[2026-08-19T21:07:16.163Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50240691643,"type":"input-ack","seq":197}
+[2026-08-19T21:07:16.164Z] [INPUT] INPUT_APPLIED | seq=197, action=LOOK
+[2026-08-19T21:07:16.196Z] [INPUT] INPUT_RECEIVED | seq=198, action=LOOK, phase=delta
+[2026-08-19T21:07:16.198Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50241036295,"type":"input-ack","seq":198}
+[2026-08-19T21:07:16.198Z] [INPUT] INPUT_APPLIED | seq=198, action=LOOK
+[2026-08-19T21:07:16.207Z] [INPUT] INPUT_RECEIVED | seq=199, action=LOOK, phase=delta
+[2026-08-19T21:07:16.208Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50241142398,"type":"input-ack","seq":199}
+[2026-08-19T21:07:16.209Z] [INPUT] INPUT_APPLIED | seq=199, action=LOOK
+[2026-08-19T21:07:16.244Z] [INPUT] INPUT_RECEIVED | seq=200, action=LOOK, phase=delta
+[2026-08-19T21:07:16.245Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50241513944,"type":"input-ack","seq":200}
+[2026-08-19T21:07:16.246Z] [INPUT] INPUT_APPLIED | seq=200, action=LOOK
+[2026-08-19T21:07:16.376Z] [INPUT] INPUT_RECEIVED | seq=201, action=LOOK, phase=delta
+[2026-08-19T21:07:16.377Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50242831509,"type":"input-ack","seq":201}
+[2026-08-19T21:07:16.378Z] [INPUT] INPUT_APPLIED | seq=201, action=LOOK
+[2026-08-19T21:07:16.389Z] [INPUT] INPUT_RECEIVED | seq=202, action=LOOK, phase=delta
+[2026-08-19T21:07:16.390Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50242961155,"type":"input-ack","seq":202}
+[2026-08-19T21:07:16.391Z] [INPUT] INPUT_APPLIED | seq=202, action=LOOK
+[2026-08-19T21:07:16.423Z] [INPUT] INPUT_RECEIVED | seq=203, action=LOOK, phase=delta
+[2026-08-19T21:07:16.425Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50243305213,"type":"input-ack","seq":203}
+[2026-08-19T21:07:16.425Z] [INPUT] INPUT_APPLIED | seq=203, action=LOOK
+[2026-08-19T21:07:16.471Z] [INPUT] INPUT_RECEIVED | seq=204, action=LOOK, phase=delta
+[2026-08-19T21:07:16.471Z] [INPUT] INPUT_RECEIVED | seq=205, action=LOOK, phase=delta
+[2026-08-19T21:07:16.473Z] [INPUT] INPUT_RECEIVED | seq=206, action=LOOK, phase=delta
+[2026-08-19T21:07:16.473Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50243782751,"type":"input-ack","seq":204}
+[2026-08-19T21:07:16.473Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50243787665,"type":"input-ack","seq":205}
+[2026-08-19T21:07:16.474Z] [INPUT] INPUT_APPLIED | seq=204, action=LOOK
+[2026-08-19T21:07:16.474Z] [INPUT] INPUT_APPLIED | seq=205, action=LOOK
+[2026-08-19T21:07:16.474Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50243794728,"type":"input-ack","seq":206}
+[2026-08-19T21:07:16.475Z] [INPUT] INPUT_APPLIED | seq=206, action=LOOK
+[2026-08-19T21:07:16.507Z] [INPUT] INPUT_RECEIVED | seq=207, action=LOOK, phase=delta
+[2026-08-19T21:07:16.508Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50244140198,"type":"input-ack","seq":207}
+[2026-08-19T21:07:16.508Z] [INPUT] INPUT_APPLIED | seq=207, action=LOOK
+[2026-08-19T21:07:16.541Z] [INPUT] INPUT_RECEIVED | seq=208, action=LOOK, phase=delta
+[2026-08-19T21:07:16.542Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50244481690,"type":"input-ack","seq":208}
+[2026-08-19T21:07:16.543Z] [INPUT] INPUT_APPLIED | seq=208, action=LOOK
+[2026-08-19T21:07:16.566Z] [INPUT] INPUT_RECEIVED | seq=209, action=LOOK, phase=delta
+[2026-08-19T21:07:16.568Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50244737888,"type":"input-ack","seq":209}
+[2026-08-19T21:07:16.568Z] [INPUT] INPUT_APPLIED | seq=209, action=LOOK
+[2026-08-19T21:07:16.579Z] [INPUT] INPUT_RECEIVED | seq=210, action=LOOK, phase=delta
+[2026-08-19T21:07:16.580Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50244860268,"type":"input-ack","seq":210}
+[2026-08-19T21:07:16.580Z] [INPUT] INPUT_APPLIED | seq=210, action=LOOK
+[2026-08-19T21:07:16.605Z] [INPUT] INPUT_RECEIVED | seq=211, action=LOOK, phase=delta
+[2026-08-19T21:07:16.607Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50245126814,"type":"input-ack","seq":211}
+[2026-08-19T21:07:16.607Z] [INPUT] INPUT_APPLIED | seq=211, action=LOOK
+[2026-08-19T21:07:16.642Z] [INPUT] INPUT_RECEIVED | seq=212, action=LOOK, phase=delta
+[2026-08-19T21:07:16.644Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50245496552,"type":"input-ack","seq":212}
+[2026-08-19T21:07:16.644Z] [INPUT] INPUT_APPLIED | seq=212, action=LOOK
+[2026-08-19T21:07:16.669Z] [INPUT] INPUT_RECEIVED | seq=213, action=LOOK, phase=delta
+[2026-08-19T21:07:16.670Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50245759691,"type":"input-ack","seq":213}
+[2026-08-19T21:07:16.670Z] [INPUT] INPUT_APPLIED | seq=213, action=LOOK
+[2026-08-19T21:07:16.681Z] [INPUT] INPUT_RECEIVED | seq=214, action=LOOK, phase=delta
+[2026-08-19T21:07:16.682Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50245882104,"type":"input-ack","seq":214}
+[2026-08-19T21:07:16.683Z] [INPUT] INPUT_APPLIED | seq=214, action=LOOK
+[2026-08-19T21:07:16.718Z] [INPUT] INPUT_RECEIVED | seq=215, action=LOOK, phase=delta
+[2026-08-19T21:07:16.720Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50246255641,"type":"input-ack","seq":215}
+[2026-08-19T21:07:16.720Z] [INPUT] INPUT_APPLIED | seq=215, action=LOOK
+[2026-08-19T21:07:17.283Z] [INPUT] INPUT_RECEIVED | seq=216, action=FORWARD, phase=down
+[2026-08-19T21:07:17.285Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50251906265,"type":"input-ack","seq":216}
+[2026-08-19T21:07:17.285Z] [INPUT] INPUT_APPLIED | seq=216, action=FORWARD
+[2026-08-19T21:07:18.379Z] [INPUT] INPUT_RECEIVED | seq=217, action=FORWARD, phase=up
+[2026-08-19T21:07:18.380Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50262858081,"type":"input-ack","seq":217}
+[2026-08-19T21:07:18.380Z] [INPUT] INPUT_APPLIED | seq=217, action=FORWARD
+[2026-08-19T21:07:20.098Z] [INPUT] INPUT_RECEIVED | seq=218, action=BACK, phase=down
+[2026-08-19T21:07:20.099Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50280050321,"type":"input-ack","seq":218}
+[2026-08-19T21:07:20.099Z] [INPUT] INPUT_APPLIED | seq=218, action=BACK
+[2026-08-19T21:07:21.124Z] [INPUT] INPUT_RECEIVED | seq=219, action=BACK, phase=up
+[2026-08-19T21:07:21.126Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50290315753,"type":"input-ack","seq":219}
+[2026-08-19T21:07:21.126Z] [INPUT] INPUT_APPLIED | seq=219, action=BACK
+[2026-08-19T21:07:22.409Z] [INPUT] INPUT_RECEIVED | seq=220, action=LOOK, phase=delta
+[2026-08-19T21:07:22.411Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50303171977,"type":"input-ack","seq":220}
+[2026-08-19T21:07:22.412Z] [INPUT] INPUT_APPLIED | seq=220, action=LOOK
+[2026-08-19T21:07:22.446Z] [INPUT] INPUT_RECEIVED | seq=221, action=LOOK, phase=delta
+[2026-08-19T21:07:22.447Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50303531885,"type":"input-ack","seq":221}
+[2026-08-19T21:07:22.448Z] [INPUT] INPUT_APPLIED | seq=221, action=LOOK
+[2026-08-19T21:07:22.484Z] [INPUT] INPUT_RECEIVED | seq=222, action=LOOK, phase=delta
+[2026-08-19T21:07:22.486Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50303915343,"type":"input-ack","seq":222}
+[2026-08-19T21:07:22.486Z] [INPUT] INPUT_APPLIED | seq=222, action=LOOK
+[2026-08-19T21:07:22.502Z] [INPUT] INPUT_RECEIVED | seq=223, action=LOOK, phase=delta
+[2026-08-19T21:07:22.503Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50304092328,"type":"input-ack","seq":223}
+[2026-08-19T21:07:22.504Z] [INPUT] INPUT_APPLIED | seq=223, action=LOOK
+[2026-08-19T21:07:22.535Z] [INPUT] INPUT_RECEIVED | seq=224, action=LOOK, phase=delta
+[2026-08-19T21:07:22.536Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50304423956,"type":"input-ack","seq":224}
+[2026-08-19T21:07:22.537Z] [INPUT] INPUT_APPLIED | seq=224, action=LOOK
+[2026-08-19T21:07:22.545Z] [INPUT] INPUT_RECEIVED | seq=225, action=LOOK, phase=delta
+[2026-08-19T21:07:22.547Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50304529050,"type":"input-ack","seq":225}
+[2026-08-19T21:07:22.547Z] [INPUT] INPUT_APPLIED | seq=225, action=LOOK
+[2026-08-19T21:07:22.583Z] [INPUT] INPUT_RECEIVED | seq=226, action=LOOK, phase=delta
+[2026-08-19T21:07:22.585Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50304905543,"type":"input-ack","seq":226}
+[2026-08-19T21:07:22.585Z] [INPUT] INPUT_APPLIED | seq=226, action=LOOK
+[2026-08-19T21:07:22.595Z] [INPUT] INPUT_RECEIVED | seq=227, action=LOOK, phase=delta
+[2026-08-19T21:07:22.596Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50305021745,"type":"input-ack","seq":227}
+[2026-08-19T21:07:22.597Z] [INPUT] INPUT_APPLIED | seq=227, action=LOOK
+[2026-08-19T21:07:22.630Z] [INPUT] INPUT_RECEIVED | seq=228, action=LOOK, phase=delta
+[2026-08-19T21:07:22.631Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50305374460,"type":"input-ack","seq":228}
+[2026-08-19T21:07:22.632Z] [INPUT] INPUT_APPLIED | seq=228, action=LOOK
+[2026-08-19T21:07:22.642Z] [INPUT] INPUT_RECEIVED | seq=229, action=LOOK, phase=delta
+[2026-08-19T21:07:22.643Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50305493647,"type":"input-ack","seq":229}
+[2026-08-19T21:07:22.644Z] [INPUT] INPUT_APPLIED | seq=229, action=LOOK
+[2026-08-19T21:07:22.680Z] [INPUT] INPUT_RECEIVED | seq=230, action=LOOK, phase=delta
+[2026-08-19T21:07:22.681Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50305875000,"type":"input-ack","seq":230}
+[2026-08-19T21:07:22.682Z] [INPUT] INPUT_APPLIED | seq=230, action=LOOK
+[2026-08-19T21:07:22.695Z] [INPUT] INPUT_RECEIVED | seq=231, action=LOOK, phase=delta
+[2026-08-19T21:07:22.696Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50306018843,"type":"input-ack","seq":231}
+[2026-08-19T21:07:22.696Z] [INPUT] INPUT_APPLIED | seq=231, action=LOOK
+[2026-08-19T21:07:22.728Z] [INPUT] INPUT_RECEIVED | seq=232, action=LOOK, phase=delta
+[2026-08-19T21:07:22.730Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50306356051,"type":"input-ack","seq":232}
+[2026-08-19T21:07:22.730Z] [INPUT] INPUT_APPLIED | seq=232, action=LOOK
+[2026-08-19T21:07:22.745Z] [INPUT] INPUT_RECEIVED | seq=233, action=LOOK, phase=delta
+[2026-08-19T21:07:22.746Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50306523261,"type":"input-ack","seq":233}
+[2026-08-19T21:07:22.747Z] [INPUT] INPUT_APPLIED | seq=233, action=LOOK
+[2026-08-19T21:07:22.789Z] [INPUT] INPUT_RECEIVED | seq=234, action=LOOK, phase=delta
+[2026-08-19T21:07:22.790Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50306960242,"type":"input-ack","seq":234}
+[2026-08-19T21:07:22.790Z] [INPUT] INPUT_APPLIED | seq=234, action=LOOK
+[2026-08-19T21:07:22.827Z] [INPUT] INPUT_RECEIVED | seq=235, action=LOOK, phase=delta
+[2026-08-19T21:07:22.828Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50307343269,"type":"input-ack","seq":235}
+[2026-08-19T21:07:22.829Z] [INPUT] INPUT_APPLIED | seq=235, action=LOOK
+[2026-08-19T21:07:22.861Z] [INPUT] INPUT_RECEIVED | seq=236, action=LOOK, phase=delta
+[2026-08-19T21:07:22.863Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50307685882,"type":"input-ack","seq":236}
+[2026-08-19T21:07:22.863Z] [INPUT] INPUT_APPLIED | seq=236, action=LOOK
+[2026-08-19T21:07:22.880Z] [INPUT] INPUT_RECEIVED | seq=237, action=LOOK, phase=delta
+[2026-08-19T21:07:22.882Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50307876593,"type":"input-ack","seq":237}
+[2026-08-19T21:07:22.882Z] [INPUT] INPUT_APPLIED | seq=237, action=LOOK
+[2026-08-19T21:07:22.892Z] [INPUT] INPUT_RECEIVED | seq=238, action=LOOK, phase=delta
+[2026-08-19T21:07:22.893Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50307989755,"type":"input-ack","seq":238}
+[2026-08-19T21:07:22.893Z] [INPUT] INPUT_APPLIED | seq=238, action=LOOK
+[2026-08-19T21:07:22.935Z] [INPUT] INPUT_RECEIVED | seq=239, action=LOOK, phase=delta
+[2026-08-19T21:07:22.937Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50308425948,"type":"input-ack","seq":239}
+[2026-08-19T21:07:22.937Z] [INPUT] INPUT_APPLIED | seq=239, action=LOOK
+[2026-08-19T21:07:22.946Z] [INPUT] INPUT_RECEIVED | seq=240, action=LOOK, phase=delta
+[2026-08-19T21:07:22.947Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50308529588,"type":"input-ack","seq":240}
+[2026-08-19T21:07:22.947Z] [INPUT] INPUT_APPLIED | seq=240, action=LOOK
+[2026-08-19T21:07:22.988Z] [INPUT] INPUT_RECEIVED | seq=241, action=LOOK, phase=delta
+[2026-08-19T21:07:22.990Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50308964305,"type":"input-ack","seq":241}
+[2026-08-19T21:07:22.991Z] [INPUT] INPUT_APPLIED | seq=241, action=LOOK
+[2026-08-19T21:07:23.002Z] [INPUT] INPUT_RECEIVED | seq=242, action=LOOK, phase=delta
+[2026-08-19T21:07:23.003Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50309091777,"type":"input-ack","seq":242}
+[2026-08-19T21:07:23.004Z] [INPUT] INPUT_APPLIED | seq=242, action=LOOK
+[2026-08-19T21:07:23.047Z] [INPUT] INPUT_RECEIVED | seq=243, action=LOOK, phase=delta
+[2026-08-19T21:07:23.048Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50309544762,"type":"input-ack","seq":243}
+[2026-08-19T21:07:23.049Z] [INPUT] INPUT_APPLIED | seq=243, action=LOOK
+[2026-08-19T21:07:23.060Z] [INPUT] INPUT_RECEIVED | seq=244, action=LOOK, phase=delta
+[2026-08-19T21:07:23.061Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50309669647,"type":"input-ack","seq":244}
+[2026-08-19T21:07:23.061Z] [INPUT] INPUT_APPLIED | seq=244, action=LOOK
+[2026-08-19T21:07:23.719Z] [INPUT] INPUT_RECEIVED | seq=245, action=SPRINT, phase=down
+[2026-08-19T21:07:23.720Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50316263905,"type":"input-ack","seq":245}
+[2026-08-19T21:07:23.721Z] [INPUT] INPUT_APPLIED | seq=245, action=SPRINT
+[2026-08-19T21:07:24.011Z] [INPUT] INPUT_RECEIVED | seq=246, action=SPRINT, phase=up
+[2026-08-19T21:07:24.012Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50319179989,"type":"input-ack","seq":246}
+[2026-08-19T21:07:24.013Z] [INPUT] INPUT_APPLIED | seq=246, action=SPRINT
+[2026-08-19T21:07:24.461Z] [INPUT] INPUT_RECEIVED | seq=247, action=FORWARD, phase=down
+[2026-08-19T21:07:24.463Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50323688828,"type":"input-ack","seq":247}
+[2026-08-19T21:07:24.463Z] [INPUT] INPUT_APPLIED | seq=247, action=FORWARD
+[2026-08-19T21:07:24.529Z] [INPUT] INPUT_RECEIVED | seq=248, action=FORWARD, phase=up
+[2026-08-19T21:07:24.531Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50324367882,"type":"input-ack","seq":248}
+[2026-08-19T21:07:24.531Z] [INPUT] INPUT_APPLIED | seq=248, action=FORWARD
+[2026-08-19T21:07:25.129Z] [INPUT] INPUT_RECEIVED | seq=249, action=FORWARD, phase=down
+[2026-08-19T21:07:25.130Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50330361833,"type":"input-ack","seq":249}
+[2026-08-19T21:07:25.131Z] [INPUT] INPUT_APPLIED | seq=249, action=FORWARD
+[2026-08-19T21:07:25.891Z] [INPUT] INPUT_RECEIVED | seq=250, action=FORWARD, phase=up
+[2026-08-19T21:07:25.893Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50337979701,"type":"input-ack","seq":250}
+[2026-08-19T21:07:25.893Z] [INPUT] INPUT_APPLIED | seq=250, action=FORWARD
+[2026-08-19T21:07:26.375Z] [INPUT] INPUT_RECEIVED | seq=251, action=LOOK, phase=delta
+[2026-08-19T21:07:26.377Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50342829159,"type":"input-ack","seq":251}
+[2026-08-19T21:07:26.377Z] [INPUT] INPUT_APPLIED | seq=251, action=LOOK
+[2026-08-19T21:07:26.418Z] [INPUT] INPUT_RECEIVED | seq=252, action=LOOK, phase=delta
+[2026-08-19T21:07:26.420Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50343256982,"type":"input-ack","seq":252}
+[2026-08-19T21:07:26.420Z] [INPUT] INPUT_APPLIED | seq=252, action=LOOK
+[2026-08-19T21:07:26.458Z] [INPUT] INPUT_RECEIVED | seq=253, action=LOOK, phase=delta
+[2026-08-19T21:07:26.460Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50343657665,"type":"input-ack","seq":253}
+[2026-08-19T21:07:26.460Z] [INPUT] INPUT_APPLIED | seq=253, action=LOOK
+[2026-08-19T21:07:26.504Z] [INPUT] INPUT_RECEIVED | seq=254, action=LOOK, phase=delta
+[2026-08-19T21:07:26.506Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50344118479,"type":"input-ack","seq":254}
+[2026-08-19T21:07:26.506Z] [INPUT] INPUT_APPLIED | seq=254, action=LOOK
+[2026-08-19T21:07:26.518Z] [INPUT] INPUT_RECEIVED | seq=255, action=LOOK, phase=delta
+[2026-08-19T21:07:26.519Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50344250529,"type":"input-ack","seq":255}
+[2026-08-19T21:07:26.519Z] [INPUT] INPUT_APPLIED | seq=255, action=LOOK
+[2026-08-19T21:07:26.548Z] [INPUT] INPUT_RECEIVED | seq=256, action=LOOK, phase=delta
+[2026-08-19T21:07:26.550Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50344557187,"type":"input-ack","seq":256}
+[2026-08-19T21:07:26.550Z] [INPUT] INPUT_APPLIED | seq=256, action=LOOK
+[2026-08-19T21:07:26.562Z] [INPUT] INPUT_RECEIVED | seq=257, action=LOOK, phase=delta
+[2026-08-19T21:07:26.563Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50344689646,"type":"input-ack","seq":257}
+[2026-08-19T21:07:26.564Z] [INPUT] INPUT_APPLIED | seq=257, action=LOOK
+[2026-08-19T21:07:26.605Z] [INPUT] INPUT_RECEIVED | seq=258, action=LOOK, phase=delta
+[2026-08-19T21:07:26.606Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50345120785,"type":"input-ack","seq":258}
+[2026-08-19T21:07:26.607Z] [INPUT] INPUT_APPLIED | seq=258, action=LOOK
+[2026-08-19T21:07:26.657Z] [INPUT] INPUT_RECEIVED | seq=259, action=LOOK, phase=delta
+[2026-08-19T21:07:26.658Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50345640955,"type":"input-ack","seq":259}
+[2026-08-19T21:07:26.659Z] [INPUT] INPUT_APPLIED | seq=259, action=LOOK
+[2026-08-19T21:07:26.708Z] [INPUT] INPUT_RECEIVED | seq=260, action=LOOK, phase=delta
+[2026-08-19T21:07:26.710Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50346158852,"type":"input-ack","seq":260}
+[2026-08-19T21:07:26.710Z] [INPUT] INPUT_APPLIED | seq=260, action=LOOK
+[2026-08-19T21:07:28.311Z] [INPUT] INPUT_RECEIVED | seq=261, action=LOOK, phase=delta
+[2026-08-19T21:07:28.313Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50362186301,"type":"input-ack","seq":261}
+[2026-08-19T21:07:28.313Z] [INPUT] INPUT_APPLIED | seq=261, action=LOOK
+[2026-08-19T21:07:28.352Z] [INPUT] INPUT_RECEIVED | seq=262, action=LOOK, phase=delta
+[2026-08-19T21:07:28.354Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50362596095,"type":"input-ack","seq":262}
+[2026-08-19T21:07:28.354Z] [INPUT] INPUT_APPLIED | seq=262, action=LOOK
+[2026-08-19T21:07:28.388Z] [INPUT] INPUT_RECEIVED | seq=263, action=LOOK, phase=delta
+[2026-08-19T21:07:28.389Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50362951440,"type":"input-ack","seq":263}
+[2026-08-19T21:07:28.389Z] [INPUT] INPUT_APPLIED | seq=263, action=LOOK
+[2026-08-19T21:07:28.402Z] [INPUT] INPUT_RECEIVED | seq=264, action=LOOK, phase=delta
+[2026-08-19T21:07:28.403Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50363090366,"type":"input-ack","seq":264}
+[2026-08-19T21:07:28.403Z] [INPUT] INPUT_APPLIED | seq=264, action=LOOK
+[2026-08-19T21:07:28.456Z] [INPUT] INPUT_RECEIVED | seq=265, action=LOOK, phase=delta
+[2026-08-19T21:07:28.457Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50363630033,"type":"input-ack","seq":265}
+[2026-08-19T21:07:28.457Z] [INPUT] INPUT_APPLIED | seq=265, action=LOOK
+[2026-08-19T21:07:28.470Z] [INPUT] INPUT_RECEIVED | seq=266, action=LOOK, phase=delta
+[2026-08-19T21:07:28.471Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50363767443,"type":"input-ack","seq":266}
+[2026-08-19T21:07:28.471Z] [INPUT] INPUT_APPLIED | seq=266, action=LOOK
+[2026-08-19T21:07:28.513Z] [INPUT] INPUT_RECEIVED | seq=267, action=LOOK, phase=delta
+[2026-08-19T21:07:28.514Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50364199084,"type":"input-ack","seq":267}
+[2026-08-19T21:07:28.514Z] [INPUT] INPUT_APPLIED | seq=267, action=LOOK
+[2026-08-19T21:07:28.525Z] [INPUT] INPUT_RECEIVED | seq=268, action=LOOK, phase=delta
+[2026-08-19T21:07:28.526Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50364321484,"type":"input-ack","seq":268}
+[2026-08-19T21:07:28.527Z] [INPUT] INPUT_APPLIED | seq=268, action=LOOK
+[2026-08-19T21:07:28.568Z] [INPUT] INPUT_RECEIVED | seq=269, action=LOOK, phase=delta
+[2026-08-19T21:07:28.569Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50364753263,"type":"input-ack","seq":269}
+[2026-08-19T21:07:28.570Z] [INPUT] INPUT_APPLIED | seq=269, action=LOOK
+[2026-08-19T21:07:28.889Z] [INPUT] INPUT_RECEIVED | seq=270, action=LOOK, phase=delta
+[2026-08-19T21:07:28.891Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50367965407,"type":"input-ack","seq":270}
+[2026-08-19T21:07:28.891Z] [INPUT] INPUT_APPLIED | seq=270, action=LOOK
+[2026-08-19T21:07:28.917Z] [INPUT] INPUT_RECEIVED | seq=271, action=LOOK, phase=delta
+[2026-08-19T21:07:28.919Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50368248009,"type":"input-ack","seq":271}
+[2026-08-19T21:07:28.919Z] [INPUT] INPUT_APPLIED | seq=271, action=LOOK
+[2026-08-19T21:07:28.959Z] [INPUT] INPUT_RECEIVED | seq=272, action=LOOK, phase=delta
+[2026-08-19T21:07:28.960Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50368664027,"type":"input-ack","seq":272}
+[2026-08-19T21:07:28.961Z] [INPUT] INPUT_APPLIED | seq=272, action=LOOK
+[2026-08-19T21:07:28.998Z] [INPUT] INPUT_RECEIVED | seq=273, action=LOOK, phase=delta
+[2026-08-19T21:07:28.999Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50369051484,"type":"input-ack","seq":273}
+[2026-08-19T21:07:29.000Z] [INPUT] INPUT_APPLIED | seq=273, action=LOOK
+[2026-08-19T21:07:29.010Z] [INPUT] INPUT_RECEIVED | seq=274, action=LOOK, phase=delta
+[2026-08-19T21:07:29.012Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50369177889,"type":"input-ack","seq":274}
+[2026-08-19T21:07:29.012Z] [INPUT] INPUT_APPLIED | seq=274, action=LOOK
+[2026-08-19T21:07:29.040Z] [INPUT] INPUT_RECEIVED | seq=275, action=LOOK, phase=delta
+[2026-08-19T21:07:29.041Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50369472177,"type":"input-ack","seq":275}
+[2026-08-19T21:07:29.042Z] [INPUT] INPUT_APPLIED | seq=275, action=LOOK
+[2026-08-19T21:07:29.081Z] [INPUT] INPUT_RECEIVED | seq=276, action=LOOK, phase=delta
+[2026-08-19T21:07:29.083Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50369886859,"type":"input-ack","seq":276}
+[2026-08-19T21:07:29.083Z] [INPUT] INPUT_APPLIED | seq=276, action=LOOK
+[2026-08-19T21:07:29.096Z] [INPUT] INPUT_RECEIVED | seq=277, action=LOOK, phase=delta
+[2026-08-19T21:07:29.097Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50370030182,"type":"input-ack","seq":277}
+[2026-08-19T21:07:29.097Z] [INPUT] INPUT_APPLIED | seq=277, action=LOOK
+[2026-08-19T21:07:29.127Z] [INPUT] INPUT_RECEIVED | seq=278, action=LOOK, phase=delta
+[2026-08-19T21:07:29.128Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50370342500,"type":"input-ack","seq":278}
+[2026-08-19T21:07:29.129Z] [INPUT] INPUT_APPLIED | seq=278, action=LOOK
+[2026-08-19T21:07:29.141Z] [INPUT] INPUT_RECEIVED | seq=279, action=LOOK, phase=delta
+[2026-08-19T21:07:29.142Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50370482316,"type":"input-ack","seq":279}
+[2026-08-19T21:07:29.143Z] [INPUT] INPUT_APPLIED | seq=279, action=LOOK
+[2026-08-19T21:07:29.193Z] [INPUT] INPUT_RECEIVED | seq=280, action=LOOK, phase=delta
+[2026-08-19T21:07:29.194Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50371001071,"type":"input-ack","seq":280}
+[2026-08-19T21:07:29.195Z] [INPUT] INPUT_APPLIED | seq=280, action=LOOK
+[2026-08-19T21:07:29.203Z] [INPUT] INPUT_RECEIVED | seq=281, action=LOOK, phase=delta
+[2026-08-19T21:07:29.204Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50371101807,"type":"input-ack","seq":281}
+[2026-08-19T21:07:29.205Z] [INPUT] INPUT_APPLIED | seq=281, action=LOOK
+[2026-08-19T21:07:29.263Z] [INPUT] INPUT_RECEIVED | seq=282, action=LOOK, phase=delta
+[2026-08-19T21:07:29.264Z] [INPUT] INPUT_RECEIVED | seq=283, action=LOOK, phase=delta
+[2026-08-19T21:07:29.265Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50371705501,"type":"input-ack","seq":282}
+[2026-08-19T21:07:29.265Z] [INPUT] INPUT_APPLIED | seq=282, action=LOOK
+[2026-08-19T21:07:29.266Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50371715184,"type":"input-ack","seq":283}
+[2026-08-19T21:07:29.266Z] [INPUT] INPUT_APPLIED | seq=283, action=LOOK
+[2026-08-19T21:07:30.957Z] [INPUT] INPUT_RECEIVED | seq=284, action=LOOK, phase=delta
+[2026-08-19T21:07:30.959Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50388649827,"type":"input-ack","seq":284}
+[2026-08-19T21:07:30.960Z] [INPUT] INPUT_APPLIED | seq=284, action=LOOK
+[2026-08-19T21:07:31.009Z] [INPUT] INPUT_RECEIVED | seq=285, action=LOOK, phase=delta
+[2026-08-19T21:07:31.011Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50389167892,"type":"input-ack","seq":285}
+[2026-08-19T21:07:31.011Z] [INPUT] INPUT_APPLIED | seq=285, action=LOOK
+[2026-08-19T21:07:31.027Z] [INPUT] INPUT_RECEIVED | seq=286, action=LOOK, phase=delta
+[2026-08-19T21:07:31.028Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50389340032,"type":"input-ack","seq":286}
+[2026-08-19T21:07:31.028Z] [INPUT] INPUT_APPLIED | seq=286, action=LOOK
+[2026-08-19T21:07:31.067Z] [INPUT] INPUT_RECEIVED | seq=287, action=LOOK, phase=delta
+[2026-08-19T21:07:31.069Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50389750283,"type":"input-ack","seq":287}
+[2026-08-19T21:07:31.070Z] [INPUT] INPUT_APPLIED | seq=287, action=LOOK
+[2026-08-19T21:07:31.082Z] [INPUT] INPUT_RECEIVED | seq=288, action=LOOK, phase=delta
+[2026-08-19T21:07:31.084Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50389895887,"type":"input-ack","seq":288}
+[2026-08-19T21:07:31.084Z] [INPUT] INPUT_APPLIED | seq=288, action=LOOK
+[2026-08-19T21:07:31.123Z] [INPUT] INPUT_RECEIVED | seq=289, action=LOOK, phase=delta
+[2026-08-19T21:07:31.124Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50390302015,"type":"input-ack","seq":289}
+[2026-08-19T21:07:31.125Z] [INPUT] INPUT_APPLIED | seq=289, action=LOOK
+[2026-08-19T21:07:31.167Z] [INPUT] INPUT_RECEIVED | seq=290, action=LOOK, phase=delta
+[2026-08-19T21:07:31.169Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50390746801,"type":"input-ack","seq":290}
+[2026-08-19T21:07:31.169Z] [INPUT] INPUT_APPLIED | seq=290, action=LOOK
+[2026-08-19T21:07:31.184Z] [INPUT] INPUT_RECEIVED | seq=291, action=LOOK, phase=delta
+[2026-08-19T21:07:31.186Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50390916811,"type":"input-ack","seq":291}
+[2026-08-19T21:07:31.187Z] [INPUT] INPUT_APPLIED | seq=291, action=LOOK
+[2026-08-19T21:07:31.211Z] [INPUT] INPUT_RECEIVED | seq=292, action=LOOK, phase=delta
+[2026-08-19T21:07:31.212Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50391184330,"type":"input-ack","seq":292}
+[2026-08-19T21:07:31.213Z] [INPUT] INPUT_APPLIED | seq=292, action=LOOK
+[2026-08-19T21:07:31.250Z] [INPUT] INPUT_RECEIVED | seq=293, action=LOOK, phase=delta
+[2026-08-19T21:07:31.251Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50391569242,"type":"input-ack","seq":293}
+[2026-08-19T21:07:31.251Z] [INPUT] INPUT_APPLIED | seq=293, action=LOOK
+[2026-08-19T21:07:31.261Z] [INPUT] INPUT_RECEIVED | seq=294, action=LOOK, phase=delta
+[2026-08-19T21:07:31.262Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50391680666,"type":"input-ack","seq":294}
+[2026-08-19T21:07:31.263Z] [INPUT] INPUT_APPLIED | seq=294, action=LOOK
+[2026-08-19T21:07:31.290Z] [INPUT] INPUT_RECEIVED | seq=295, action=LOOK, phase=delta
+[2026-08-19T21:07:31.292Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50391974396,"type":"input-ack","seq":295}
+[2026-08-19T21:07:31.292Z] [INPUT] INPUT_APPLIED | seq=295, action=LOOK
+[2026-08-19T21:07:31.333Z] [INPUT] INPUT_RECEIVED | seq=296, action=LOOK, phase=delta
+[2026-08-19T21:07:31.334Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50392400765,"type":"input-ack","seq":296}
+[2026-08-19T21:07:31.334Z] [INPUT] INPUT_APPLIED | seq=296, action=LOOK
+[2026-08-19T21:07:31.347Z] [INPUT] INPUT_RECEIVED | seq=297, action=LOOK, phase=delta
+[2026-08-19T21:07:31.348Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50392543513,"type":"input-ack","seq":297}
+[2026-08-19T21:07:31.349Z] [INPUT] INPUT_APPLIED | seq=297, action=LOOK
+[2026-08-19T21:07:31.380Z] [INPUT] INPUT_RECEIVED | seq=298, action=LOOK, phase=delta
+[2026-08-19T21:07:31.381Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50392871626,"type":"input-ack","seq":298}
+[2026-08-19T21:07:31.382Z] [INPUT] INPUT_APPLIED | seq=298, action=LOOK
+[2026-08-19T21:07:31.393Z] [INPUT] INPUT_RECEIVED | seq=299, action=LOOK, phase=delta
+[2026-08-19T21:07:31.394Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50392999230,"type":"input-ack","seq":299}
+[2026-08-19T21:07:31.394Z] [INPUT] INPUT_APPLIED | seq=299, action=LOOK
+[2026-08-19T21:07:31.446Z] [INPUT] INPUT_RECEIVED | seq=300, action=LOOK, phase=delta
+[2026-08-19T21:07:31.448Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50393536036,"type":"input-ack","seq":300}
+[2026-08-19T21:07:31.448Z] [INPUT] INPUT_APPLIED | seq=300, action=LOOK
+[2026-08-19T21:07:31.461Z] [INPUT] INPUT_RECEIVED | seq=301, action=LOOK, phase=delta
+[2026-08-19T21:07:31.462Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50393682326,"type":"input-ack","seq":301}
+[2026-08-19T21:07:31.463Z] [INPUT] INPUT_APPLIED | seq=301, action=LOOK
+[2026-08-19T21:07:31.503Z] [INPUT] INPUT_RECEIVED | seq=302, action=LOOK, phase=delta
+[2026-08-19T21:07:31.505Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50394108954,"type":"input-ack","seq":302}
+[2026-08-19T21:07:31.505Z] [INPUT] INPUT_APPLIED | seq=302, action=LOOK
+[2026-08-19T21:07:31.517Z] [INPUT] INPUT_RECEIVED | seq=303, action=LOOK, phase=delta
+[2026-08-19T21:07:31.519Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50394246881,"type":"input-ack","seq":303}
+[2026-08-19T21:07:31.519Z] [INPUT] INPUT_APPLIED | seq=303, action=LOOK
+[2026-08-19T21:07:31.559Z] [INPUT] INPUT_RECEIVED | seq=304, action=LOOK, phase=delta
+[2026-08-19T21:07:31.561Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50394667980,"type":"input-ack","seq":304}
+[2026-08-19T21:07:31.561Z] [INPUT] INPUT_APPLIED | seq=304, action=LOOK
+[2026-08-19T21:07:31.573Z] [INPUT] INPUT_RECEIVED | seq=305, action=LOOK, phase=delta
+[2026-08-19T21:07:31.574Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50394802044,"type":"input-ack","seq":305}
+[2026-08-19T21:07:31.575Z] [INPUT] INPUT_APPLIED | seq=305, action=LOOK
+[2026-08-19T21:07:31.624Z] [INPUT] INPUT_RECEIVED | seq=306, action=LOOK, phase=delta
+[2026-08-19T21:07:31.625Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50395314996,"type":"input-ack","seq":306}
+[2026-08-19T21:07:31.626Z] [INPUT] INPUT_APPLIED | seq=306, action=LOOK
+[2026-08-19T21:07:31.666Z] [INPUT] INPUT_RECEIVED | seq=307, action=LOOK, phase=delta
+[2026-08-19T21:07:31.667Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50395732510,"type":"input-ack","seq":307}
+[2026-08-19T21:07:31.668Z] [INPUT] INPUT_APPLIED | seq=307, action=LOOK
+[2026-08-19T21:07:31.680Z] [INPUT] INPUT_RECEIVED | seq=308, action=LOOK, phase=delta
+[2026-08-19T21:07:31.681Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50395870589,"type":"input-ack","seq":308}
+[2026-08-19T21:07:31.681Z] [INPUT] INPUT_APPLIED | seq=308, action=LOOK
+[2026-08-19T21:07:31.708Z] [INPUT] INPUT_RECEIVED | seq=309, action=LOOK, phase=delta
+[2026-08-19T21:07:31.710Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50396158399,"type":"input-ack","seq":309}
+[2026-08-19T21:07:31.710Z] [INPUT] INPUT_APPLIED | seq=309, action=LOOK
+[2026-08-19T21:07:31.723Z] [INPUT] INPUT_RECEIVED | seq=310, action=LOOK, phase=delta
+[2026-08-19T21:07:31.724Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50396301843,"type":"input-ack","seq":310}
+[2026-08-19T21:07:31.725Z] [INPUT] INPUT_APPLIED | seq=310, action=LOOK
+[2026-08-19T21:07:32.363Z] [INPUT] INPUT_RECEIVED | seq=311, action=FORWARD, phase=down
+[2026-08-19T21:07:32.364Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50402698028,"type":"input-ack","seq":311}
+[2026-08-19T21:07:32.364Z] [INPUT] INPUT_APPLIED | seq=311, action=FORWARD
+[2026-08-19T21:07:33.275Z] [INPUT] INPUT_RECEIVED | seq=312, action=FORWARD, phase=up
+[2026-08-19T21:07:33.276Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50411819699,"type":"input-ack","seq":312}
+[2026-08-19T21:07:33.276Z] [INPUT] INPUT_APPLIED | seq=312, action=FORWARD
+[2026-08-19T21:07:33.456Z] [INPUT] INPUT_RECEIVED | seq=313, action=LOOK, phase=delta
+[2026-08-19T21:07:33.458Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50413635977,"type":"input-ack","seq":313}
+[2026-08-19T21:07:33.458Z] [INPUT] INPUT_APPLIED | seq=313, action=LOOK
+[2026-08-19T21:07:33.478Z] [INPUT] INPUT_RECEIVED | seq=314, action=LOOK, phase=delta
+[2026-08-19T21:07:33.480Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50413857098,"type":"input-ack","seq":314}
+[2026-08-19T21:07:33.480Z] [INPUT] INPUT_APPLIED | seq=314, action=LOOK
+[2026-08-19T21:07:33.511Z] [INPUT] INPUT_RECEIVED | seq=315, action=LOOK, phase=delta
+[2026-08-19T21:07:33.512Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50414180539,"type":"input-ack","seq":315}
+[2026-08-19T21:07:33.512Z] [INPUT] INPUT_APPLIED | seq=315, action=LOOK
+[2026-08-19T21:07:33.524Z] [INPUT] INPUT_RECEIVED | seq=316, action=LOOK, phase=delta
+[2026-08-19T21:07:33.525Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50414312322,"type":"input-ack","seq":316}
+[2026-08-19T21:07:33.526Z] [INPUT] INPUT_APPLIED | seq=316, action=LOOK
+[2026-08-19T21:07:33.563Z] [INPUT] INPUT_RECEIVED | seq=317, action=LOOK, phase=delta
+[2026-08-19T21:07:33.565Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50414707086,"type":"input-ack","seq":317}
+[2026-08-19T21:07:33.565Z] [INPUT] INPUT_APPLIED | seq=317, action=LOOK
+[2026-08-19T21:07:33.576Z] [INPUT] INPUT_RECEIVED | seq=318, action=LOOK, phase=delta
+[2026-08-19T21:07:33.577Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50414834417,"type":"input-ack","seq":318}
+[2026-08-19T21:07:33.578Z] [INPUT] INPUT_APPLIED | seq=318, action=LOOK
+[2026-08-19T21:07:33.617Z] [INPUT] INPUT_RECEIVED | seq=319, action=LOOK, phase=delta
+[2026-08-19T21:07:33.618Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50415241143,"type":"input-ack","seq":319}
+[2026-08-19T21:07:33.619Z] [INPUT] INPUT_APPLIED | seq=319, action=LOOK
+[2026-08-19T21:07:33.637Z] [INPUT] INPUT_RECEIVED | seq=320, action=LOOK, phase=delta
+[2026-08-19T21:07:33.638Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50415439760,"type":"input-ack","seq":320}
+[2026-08-19T21:07:33.639Z] [INPUT] INPUT_APPLIED | seq=320, action=LOOK
+[2026-08-19T21:07:33.669Z] [INPUT] INPUT_RECEIVED | seq=321, action=LOOK, phase=delta
+[2026-08-19T21:07:33.671Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50415766454,"type":"input-ack","seq":321}
+[2026-08-19T21:07:33.671Z] [INPUT] INPUT_APPLIED | seq=321, action=LOOK
+[2026-08-19T21:07:33.682Z] [INPUT] INPUT_RECEIVED | seq=322, action=LOOK, phase=delta
+[2026-08-19T21:07:33.683Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50415888701,"type":"input-ack","seq":322}
+[2026-08-19T21:07:33.683Z] [INPUT] INPUT_APPLIED | seq=322, action=LOOK
+[2026-08-19T21:07:33.721Z] [INPUT] INPUT_RECEIVED | seq=323, action=LOOK, phase=delta
+[2026-08-19T21:07:33.723Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50416287794,"type":"input-ack","seq":323}
+[2026-08-19T21:07:33.723Z] [INPUT] INPUT_APPLIED | seq=323, action=LOOK
+[2026-08-19T21:07:33.740Z] [INPUT] INPUT_RECEIVED | seq=324, action=LOOK, phase=delta
+[2026-08-19T21:07:33.741Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50416471307,"type":"input-ack","seq":324}
+[2026-08-19T21:07:33.742Z] [INPUT] INPUT_APPLIED | seq=324, action=LOOK
+[2026-08-19T21:07:33.773Z] [INPUT] INPUT_RECEIVED | seq=325, action=LOOK, phase=delta
+[2026-08-19T21:07:33.774Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50416803110,"type":"input-ack","seq":325}
+[2026-08-19T21:07:33.775Z] [INPUT] INPUT_APPLIED | seq=325, action=LOOK
+[2026-08-19T21:07:33.818Z] [INPUT] INPUT_RECEIVED | seq=326, action=LOOK, phase=delta
+[2026-08-19T21:07:33.819Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50417251706,"type":"input-ack","seq":326}
+[2026-08-19T21:07:33.820Z] [INPUT] INPUT_APPLIED | seq=326, action=LOOK
+[2026-08-19T21:07:33.832Z] [INPUT] INPUT_RECEIVED | seq=327, action=LOOK, phase=delta
+[2026-08-19T21:07:33.834Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50417395319,"type":"input-ack","seq":327}
+[2026-08-19T21:07:33.834Z] [INPUT] INPUT_APPLIED | seq=327, action=LOOK
+[2026-08-19T21:07:33.862Z] [INPUT] INPUT_RECEIVED | seq=328, action=LOOK, phase=delta
+[2026-08-19T21:07:33.864Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50417698447,"type":"input-ack","seq":328}
+[2026-08-19T21:07:33.864Z] [INPUT] INPUT_APPLIED | seq=328, action=LOOK
+[2026-08-19T21:07:33.875Z] [INPUT] INPUT_RECEIVED | seq=329, action=LOOK, phase=delta
+[2026-08-19T21:07:33.877Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50417825505,"type":"input-ack","seq":329}
+[2026-08-19T21:07:33.877Z] [INPUT] INPUT_APPLIED | seq=329, action=LOOK
+[2026-08-19T21:07:33.930Z] [INPUT] INPUT_RECEIVED | seq=330, action=LOOK, phase=delta
+[2026-08-19T21:07:33.931Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50418369150,"type":"input-ack","seq":330}
+[2026-08-19T21:07:33.932Z] [INPUT] INPUT_APPLIED | seq=330, action=LOOK
+[2026-08-19T21:07:33.943Z] [INPUT] INPUT_RECEIVED | seq=331, action=LOOK, phase=delta
+[2026-08-19T21:07:33.945Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50418506240,"type":"input-ack","seq":331}
+[2026-08-19T21:07:33.945Z] [INPUT] INPUT_APPLIED | seq=331, action=LOOK
+[2026-08-19T21:07:33.984Z] [INPUT] INPUT_RECEIVED | seq=332, action=LOOK, phase=delta
+[2026-08-19T21:07:33.986Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50418917100,"type":"input-ack","seq":332}
+[2026-08-19T21:07:33.986Z] [INPUT] INPUT_APPLIED | seq=332, action=LOOK
+[2026-08-19T21:07:34.001Z] [INPUT] INPUT_RECEIVED | seq=333, action=LOOK, phase=delta
+[2026-08-19T21:07:34.002Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50419081907,"type":"input-ack","seq":333}
+[2026-08-19T21:07:34.003Z] [INPUT] INPUT_APPLIED | seq=333, action=LOOK
+[2026-08-19T21:07:34.042Z] [INPUT] INPUT_RECEIVED | seq=334, action=LOOK, phase=delta
+[2026-08-19T21:07:34.043Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50419494256,"type":"input-ack","seq":334}
+[2026-08-19T21:07:34.044Z] [INPUT] INPUT_APPLIED | seq=334, action=LOOK
+[2026-08-19T21:07:34.085Z] [INPUT] INPUT_RECEIVED | seq=335, action=LOOK, phase=delta
+[2026-08-19T21:07:34.087Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50419926738,"type":"input-ack","seq":335}
+[2026-08-19T21:07:34.087Z] [INPUT] INPUT_APPLIED | seq=335, action=LOOK
+[2026-08-19T21:07:34.103Z] [INPUT] INPUT_RECEIVED | seq=336, action=LOOK, phase=delta
+[2026-08-19T21:07:34.104Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50420101478,"type":"input-ack","seq":336}
+[2026-08-19T21:07:34.105Z] [INPUT] INPUT_APPLIED | seq=336, action=LOOK
+[2026-08-19T21:07:34.140Z] [INPUT] INPUT_RECEIVED | seq=337, action=LOOK, phase=delta
+[2026-08-19T21:07:34.141Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50420470212,"type":"input-ack","seq":337}
+[2026-08-19T21:07:34.141Z] [INPUT] INPUT_APPLIED | seq=337, action=LOOK
+[2026-08-19T21:07:34.170Z] [INPUT] INPUT_RECEIVED | seq=338, action=LOOK, phase=delta
+[2026-08-19T21:07:34.172Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50420777635,"type":"input-ack","seq":338}
+[2026-08-19T21:07:34.172Z] [INPUT] INPUT_APPLIED | seq=338, action=LOOK
+[2026-08-19T21:07:34.185Z] [INPUT] INPUT_RECEIVED | seq=339, action=LOOK, phase=delta
+[2026-08-19T21:07:34.186Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50420917532,"type":"input-ack","seq":339}
+[2026-08-19T21:07:34.186Z] [INPUT] INPUT_APPLIED | seq=339, action=LOOK
+[2026-08-19T21:07:34.214Z] [INPUT] INPUT_RECEIVED | seq=340, action=LOOK, phase=delta
+[2026-08-19T21:07:34.216Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50421217898,"type":"input-ack","seq":340}
+[2026-08-19T21:07:34.216Z] [INPUT] INPUT_APPLIED | seq=340, action=LOOK
+[2026-08-19T21:07:34.229Z] [INPUT] INPUT_RECEIVED | seq=341, action=LOOK, phase=delta
+[2026-08-19T21:07:34.230Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50421365100,"type":"input-ack","seq":341}
+[2026-08-19T21:07:34.231Z] [INPUT] INPUT_APPLIED | seq=341, action=LOOK
+[2026-08-19T21:07:34.273Z] [INPUT] INPUT_RECEIVED | seq=342, action=LOOK, phase=delta
+[2026-08-19T21:07:34.274Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50421804517,"type":"input-ack","seq":342}
+[2026-08-19T21:07:34.275Z] [INPUT] INPUT_APPLIED | seq=342, action=LOOK
+[2026-08-19T21:07:34.316Z] [INPUT] INPUT_RECEIVED | seq=343, action=LOOK, phase=delta
+[2026-08-19T21:07:34.317Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50422232436,"type":"input-ack","seq":343}
+[2026-08-19T21:07:34.318Z] [INPUT] INPUT_APPLIED | seq=343, action=LOOK
+[2026-08-19T21:07:34.331Z] [INPUT] INPUT_RECEIVED | seq=344, action=LOOK, phase=delta
+[2026-08-19T21:07:34.332Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50422380650,"type":"input-ack","seq":344}
+[2026-08-19T21:07:34.332Z] [INPUT] INPUT_APPLIED | seq=344, action=LOOK
+[2026-08-19T21:07:34.384Z] [INPUT] INPUT_RECEIVED | seq=345, action=LOOK, phase=delta
+[2026-08-19T21:07:34.385Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50422913285,"type":"input-ack","seq":345}
+[2026-08-19T21:07:34.386Z] [INPUT] INPUT_APPLIED | seq=345, action=LOOK
+[2026-08-19T21:07:34.400Z] [INPUT] INPUT_RECEIVED | seq=346, action=LOOK, phase=delta
+[2026-08-19T21:07:34.401Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50423068080,"type":"input-ack","seq":346}
+[2026-08-19T21:07:34.401Z] [INPUT] INPUT_APPLIED | seq=346, action=LOOK
+[2026-08-19T21:07:34.431Z] [INPUT] INPUT_RECEIVED | seq=347, action=LOOK, phase=delta
+[2026-08-19T21:07:34.432Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50423380160,"type":"input-ack","seq":347}
+[2026-08-19T21:07:34.432Z] [INPUT] INPUT_APPLIED | seq=347, action=LOOK
+[2026-08-19T21:07:34.444Z] [INPUT] INPUT_RECEIVED | seq=348, action=LOOK, phase=delta
+[2026-08-19T21:07:34.445Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50423509551,"type":"input-ack","seq":348}
+[2026-08-19T21:07:34.445Z] [INPUT] INPUT_APPLIED | seq=348, action=LOOK
+[2026-08-19T21:07:35.208Z] [INPUT] INPUT_RECEIVED | seq=349, action=LOOK, phase=delta
+[2026-08-19T21:07:35.209Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50431154272,"type":"input-ack","seq":349}
+[2026-08-19T21:07:35.210Z] [INPUT] INPUT_APPLIED | seq=349, action=LOOK
+[2026-08-19T21:07:35.249Z] [INPUT] INPUT_RECEIVED | seq=350, action=LOOK, phase=delta
+[2026-08-19T21:07:35.251Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50431566602,"type":"input-ack","seq":350}
+[2026-08-19T21:07:35.251Z] [INPUT] INPUT_APPLIED | seq=350, action=LOOK
+[2026-08-19T21:07:35.288Z] [INPUT] INPUT_RECEIVED | seq=351, action=LOOK, phase=delta
+[2026-08-19T21:07:35.290Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50431959460,"type":"input-ack","seq":351}
+[2026-08-19T21:07:35.290Z] [INPUT] INPUT_APPLIED | seq=351, action=LOOK
+[2026-08-19T21:07:35.304Z] [INPUT] INPUT_RECEIVED | seq=352, action=LOOK, phase=delta
+[2026-08-19T21:07:35.306Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50432116158,"type":"input-ack","seq":352}
+[2026-08-19T21:07:35.306Z] [INPUT] INPUT_APPLIED | seq=352, action=LOOK
+[2026-08-19T21:07:35.346Z] [INPUT] INPUT_RECEIVED | seq=353, action=LOOK, phase=delta
+[2026-08-19T21:07:35.347Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50432534550,"type":"input-ack","seq":353}
+[2026-08-19T21:07:35.348Z] [INPUT] INPUT_APPLIED | seq=353, action=LOOK
+[2026-08-19T21:07:35.359Z] [INPUT] INPUT_RECEIVED | seq=354, action=LOOK, phase=delta
+[2026-08-19T21:07:35.360Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50432659971,"type":"input-ack","seq":354}
+[2026-08-19T21:07:35.360Z] [INPUT] INPUT_APPLIED | seq=354, action=LOOK
+[2026-08-19T21:07:35.399Z] [INPUT] INPUT_RECEIVED | seq=355, action=LOOK, phase=delta
+[2026-08-19T21:07:35.401Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50433067606,"type":"input-ack","seq":355}
+[2026-08-19T21:07:35.401Z] [INPUT] INPUT_APPLIED | seq=355, action=LOOK
+[2026-08-19T21:07:35.412Z] [INPUT] INPUT_RECEIVED | seq=356, action=LOOK, phase=delta
+[2026-08-19T21:07:35.414Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50433198115,"type":"input-ack","seq":356}
+[2026-08-19T21:07:35.414Z] [INPUT] INPUT_APPLIED | seq=356, action=LOOK
+[2026-08-19T21:07:35.451Z] [INPUT] INPUT_RECEIVED | seq=357, action=LOOK, phase=delta
+[2026-08-19T21:07:35.452Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50433580136,"type":"input-ack","seq":357}
+[2026-08-19T21:07:35.452Z] [INPUT] INPUT_APPLIED | seq=357, action=LOOK
+[2026-08-19T21:07:35.464Z] [INPUT] INPUT_RECEIVED | seq=358, action=LOOK, phase=delta
+[2026-08-19T21:07:35.466Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50433717020,"type":"input-ack","seq":358}
+[2026-08-19T21:07:35.466Z] [INPUT] INPUT_APPLIED | seq=358, action=LOOK
+[2026-08-19T21:07:35.508Z] [INPUT] INPUT_RECEIVED | seq=359, action=LOOK, phase=delta
+[2026-08-19T21:07:35.510Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50434157361,"type":"input-ack","seq":359}
+[2026-08-19T21:07:35.510Z] [INPUT] INPUT_APPLIED | seq=359, action=LOOK
+[2026-08-19T21:07:35.549Z] [INPUT] INPUT_RECEIVED | seq=360, action=LOOK, phase=delta
+[2026-08-19T21:07:35.551Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50434567455,"type":"input-ack","seq":360}
+[2026-08-19T21:07:35.551Z] [INPUT] INPUT_APPLIED | seq=360, action=LOOK
+[2026-08-19T21:07:35.564Z] [INPUT] INPUT_RECEIVED | seq=361, action=LOOK, phase=delta
+[2026-08-19T21:07:35.565Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50434711210,"type":"input-ack","seq":361}
+[2026-08-19T21:07:35.566Z] [INPUT] INPUT_APPLIED | seq=361, action=LOOK
+[2026-08-19T21:07:35.593Z] [INPUT] INPUT_RECEIVED | seq=362, action=LOOK, phase=delta
+[2026-08-19T21:07:35.594Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50435001837,"type":"input-ack","seq":362}
+[2026-08-19T21:07:35.595Z] [INPUT] INPUT_APPLIED | seq=362, action=LOOK
+[2026-08-19T21:07:35.609Z] [INPUT] INPUT_RECEIVED | seq=363, action=LOOK, phase=delta
+[2026-08-19T21:07:35.610Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50435161408,"type":"input-ack","seq":363}
+[2026-08-19T21:07:35.610Z] [INPUT] INPUT_APPLIED | seq=363, action=LOOK
+[2026-08-19T21:07:35.658Z] [INPUT] INPUT_RECEIVED | seq=364, action=LOOK, phase=delta
+[2026-08-19T21:07:35.659Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50435651982,"type":"input-ack","seq":364}
+[2026-08-19T21:07:35.660Z] [INPUT] INPUT_APPLIED | seq=364, action=LOOK
+[2026-08-19T21:07:35.668Z] [INPUT] INPUT_RECEIVED | seq=365, action=LOOK, phase=delta
+[2026-08-19T21:07:35.669Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50435753381,"type":"input-ack","seq":365}
+[2026-08-19T21:07:35.670Z] [INPUT] INPUT_APPLIED | seq=365, action=LOOK
+[2026-08-19T21:07:35.706Z] [INPUT] INPUT_RECEIVED | seq=366, action=LOOK, phase=delta
+[2026-08-19T21:07:35.708Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50436137363,"type":"input-ack","seq":366}
+[2026-08-19T21:07:35.708Z] [INPUT] INPUT_APPLIED | seq=366, action=LOOK
+[2026-08-19T21:07:35.752Z] [INPUT] INPUT_RECEIVED | seq=367, action=LOOK, phase=delta
+[2026-08-19T21:07:35.754Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50436597413,"type":"input-ack","seq":367}
+[2026-08-19T21:07:35.754Z] [INPUT] INPUT_APPLIED | seq=367, action=LOOK
+[2026-08-19T21:07:35.768Z] [INPUT] INPUT_RECEIVED | seq=368, action=LOOK, phase=delta
+[2026-08-19T21:07:35.769Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50436747855,"type":"input-ack","seq":368}
+[2026-08-19T21:07:35.769Z] [INPUT] INPUT_APPLIED | seq=368, action=LOOK
+[2026-08-19T21:07:35.797Z] [INPUT] INPUT_RECEIVED | seq=369, action=LOOK, phase=delta
+[2026-08-19T21:07:35.798Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50437044102,"type":"input-ack","seq":369}
+[2026-08-19T21:07:35.799Z] [INPUT] INPUT_APPLIED | seq=369, action=LOOK
+[2026-08-19T21:07:35.810Z] [INPUT] INPUT_RECEIVED | seq=370, action=LOOK, phase=delta
+[2026-08-19T21:07:35.811Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50437169445,"type":"input-ack","seq":370}
+[2026-08-19T21:07:35.811Z] [INPUT] INPUT_APPLIED | seq=370, action=LOOK
+[2026-08-19T21:07:35.864Z] [INPUT] INPUT_RECEIVED | seq=371, action=LOOK, phase=delta
+[2026-08-19T21:07:35.865Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50437711428,"type":"input-ack","seq":371}
+[2026-08-19T21:07:35.866Z] [INPUT] INPUT_APPLIED | seq=371, action=LOOK
+[2026-08-19T21:07:35.878Z] [INPUT] INPUT_RECEIVED | seq=372, action=LOOK, phase=delta
+[2026-08-19T21:07:35.879Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50437852502,"type":"input-ack","seq":372}
+[2026-08-19T21:07:35.880Z] [INPUT] INPUT_APPLIED | seq=372, action=LOOK
+[2026-08-19T21:07:35.920Z] [INPUT] INPUT_RECEIVED | seq=373, action=LOOK, phase=delta
+[2026-08-19T21:07:35.921Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50438270632,"type":"input-ack","seq":373}
+[2026-08-19T21:07:35.921Z] [INPUT] INPUT_APPLIED | seq=373, action=LOOK
+[2026-08-19T21:07:35.934Z] [INPUT] INPUT_RECEIVED | seq=374, action=LOOK, phase=delta
+[2026-08-19T21:07:35.936Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50438416473,"type":"input-ack","seq":374}
+[2026-08-19T21:07:35.936Z] [INPUT] INPUT_APPLIED | seq=374, action=LOOK
+[2026-08-19T21:07:35.979Z] [INPUT] INPUT_RECEIVED | seq=375, action=LOOK, phase=delta
+[2026-08-19T21:07:35.980Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50438859617,"type":"input-ack","seq":375}
+[2026-08-19T21:07:35.980Z] [INPUT] INPUT_APPLIED | seq=375, action=LOOK
+[2026-08-19T21:07:35.993Z] [INPUT] INPUT_RECEIVED | seq=376, action=LOOK, phase=delta
+[2026-08-19T21:07:35.995Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50439006094,"type":"input-ack","seq":376}
+[2026-08-19T21:07:35.995Z] [INPUT] INPUT_APPLIED | seq=376, action=LOOK
+[2026-08-19T21:07:36.037Z] [INPUT] INPUT_RECEIVED | seq=377, action=LOOK, phase=delta
+[2026-08-19T21:07:36.039Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50439447498,"type":"input-ack","seq":377}
+[2026-08-19T21:07:36.039Z] [INPUT] INPUT_APPLIED | seq=377, action=LOOK
+[2026-08-19T21:07:36.053Z] [INPUT] INPUT_RECEIVED | seq=378, action=LOOK, phase=delta
+[2026-08-19T21:07:36.054Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50439602560,"type":"input-ack","seq":378}
+[2026-08-19T21:07:36.055Z] [INPUT] INPUT_APPLIED | seq=378, action=LOOK
+[2026-08-19T21:07:36.090Z] [INPUT] INPUT_RECEIVED | seq=379, action=LOOK, phase=delta
+[2026-08-19T21:07:36.092Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50439976858,"type":"input-ack","seq":379}
+[2026-08-19T21:07:36.092Z] [INPUT] INPUT_APPLIED | seq=379, action=LOOK
+[2026-08-19T21:07:36.131Z] [INPUT] INPUT_RECEIVED | seq=380, action=LOOK, phase=delta
+[2026-08-19T21:07:36.133Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50440385584,"type":"input-ack","seq":380}
+[2026-08-19T21:07:36.133Z] [INPUT] INPUT_APPLIED | seq=380, action=LOOK
+[2026-08-19T21:07:36.144Z] [INPUT] INPUT_RECEIVED | seq=381, action=LOOK, phase=delta
+[2026-08-19T21:07:36.146Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50440517244,"type":"input-ack","seq":381}
+[2026-08-19T21:07:36.146Z] [INPUT] INPUT_APPLIED | seq=381, action=LOOK
+[2026-08-19T21:07:36.188Z] [INPUT] INPUT_RECEIVED | seq=382, action=LOOK, phase=delta
+[2026-08-19T21:07:36.189Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50440954514,"type":"input-ack","seq":382}
+[2026-08-19T21:07:36.190Z] [INPUT] INPUT_APPLIED | seq=382, action=LOOK
+[2026-08-19T21:07:36.203Z] [INPUT] INPUT_RECEIVED | seq=383, action=LOOK, phase=delta
+[2026-08-19T21:07:36.204Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50441101296,"type":"input-ack","seq":383}
+[2026-08-19T21:07:36.204Z] [INPUT] INPUT_APPLIED | seq=383, action=LOOK
+[2026-08-19T21:07:36.246Z] [INPUT] INPUT_RECEIVED | seq=384, action=LOOK, phase=delta
+[2026-08-19T21:07:36.247Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50441530138,"type":"input-ack","seq":384}
+[2026-08-19T21:07:36.247Z] [INPUT] INPUT_APPLIED | seq=384, action=LOOK
+[2026-08-19T21:07:36.261Z] [INPUT] INPUT_RECEIVED | seq=385, action=LOOK, phase=delta
+[2026-08-19T21:07:36.262Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50441683525,"type":"input-ack","seq":385}
+[2026-08-19T21:07:36.263Z] [INPUT] INPUT_APPLIED | seq=385, action=LOOK
+[2026-08-19T21:07:36.316Z] [INPUT] INPUT_RECEIVED | seq=386, action=LOOK, phase=delta
+[2026-08-19T21:07:36.317Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50442234127,"type":"input-ack","seq":386}
+[2026-08-19T21:07:36.318Z] [INPUT] INPUT_APPLIED | seq=386, action=LOOK
+[2026-08-19T21:07:37.007Z] [INPUT] INPUT_RECEIVED | seq=387, action=LOOK, phase=delta
+[2026-08-19T21:07:37.009Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50449146994,"type":"input-ack","seq":387}
+[2026-08-19T21:07:37.009Z] [INPUT] INPUT_APPLIED | seq=387, action=LOOK
+[2026-08-19T21:07:37.043Z] [INPUT] INPUT_RECEIVED | seq=388, action=LOOK, phase=delta
+[2026-08-19T21:07:37.045Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50449505413,"type":"input-ack","seq":388}
+[2026-08-19T21:07:37.045Z] [INPUT] INPUT_APPLIED | seq=388, action=LOOK
+[2026-08-19T21:07:37.065Z] [INPUT] INPUT_RECEIVED | seq=389, action=LOOK, phase=delta
+[2026-08-19T21:07:37.066Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50449722067,"type":"input-ack","seq":389}
+[2026-08-19T21:07:37.067Z] [INPUT] INPUT_APPLIED | seq=389, action=LOOK
+[2026-08-19T21:07:37.104Z] [INPUT] INPUT_RECEIVED | seq=390, action=LOOK, phase=delta
+[2026-08-19T21:07:37.106Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50450118210,"type":"input-ack","seq":390}
+[2026-08-19T21:07:37.106Z] [INPUT] INPUT_APPLIED | seq=390, action=LOOK
+[2026-08-19T21:07:37.118Z] [INPUT] INPUT_RECEIVED | seq=391, action=LOOK, phase=delta
+[2026-08-19T21:07:37.119Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50450249512,"type":"input-ack","seq":391}
+[2026-08-19T21:07:37.119Z] [INPUT] INPUT_APPLIED | seq=391, action=LOOK
+[2026-08-19T21:07:37.156Z] [INPUT] INPUT_RECEIVED | seq=392, action=LOOK, phase=delta
+[2026-08-19T21:07:37.158Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50450638569,"type":"input-ack","seq":392}
+[2026-08-19T21:07:37.158Z] [INPUT] INPUT_APPLIED | seq=392, action=LOOK
+[2026-08-19T21:07:37.199Z] [INPUT] INPUT_RECEIVED | seq=393, action=LOOK, phase=delta
+[2026-08-19T21:07:37.201Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50451066194,"type":"input-ack","seq":393}
+[2026-08-19T21:07:37.201Z] [INPUT] INPUT_APPLIED | seq=393, action=LOOK
+[2026-08-19T21:07:37.210Z] [INPUT] INPUT_RECEIVED | seq=394, action=LOOK, phase=delta
+[2026-08-19T21:07:37.211Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50451169942,"type":"input-ack","seq":394}
+[2026-08-19T21:07:37.211Z] [INPUT] INPUT_APPLIED | seq=394, action=LOOK
+[2026-08-19T21:07:37.236Z] [INPUT] INPUT_RECEIVED | seq=395, action=LOOK, phase=delta
+[2026-08-19T21:07:37.237Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50451432250,"type":"input-ack","seq":395}
+[2026-08-19T21:07:37.238Z] [INPUT] INPUT_APPLIED | seq=395, action=LOOK
+[2026-08-19T21:07:37.251Z] [INPUT] INPUT_RECEIVED | seq=396, action=LOOK, phase=delta
+[2026-08-19T21:07:37.252Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50451579517,"type":"input-ack","seq":396}
+[2026-08-19T21:07:37.252Z] [INPUT] INPUT_APPLIED | seq=396, action=LOOK
+[2026-08-19T21:07:37.290Z] [INPUT] INPUT_RECEIVED | seq=397, action=LOOK, phase=delta
+[2026-08-19T21:07:37.292Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50451978455,"type":"input-ack","seq":397}
+[2026-08-19T21:07:37.292Z] [INPUT] INPUT_APPLIED | seq=397, action=LOOK
+[2026-08-19T21:07:37.322Z] [INPUT] INPUT_RECEIVED | seq=398, action=LOOK, phase=delta
+[2026-08-19T21:07:37.324Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50452297156,"type":"input-ack","seq":398}
+[2026-08-19T21:07:37.324Z] [INPUT] INPUT_APPLIED | seq=398, action=LOOK
+[2026-08-19T21:07:37.337Z] [INPUT] INPUT_RECEIVED | seq=399, action=LOOK, phase=delta
+[2026-08-19T21:07:37.338Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50452440235,"type":"input-ack","seq":399}
+[2026-08-19T21:07:37.338Z] [INPUT] INPUT_APPLIED | seq=399, action=LOOK
+[2026-08-19T21:07:37.380Z] [INPUT] INPUT_RECEIVED | seq=400, action=LOOK, phase=delta
+[2026-08-19T21:07:37.381Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50452870778,"type":"input-ack","seq":400}
+[2026-08-19T21:07:37.381Z] [INPUT] INPUT_APPLIED | seq=400, action=LOOK
+[2026-08-19T21:07:37.394Z] [INPUT] INPUT_RECEIVED | seq=401, action=LOOK, phase=delta
+[2026-08-19T21:07:37.396Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50453014840,"type":"input-ack","seq":401}
+[2026-08-19T21:07:37.396Z] [INPUT] INPUT_APPLIED | seq=401, action=LOOK
+[2026-08-19T21:07:37.448Z] [INPUT] INPUT_RECEIVED | seq=402, action=LOOK, phase=delta
+[2026-08-19T21:07:37.449Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50453550034,"type":"input-ack","seq":402}
+[2026-08-19T21:07:37.449Z] [INPUT] INPUT_APPLIED | seq=402, action=LOOK
+[2026-08-19T21:07:37.462Z] [INPUT] INPUT_RECEIVED | seq=403, action=LOOK, phase=delta
+[2026-08-19T21:07:37.464Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50453697638,"type":"input-ack","seq":403}
+[2026-08-19T21:07:37.464Z] [INPUT] INPUT_APPLIED | seq=403, action=LOOK
+[2026-08-19T21:07:37.507Z] [INPUT] INPUT_RECEIVED | seq=404, action=LOOK, phase=delta
+[2026-08-19T21:07:37.508Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50454142774,"type":"input-ack","seq":404}
+[2026-08-19T21:07:37.509Z] [INPUT] INPUT_APPLIED | seq=404, action=LOOK
+[2026-08-19T21:07:37.550Z] [INPUT] INPUT_RECEIVED | seq=405, action=LOOK, phase=delta
+[2026-08-19T21:07:37.551Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50454572706,"type":"input-ack","seq":405}
+[2026-08-19T21:07:37.552Z] [INPUT] INPUT_APPLIED | seq=405, action=LOOK
+[2026-08-19T21:07:37.591Z] [INPUT] INPUT_RECEIVED | seq=406, action=LOOK, phase=delta
+[2026-08-19T21:07:37.592Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50454983517,"type":"input-ack","seq":406}
+[2026-08-19T21:07:37.593Z] [INPUT] INPUT_APPLIED | seq=406, action=LOOK
+[2026-08-19T21:07:37.620Z] [INPUT] INPUT_RECEIVED | seq=407, action=LOOK, phase=delta
+[2026-08-19T21:07:37.621Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50455268650,"type":"input-ack","seq":407}
+[2026-08-19T21:07:37.621Z] [INPUT] INPUT_APPLIED | seq=407, action=LOOK
+[2026-08-19T21:07:37.649Z] [INPUT] INPUT_RECEIVED | seq=408, action=LOOK, phase=delta
+[2026-08-19T21:07:37.651Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50455565066,"type":"input-ack","seq":408}
+[2026-08-19T21:07:37.651Z] [INPUT] INPUT_APPLIED | seq=408, action=LOOK
+[2026-08-19T21:07:37.664Z] [INPUT] INPUT_RECEIVED | seq=409, action=LOOK, phase=delta
+[2026-08-19T21:07:37.665Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50455708212,"type":"input-ack","seq":409}
+[2026-08-19T21:07:37.665Z] [INPUT] INPUT_APPLIED | seq=409, action=LOOK
+[2026-08-19T21:07:37.705Z] [INPUT] INPUT_RECEIVED | seq=410, action=LOOK, phase=delta
+[2026-08-19T21:07:37.706Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50456120033,"type":"input-ack","seq":410}
+[2026-08-19T21:07:37.706Z] [INPUT] INPUT_APPLIED | seq=410, action=LOOK
+[2026-08-19T21:07:37.719Z] [INPUT] INPUT_RECEIVED | seq=411, action=LOOK, phase=delta
+[2026-08-19T21:07:37.721Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50456265493,"type":"input-ack","seq":411}
+[2026-08-19T21:07:37.721Z] [INPUT] INPUT_APPLIED | seq=411, action=LOOK
+[2026-08-19T21:07:37.763Z] [INPUT] INPUT_RECEIVED | seq=412, action=LOOK, phase=delta
+[2026-08-19T21:07:37.764Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50456702425,"type":"input-ack","seq":412}
+[2026-08-19T21:07:37.765Z] [INPUT] INPUT_APPLIED | seq=412, action=LOOK
+[2026-08-19T21:07:37.778Z] [INPUT] INPUT_RECEIVED | seq=413, action=LOOK, phase=delta
+[2026-08-19T21:07:37.779Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50456849683,"type":"input-ack","seq":413}
+[2026-08-19T21:07:37.779Z] [INPUT] INPUT_APPLIED | seq=413, action=LOOK
+[2026-08-19T21:07:37.822Z] [INPUT] INPUT_RECEIVED | seq=414, action=LOOK, phase=delta
+[2026-08-19T21:07:37.823Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50457291419,"type":"input-ack","seq":414}
+[2026-08-19T21:07:37.823Z] [INPUT] INPUT_APPLIED | seq=414, action=LOOK
+[2026-08-19T21:07:37.838Z] [INPUT] INPUT_RECEIVED | seq=415, action=LOOK, phase=delta
+[2026-08-19T21:07:37.840Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50457457242,"type":"input-ack","seq":415}
+[2026-08-19T21:07:37.840Z] [INPUT] INPUT_APPLIED | seq=415, action=LOOK
+[2026-08-19T21:07:37.881Z] [INPUT] INPUT_RECEIVED | seq=416, action=LOOK, phase=delta
+[2026-08-19T21:07:37.882Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50457883719,"type":"input-ack","seq":416}
+[2026-08-19T21:07:37.883Z] [INPUT] INPUT_APPLIED | seq=416, action=LOOK
+[2026-08-19T21:07:38.045Z] [INPUT] INPUT_RECEIVED | seq=417, action=LOOK, phase=delta
+[2026-08-19T21:07:38.046Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50459522015,"type":"input-ack","seq":417}
+[2026-08-19T21:07:38.047Z] [INPUT] INPUT_APPLIED | seq=417, action=LOOK
+[2026-08-19T21:07:38.078Z] [INPUT] INPUT_RECEIVED | seq=418, action=LOOK, phase=delta
+[2026-08-19T21:07:38.079Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50459851095,"type":"input-ack","seq":418}
+[2026-08-19T21:07:38.080Z] [INPUT] INPUT_APPLIED | seq=418, action=LOOK
+[2026-08-19T21:07:38.091Z] [INPUT] INPUT_RECEIVED | seq=419, action=LOOK, phase=delta
+[2026-08-19T21:07:38.092Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50459979834,"type":"input-ack","seq":419}
+[2026-08-19T21:07:38.092Z] [INPUT] INPUT_APPLIED | seq=419, action=LOOK
+[2026-08-19T21:07:38.119Z] [INPUT] INPUT_RECEIVED | seq=420, action=LOOK, phase=delta
+[2026-08-19T21:07:38.120Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50460259667,"type":"input-ack","seq":420}
+[2026-08-19T21:07:38.120Z] [INPUT] INPUT_APPLIED | seq=420, action=LOOK
+[2026-08-19T21:07:38.591Z] [INPUT] INPUT_RECEIVED | seq=421, action=LOOK, phase=delta
+[2026-08-19T21:07:38.592Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50464984292,"type":"input-ack","seq":421}
+[2026-08-19T21:07:38.593Z] [INPUT] INPUT_APPLIED | seq=421, action=LOOK
+[2026-08-19T21:07:38.634Z] [INPUT] INPUT_RECEIVED | seq=422, action=LOOK, phase=delta
+[2026-08-19T21:07:38.636Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50465415675,"type":"input-ack","seq":422}
+[2026-08-19T21:07:38.636Z] [INPUT] INPUT_APPLIED | seq=422, action=LOOK
+[2026-08-19T21:07:38.659Z] [INPUT] INPUT_RECEIVED | seq=423, action=LOOK, phase=delta
+[2026-08-19T21:07:38.660Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50465664342,"type":"input-ack","seq":423}
+[2026-08-19T21:07:38.661Z] [INPUT] INPUT_APPLIED | seq=423, action=LOOK
+[2026-08-19T21:07:38.710Z] [INPUT] INPUT_RECEIVED | seq=424, action=LOOK, phase=delta
+[2026-08-19T21:07:38.712Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50466171181,"type":"input-ack","seq":424}
+[2026-08-19T21:07:38.712Z] [INPUT] INPUT_APPLIED | seq=424, action=LOOK
+[2026-08-19T21:07:38.752Z] [INPUT] INPUT_RECEIVED | seq=425, action=LOOK, phase=delta
+[2026-08-19T21:07:38.754Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50466599062,"type":"input-ack","seq":425}
+[2026-08-19T21:07:38.754Z] [INPUT] INPUT_APPLIED | seq=425, action=LOOK
+[2026-08-19T21:07:38.763Z] [INPUT] INPUT_RECEIVED | seq=426, action=LOOK, phase=delta
+[2026-08-19T21:07:38.765Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50466705302,"type":"input-ack","seq":426}
+[2026-08-19T21:07:38.765Z] [INPUT] INPUT_APPLIED | seq=426, action=LOOK
+[2026-08-19T21:07:38.792Z] [INPUT] INPUT_RECEIVED | seq=427, action=LOOK, phase=delta
+[2026-08-19T21:07:38.793Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50466991319,"type":"input-ack","seq":427}
+[2026-08-19T21:07:38.794Z] [INPUT] INPUT_APPLIED | seq=427, action=LOOK
+[2026-08-19T21:07:38.830Z] [INPUT] INPUT_RECEIVED | seq=428, action=LOOK, phase=delta
+[2026-08-19T21:07:38.832Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50467377460,"type":"input-ack","seq":428}
+[2026-08-19T21:07:38.832Z] [INPUT] INPUT_APPLIED | seq=428, action=LOOK
+[2026-08-19T21:07:38.843Z] [INPUT] INPUT_RECEIVED | seq=429, action=LOOK, phase=delta
+[2026-08-19T21:07:38.845Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50467507306,"type":"input-ack","seq":429}
+[2026-08-19T21:07:38.846Z] [INPUT] INPUT_APPLIED | seq=429, action=LOOK
+[2026-08-19T21:07:38.871Z] [INPUT] INPUT_RECEIVED | seq=430, action=LOOK, phase=delta
+[2026-08-19T21:07:38.873Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50467785352,"type":"input-ack","seq":430}
+[2026-08-19T21:07:38.873Z] [INPUT] INPUT_APPLIED | seq=430, action=LOOK
+[2026-08-19T21:07:38.886Z] [INPUT] INPUT_RECEIVED | seq=431, action=LOOK, phase=delta
+[2026-08-19T21:07:38.887Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50467926771,"type":"input-ack","seq":431}
+[2026-08-19T21:07:38.887Z] [INPUT] INPUT_APPLIED | seq=431, action=LOOK
+[2026-08-19T21:07:38.922Z] [INPUT] INPUT_RECEIVED | seq=432, action=LOOK, phase=delta
+[2026-08-19T21:07:38.923Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50468291328,"type":"input-ack","seq":432}
+[2026-08-19T21:07:38.924Z] [INPUT] INPUT_APPLIED | seq=432, action=LOOK
+[2026-08-19T21:07:38.936Z] [INPUT] INPUT_RECEIVED | seq=433, action=LOOK, phase=delta
+[2026-08-19T21:07:38.937Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50468432103,"type":"input-ack","seq":433}
+[2026-08-19T21:07:38.938Z] [INPUT] INPUT_APPLIED | seq=433, action=LOOK
+[2026-08-19T21:07:38.976Z] [INPUT] INPUT_RECEIVED | seq=434, action=LOOK, phase=delta
+[2026-08-19T21:07:38.977Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50468834366,"type":"input-ack","seq":434}
+[2026-08-19T21:07:38.978Z] [INPUT] INPUT_APPLIED | seq=434, action=LOOK
+[2026-08-19T21:07:38.997Z] [INPUT] INPUT_RECEIVED | seq=435, action=LOOK, phase=delta
+[2026-08-19T21:07:38.999Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50469045872,"type":"input-ack","seq":435}
+[2026-08-19T21:07:38.999Z] [INPUT] INPUT_APPLIED | seq=435, action=LOOK
+[2026-08-19T21:07:39.038Z] [INPUT] INPUT_RECEIVED | seq=436, action=LOOK, phase=delta
+[2026-08-19T21:07:39.039Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50469449146,"type":"input-ack","seq":436}
+[2026-08-19T21:07:39.040Z] [INPUT] INPUT_APPLIED | seq=436, action=LOOK
+[2026-08-19T21:07:39.049Z] [INPUT] INPUT_RECEIVED | seq=437, action=LOOK, phase=delta
+[2026-08-19T21:07:39.050Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50469565003,"type":"input-ack","seq":437}
+[2026-08-19T21:07:39.051Z] [INPUT] INPUT_APPLIED | seq=437, action=LOOK
+[2026-08-19T21:07:39.094Z] [INPUT] INPUT_RECEIVED | seq=438, action=LOOK, phase=delta
+[2026-08-19T21:07:39.095Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50470013766,"type":"input-ack","seq":438}
+[2026-08-19T21:07:39.096Z] [INPUT] INPUT_APPLIED | seq=438, action=LOOK
+[2026-08-19T21:07:39.146Z] [INPUT] INPUT_RECEIVED | seq=439, action=LOOK, phase=delta
+[2026-08-19T21:07:39.147Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50470535197,"type":"input-ack","seq":439}
+[2026-08-19T21:07:39.148Z] [INPUT] INPUT_APPLIED | seq=439, action=LOOK
+[2026-08-19T21:07:39.162Z] [INPUT] INPUT_RECEIVED | seq=440, action=LOOK, phase=delta
+[2026-08-19T21:07:39.164Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50470697890,"type":"input-ack","seq":440}
+[2026-08-19T21:07:39.164Z] [INPUT] INPUT_APPLIED | seq=440, action=LOOK
+[2026-08-19T21:07:39.193Z] [INPUT] INPUT_RECEIVED | seq=441, action=LOOK, phase=delta
+[2026-08-19T21:07:39.195Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50471005749,"type":"input-ack","seq":441}
+[2026-08-19T21:07:39.195Z] [INPUT] INPUT_APPLIED | seq=441, action=LOOK
+[2026-08-19T21:07:39.208Z] [INPUT] INPUT_RECEIVED | seq=442, action=LOOK, phase=delta
+[2026-08-19T21:07:39.209Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50471150629,"type":"input-ack","seq":442}
+[2026-08-19T21:07:39.210Z] [INPUT] INPUT_APPLIED | seq=442, action=LOOK
+[2026-08-19T21:07:39.250Z] [INPUT] INPUT_RECEIVED | seq=443, action=LOOK, phase=delta
+[2026-08-19T21:07:39.252Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50471578294,"type":"input-ack","seq":443}
+[2026-08-19T21:07:39.252Z] [INPUT] INPUT_APPLIED | seq=443, action=LOOK
+[2026-08-19T21:07:39.268Z] [INPUT] INPUT_RECEIVED | seq=444, action=LOOK, phase=delta
+[2026-08-19T21:07:39.276Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50471814384,"type":"input-ack","seq":444}
+[2026-08-19T21:07:39.276Z] [INPUT] INPUT_APPLIED | seq=444, action=LOOK
+[2026-08-19T21:07:39.298Z] [INPUT] INPUT_RECEIVED | seq=445, action=LOOK, phase=delta
+[2026-08-19T21:07:39.299Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50472054574,"type":"input-ack","seq":445}
+[2026-08-19T21:07:39.300Z] [INPUT] INPUT_APPLIED | seq=445, action=LOOK
+[2026-08-19T21:07:39.312Z] [INPUT] INPUT_RECEIVED | seq=446, action=LOOK, phase=delta
+[2026-08-19T21:07:39.313Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50472192900,"type":"input-ack","seq":446}
+[2026-08-19T21:07:39.314Z] [INPUT] INPUT_APPLIED | seq=446, action=LOOK
+[2026-08-19T21:07:39.776Z] [INPUT] INPUT_RECEIVED | seq=447, action=LOOK, phase=delta
+[2026-08-19T21:07:39.778Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50476839934,"type":"input-ack","seq":447}
+[2026-08-19T21:07:39.779Z] [INPUT] INPUT_APPLIED | seq=447, action=LOOK
+[2026-08-19T21:07:39.803Z] [INPUT] INPUT_RECEIVED | seq=448, action=LOOK, phase=delta
+[2026-08-19T21:07:39.804Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50477100069,"type":"input-ack","seq":448}
+[2026-08-19T21:07:39.804Z] [INPUT] INPUT_APPLIED | seq=448, action=LOOK
+[2026-08-19T21:07:39.846Z] [INPUT] INPUT_RECEIVED | seq=449, action=LOOK, phase=delta
+[2026-08-19T21:07:39.848Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50477535285,"type":"input-ack","seq":449}
+[2026-08-19T21:07:39.848Z] [INPUT] INPUT_APPLIED | seq=449, action=LOOK
+[2026-08-19T21:07:39.859Z] [INPUT] INPUT_RECEIVED | seq=450, action=LOOK, phase=delta
+[2026-08-19T21:07:39.861Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50477669569,"type":"input-ack","seq":450}
+[2026-08-19T21:07:39.861Z] [INPUT] INPUT_APPLIED | seq=450, action=LOOK
+[2026-08-19T21:07:39.903Z] [INPUT] INPUT_RECEIVED | seq=451, action=LOOK, phase=delta
+[2026-08-19T21:07:39.904Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50478100456,"type":"input-ack","seq":451}
+[2026-08-19T21:07:39.904Z] [INPUT] INPUT_APPLIED | seq=451, action=LOOK
+[2026-08-19T21:07:39.913Z] [INPUT] INPUT_RECEIVED | seq=452, action=LOOK, phase=delta
+[2026-08-19T21:07:39.915Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50478205142,"type":"input-ack","seq":452}
+[2026-08-19T21:07:39.915Z] [INPUT] INPUT_APPLIED | seq=452, action=LOOK
+[2026-08-19T21:07:39.953Z] [INPUT] INPUT_RECEIVED | seq=453, action=LOOK, phase=delta
+[2026-08-19T21:07:39.955Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50478606784,"type":"input-ack","seq":453}
+[2026-08-19T21:07:39.955Z] [INPUT] INPUT_APPLIED | seq=453, action=LOOK
+[2026-08-19T21:07:39.968Z] [INPUT] INPUT_RECEIVED | seq=454, action=LOOK, phase=delta
+[2026-08-19T21:07:39.969Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50478754440,"type":"input-ack","seq":454}
+[2026-08-19T21:07:39.970Z] [INPUT] INPUT_APPLIED | seq=454, action=LOOK
+[2026-08-19T21:07:40.019Z] [INPUT] INPUT_RECEIVED | seq=455, action=LOOK, phase=delta
+[2026-08-19T21:07:40.020Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50479262984,"type":"input-ack","seq":455}
+[2026-08-19T21:07:40.021Z] [INPUT] INPUT_APPLIED | seq=455, action=LOOK
+[2026-08-19T21:07:40.063Z] [INPUT] INPUT_RECEIVED | seq=456, action=LOOK, phase=delta
+[2026-08-19T21:07:40.064Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50479703299,"type":"input-ack","seq":456}
+[2026-08-19T21:07:40.065Z] [INPUT] INPUT_APPLIED | seq=456, action=LOOK
+[2026-08-19T21:07:40.784Z] [INPUT] INPUT_RECEIVED | seq=457, action=FORWARD, phase=down
+[2026-08-19T21:07:40.785Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50486909962,"type":"input-ack","seq":457}
+[2026-08-19T21:07:40.785Z] [INPUT] INPUT_APPLIED | seq=457, action=FORWARD
+[2026-08-19T21:07:41.458Z] [INPUT] INPUT_RECEIVED | seq=458, action=FORWARD, phase=up
+[2026-08-19T21:07:41.459Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50493652239,"type":"input-ack","seq":458}
+[2026-08-19T21:07:41.460Z] [INPUT] INPUT_APPLIED | seq=458, action=FORWARD
+[2026-08-19T21:07:43.197Z] [INPUT] INPUT_RECEIVED | seq=459, action=ATTACK, phase=down
+[2026-08-19T21:07:43.216Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50511216449,"type":"input-ack","seq":459}
+[2026-08-19T21:07:43.216Z] [INPUT] INPUT_APPLIED | seq=459, action=ATTACK
+[2026-08-19T21:07:43.266Z] [INPUT] INPUT_RECEIVED | seq=460, action=ATTACK, phase=up
+[2026-08-19T21:07:43.268Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50511742383,"type":"input-ack","seq":460}
+[2026-08-19T21:07:43.269Z] [INPUT] INPUT_APPLIED | seq=460, action=ATTACK
+[2026-08-19T21:07:43.897Z] [INPUT] INPUT_RECEIVED | seq=461, action=ATTACK, phase=down
+[2026-08-19T21:07:43.898Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50518044615,"type":"input-ack","seq":461}
+[2026-08-19T21:07:43.899Z] [INPUT] INPUT_APPLIED | seq=461, action=ATTACK
+[2026-08-19T21:07:43.958Z] [INPUT] INPUT_RECEIVED | seq=462, action=ATTACK, phase=up
+[2026-08-19T21:07:43.959Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50518653772,"type":"input-ack","seq":462}
+[2026-08-19T21:07:43.960Z] [INPUT] INPUT_APPLIED | seq=462, action=ATTACK
+[2026-08-19T21:07:44.623Z] [INPUT] INPUT_RECEIVED | seq=463, action=USE, phase=down
+[2026-08-19T21:07:44.624Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50525301943,"type":"input-ack","seq":463}
+[2026-08-19T21:07:44.625Z] [INPUT] INPUT_APPLIED | seq=463, action=USE
+[2026-08-19T21:07:44.685Z] [INPUT] INPUT_RECEIVED | seq=464, action=USE, phase=up
+[2026-08-19T21:07:44.686Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50525919823,"type":"input-ack","seq":464}
+[2026-08-19T21:07:44.686Z] [INPUT] INPUT_APPLIED | seq=464, action=USE
+[2026-08-19T21:07:45.579Z] [INPUT] INPUT_RECEIVED | seq=465, action=LOOK, phase=delta
+[2026-08-19T21:07:45.581Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50534865997,"type":"input-ack","seq":465}
+[2026-08-19T21:07:45.581Z] [INPUT] INPUT_APPLIED | seq=465, action=LOOK
+[2026-08-19T21:07:45.620Z] [INPUT] INPUT_RECEIVED | seq=466, action=LOOK, phase=delta
+[2026-08-19T21:07:45.622Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50535278557,"type":"input-ack","seq":466}
+[2026-08-19T21:07:45.622Z] [INPUT] INPUT_APPLIED | seq=466, action=LOOK
+[2026-08-19T21:07:45.659Z] [INPUT] INPUT_RECEIVED | seq=467, action=LOOK, phase=delta
+[2026-08-19T21:07:45.661Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50535665024,"type":"input-ack","seq":467}
+[2026-08-19T21:07:45.661Z] [INPUT] INPUT_APPLIED | seq=467, action=LOOK
+[2026-08-19T21:07:45.701Z] [INPUT] INPUT_RECEIVED | seq=468, action=LOOK, phase=delta
+[2026-08-19T21:07:45.702Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50536081937,"type":"input-ack","seq":468}
+[2026-08-19T21:07:45.703Z] [INPUT] INPUT_APPLIED | seq=468, action=LOOK
+[2026-08-19T21:07:45.721Z] [INPUT] INPUT_RECEIVED | seq=469, action=LOOK, phase=delta
+[2026-08-19T21:07:45.722Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50536282693,"type":"input-ack","seq":469}
+[2026-08-19T21:07:45.723Z] [INPUT] INPUT_APPLIED | seq=469, action=LOOK
+[2026-08-19T21:07:45.745Z] [INPUT] INPUT_RECEIVED | seq=470, action=LOOK, phase=delta
+[2026-08-19T21:07:45.746Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50536518971,"type":"input-ack","seq":470}
+[2026-08-19T21:07:45.746Z] [INPUT] INPUT_APPLIED | seq=470, action=LOOK
+[2026-08-19T21:07:45.758Z] [INPUT] INPUT_RECEIVED | seq=471, action=LOOK, phase=delta
+[2026-08-19T21:07:45.759Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50536653989,"type":"input-ack","seq":471}
+[2026-08-19T21:07:45.760Z] [INPUT] INPUT_APPLIED | seq=471, action=LOOK
+[2026-08-19T21:07:45.801Z] [INPUT] INPUT_RECEIVED | seq=472, action=LOOK, phase=delta
+[2026-08-19T21:07:45.803Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50537085656,"type":"input-ack","seq":472}
+[2026-08-19T21:07:45.803Z] [INPUT] INPUT_APPLIED | seq=472, action=LOOK
+[2026-08-19T21:07:45.818Z] [INPUT] INPUT_RECEIVED | seq=473, action=LOOK, phase=delta
+[2026-08-19T21:07:45.819Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50537252379,"type":"input-ack","seq":473}
+[2026-08-19T21:07:45.820Z] [INPUT] INPUT_APPLIED | seq=473, action=LOOK
+[2026-08-19T21:07:45.868Z] [INPUT] INPUT_RECEIVED | seq=474, action=LOOK, phase=delta
+[2026-08-19T21:07:45.869Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50537753930,"type":"input-ack","seq":474}
+[2026-08-19T21:07:45.870Z] [INPUT] INPUT_APPLIED | seq=474, action=LOOK
+[2026-08-19T21:07:45.902Z] [INPUT] INPUT_RECEIVED | seq=475, action=LOOK, phase=delta
+[2026-08-19T21:07:45.903Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50538093636,"type":"input-ack","seq":475}
+[2026-08-19T21:07:45.904Z] [INPUT] INPUT_APPLIED | seq=475, action=LOOK
+[2026-08-19T21:07:45.924Z] [INPUT] INPUT_RECEIVED | seq=476, action=LOOK, phase=delta
+[2026-08-19T21:07:45.925Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50538312504,"type":"input-ack","seq":476}
+[2026-08-19T21:07:45.926Z] [INPUT] INPUT_APPLIED | seq=476, action=LOOK
+[2026-08-19T21:07:45.967Z] [INPUT] INPUT_RECEIVED | seq=477, action=LOOK, phase=delta
+[2026-08-19T21:07:45.969Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50538746182,"type":"input-ack","seq":477}
+[2026-08-19T21:07:45.969Z] [INPUT] INPUT_APPLIED | seq=477, action=LOOK
+[2026-08-19T21:07:45.982Z] [INPUT] INPUT_RECEIVED | seq=478, action=LOOK, phase=delta
+[2026-08-19T21:07:45.983Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50538889766,"type":"input-ack","seq":478}
+[2026-08-19T21:07:45.984Z] [INPUT] INPUT_APPLIED | seq=478, action=LOOK
+[2026-08-19T21:07:46.017Z] [INPUT] INPUT_RECEIVED | seq=479, action=LOOK, phase=delta
+[2026-08-19T21:07:46.019Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50539248791,"type":"input-ack","seq":479}
+[2026-08-19T21:07:46.019Z] [INPUT] INPUT_APPLIED | seq=479, action=LOOK
+[2026-08-19T21:07:46.031Z] [INPUT] INPUT_RECEIVED | seq=480, action=LOOK, phase=delta
+[2026-08-19T21:07:46.032Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50539384627,"type":"input-ack","seq":480}
+[2026-08-19T21:07:46.033Z] [INPUT] INPUT_APPLIED | seq=480, action=LOOK
+[2026-08-19T21:07:46.073Z] [INPUT] INPUT_RECEIVED | seq=481, action=LOOK, phase=delta
+[2026-08-19T21:07:46.075Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50539806432,"type":"input-ack","seq":481}
+[2026-08-19T21:07:46.075Z] [INPUT] INPUT_APPLIED | seq=481, action=LOOK
+[2026-08-19T21:07:46.090Z] [INPUT] INPUT_RECEIVED | seq=482, action=LOOK, phase=delta
+[2026-08-19T21:07:46.091Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50539972590,"type":"input-ack","seq":482}
+[2026-08-19T21:07:46.092Z] [INPUT] INPUT_APPLIED | seq=482, action=LOOK
+[2026-08-19T21:07:46.129Z] [INPUT] INPUT_RECEIVED | seq=483, action=LOOK, phase=delta
+[2026-08-19T21:07:46.130Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50540362003,"type":"input-ack","seq":483}
+[2026-08-19T21:07:46.131Z] [INPUT] INPUT_APPLIED | seq=483, action=LOOK
+[2026-08-19T21:07:46.143Z] [INPUT] INPUT_RECEIVED | seq=484, action=LOOK, phase=delta
+[2026-08-19T21:07:46.144Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50540500357,"type":"input-ack","seq":484}
+[2026-08-19T21:07:46.144Z] [INPUT] INPUT_APPLIED | seq=484, action=LOOK
+[2026-08-19T21:07:46.190Z] [INPUT] INPUT_RECEIVED | seq=485, action=LOOK, phase=delta
+[2026-08-19T21:07:46.192Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50540977194,"type":"input-ack","seq":485}
+[2026-08-19T21:07:46.192Z] [INPUT] INPUT_APPLIED | seq=485, action=LOOK
+[2026-08-19T21:07:46.238Z] [INPUT] INPUT_RECEIVED | seq=486, action=LOOK, phase=delta
+[2026-08-19T21:07:46.239Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50541454892,"type":"input-ack","seq":486}
+[2026-08-19T21:07:46.240Z] [INPUT] INPUT_APPLIED | seq=486, action=LOOK
+[2026-08-19T21:07:46.250Z] [INPUT] INPUT_RECEIVED | seq=487, action=LOOK, phase=delta
+[2026-08-19T21:07:46.252Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50541575186,"type":"input-ack","seq":487}
+[2026-08-19T21:07:46.252Z] [INPUT] INPUT_APPLIED | seq=487, action=LOOK
+[2026-08-19T21:07:46.280Z] [INPUT] INPUT_RECEIVED | seq=488, action=LOOK, phase=delta
+[2026-08-19T21:07:46.281Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50541869250,"type":"input-ack","seq":488}
+[2026-08-19T21:07:46.281Z] [INPUT] INPUT_APPLIED | seq=488, action=LOOK
+[2026-08-19T21:07:46.295Z] [INPUT] INPUT_RECEIVED | seq=489, action=LOOK, phase=delta
+[2026-08-19T21:07:46.296Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50542020007,"type":"input-ack","seq":489}
+[2026-08-19T21:07:46.296Z] [INPUT] INPUT_APPLIED | seq=489, action=LOOK
+[2026-08-19T21:07:46.344Z] [INPUT] INPUT_RECEIVED | seq=490, action=LOOK, phase=delta
+[2026-08-19T21:07:46.346Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50542515487,"type":"input-ack","seq":490}
+[2026-08-19T21:07:46.346Z] [INPUT] INPUT_APPLIED | seq=490, action=LOOK
+[2026-08-19T21:07:47.225Z] [INPUT] INPUT_RECEIVED | seq=491, action=LOOK, phase=delta
+[2026-08-19T21:07:47.227Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50551329713,"type":"input-ack","seq":491}
+[2026-08-19T21:07:47.227Z] [INPUT] INPUT_APPLIED | seq=491, action=LOOK
+[2026-08-19T21:07:47.271Z] [INPUT] INPUT_RECEIVED | seq=492, action=LOOK, phase=delta
+[2026-08-19T21:07:47.272Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50551784715,"type":"input-ack","seq":492}
+[2026-08-19T21:07:47.273Z] [INPUT] INPUT_APPLIED | seq=492, action=LOOK
+[2026-08-19T21:07:47.292Z] [INPUT] INPUT_RECEIVED | seq=493, action=LOOK, phase=delta
+[2026-08-19T21:07:47.293Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50551990978,"type":"input-ack","seq":493}
+[2026-08-19T21:07:47.293Z] [INPUT] INPUT_APPLIED | seq=493, action=LOOK
+[2026-08-19T21:07:47.335Z] [INPUT] INPUT_RECEIVED | seq=494, action=LOOK, phase=delta
+[2026-08-19T21:07:47.336Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50552420658,"type":"input-ack","seq":494}
+[2026-08-19T21:07:47.337Z] [INPUT] INPUT_APPLIED | seq=494, action=LOOK
+[2026-08-19T21:07:47.348Z] [INPUT] INPUT_RECEIVED | seq=495, action=LOOK, phase=delta
+[2026-08-19T21:07:47.349Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50552549360,"type":"input-ack","seq":495}
+[2026-08-19T21:07:47.349Z] [INPUT] INPUT_APPLIED | seq=495, action=LOOK
+[2026-08-19T21:07:47.387Z] [INPUT] INPUT_RECEIVED | seq=496, action=LOOK, phase=delta
+[2026-08-19T21:07:47.389Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50552947755,"type":"input-ack","seq":496}
+[2026-08-19T21:07:47.389Z] [INPUT] INPUT_APPLIED | seq=496, action=LOOK
+[2026-08-19T21:07:47.400Z] [INPUT] INPUT_RECEIVED | seq=497, action=LOOK, phase=delta
+[2026-08-19T21:07:47.401Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50553071260,"type":"input-ack","seq":497}
+[2026-08-19T21:07:47.402Z] [INPUT] INPUT_APPLIED | seq=497, action=LOOK
+[2026-08-19T21:07:47.442Z] [INPUT] INPUT_RECEIVED | seq=498, action=LOOK, phase=delta
+[2026-08-19T21:07:47.443Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50553493836,"type":"input-ack","seq":498}
+[2026-08-19T21:07:47.444Z] [INPUT] INPUT_APPLIED | seq=498, action=LOOK
+[2026-08-19T21:07:47.456Z] [INPUT] INPUT_RECEIVED | seq=499, action=LOOK, phase=delta
+[2026-08-19T21:07:47.458Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50553636328,"type":"input-ack","seq":499}
+[2026-08-19T21:07:47.458Z] [INPUT] INPUT_APPLIED | seq=499, action=LOOK
+[2026-08-19T21:07:47.492Z] [INPUT] INPUT_RECEIVED | seq=500, action=LOOK, phase=delta
+[2026-08-19T21:07:47.493Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50553991887,"type":"input-ack","seq":500}
+[2026-08-19T21:07:47.494Z] [INPUT] INPUT_APPLIED | seq=500, action=LOOK
+[2026-08-19T21:07:47.509Z] [INPUT] INPUT_RECEIVED | seq=501, action=LOOK, phase=delta
+[2026-08-19T21:07:47.511Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50554167406,"type":"input-ack","seq":501}
+[2026-08-19T21:07:47.511Z] [INPUT] INPUT_APPLIED | seq=501, action=LOOK
+[2026-08-19T21:07:47.552Z] [INPUT] INPUT_RECEIVED | seq=502, action=LOOK, phase=delta
+[2026-08-19T21:07:47.553Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50554590157,"type":"input-ack","seq":502}
+[2026-08-19T21:07:47.553Z] [INPUT] INPUT_APPLIED | seq=502, action=LOOK
+[2026-08-19T21:07:47.569Z] [INPUT] INPUT_RECEIVED | seq=503, action=LOOK, phase=delta
+[2026-08-19T21:07:47.570Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50554764394,"type":"input-ack","seq":503}
+[2026-08-19T21:07:47.571Z] [INPUT] INPUT_APPLIED | seq=503, action=LOOK
+[2026-08-19T21:07:47.608Z] [INPUT] INPUT_RECEIVED | seq=504, action=LOOK, phase=delta
+[2026-08-19T21:07:47.609Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50555154007,"type":"input-ack","seq":504}
+[2026-08-19T21:07:47.610Z] [INPUT] INPUT_APPLIED | seq=504, action=LOOK
+[2026-08-19T21:07:47.665Z] [INPUT] INPUT_RECEIVED | seq=505, action=LOOK, phase=delta
+[2026-08-19T21:07:47.666Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50555721403,"type":"input-ack","seq":505}
+[2026-08-19T21:07:47.666Z] [INPUT] INPUT_APPLIED | seq=505, action=LOOK
+[2026-08-19T21:07:51.059Z] [INPUT] INPUT_RECEIVED | seq=506, action=LOOK, phase=delta
+[2026-08-19T21:07:51.060Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50589663676,"type":"input-ack","seq":506}
+[2026-08-19T21:07:51.061Z] [INPUT] INPUT_APPLIED | seq=506, action=LOOK
+[2026-08-19T21:07:51.096Z] [INPUT] INPUT_RECEIVED | seq=507, action=LOOK, phase=delta
+[2026-08-19T21:07:51.097Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50590029070,"type":"input-ack","seq":507}
+[2026-08-19T21:07:51.097Z] [INPUT] INPUT_APPLIED | seq=507, action=LOOK
+[2026-08-19T21:07:51.118Z] [INPUT] INPUT_RECEIVED | seq=508, action=LOOK, phase=delta
+[2026-08-19T21:07:51.121Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50590265672,"type":"input-ack","seq":508}
+[2026-08-19T21:07:51.121Z] [INPUT] INPUT_APPLIED | seq=508, action=LOOK
+[2026-08-19T21:07:51.161Z] [INPUT] INPUT_RECEIVED | seq=509, action=LOOK, phase=delta
+[2026-08-19T21:07:51.163Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50590685290,"type":"input-ack","seq":509}
+[2026-08-19T21:07:51.163Z] [INPUT] INPUT_APPLIED | seq=509, action=LOOK
+[2026-08-19T21:07:51.202Z] [INPUT] INPUT_RECEIVED | seq=510, action=LOOK, phase=delta
+[2026-08-19T21:07:51.203Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50591093919,"type":"input-ack","seq":510}
+[2026-08-19T21:07:51.204Z] [INPUT] INPUT_APPLIED | seq=510, action=LOOK
+[2026-08-19T21:07:51.213Z] [INPUT] INPUT_RECEIVED | seq=511, action=LOOK, phase=delta
+[2026-08-19T21:07:51.215Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50591205813,"type":"input-ack","seq":511}
+[2026-08-19T21:07:51.215Z] [INPUT] INPUT_APPLIED | seq=511, action=LOOK
+[2026-08-19T21:07:51.240Z] [INPUT] INPUT_RECEIVED | seq=512, action=LOOK, phase=delta
+[2026-08-19T21:07:51.242Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50591476853,"type":"input-ack","seq":512}
+[2026-08-19T21:07:51.242Z] [INPUT] INPUT_APPLIED | seq=512, action=LOOK
+[2026-08-19T21:07:51.270Z] [INPUT] INPUT_RECEIVED | seq=513, action=LOOK, phase=delta
+[2026-08-19T21:07:51.272Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50591774916,"type":"input-ack","seq":513}
+[2026-08-19T21:07:51.272Z] [INPUT] INPUT_APPLIED | seq=513, action=LOOK
+[2026-08-19T21:07:51.281Z] [INPUT] INPUT_RECEIVED | seq=514, action=LOOK, phase=delta
+[2026-08-19T21:07:51.282Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50591880232,"type":"input-ack","seq":514}
+[2026-08-19T21:07:51.282Z] [INPUT] INPUT_APPLIED | seq=514, action=LOOK
+[2026-08-19T21:07:51.319Z] [INPUT] INPUT_RECEIVED | seq=515, action=LOOK, phase=delta
+[2026-08-19T21:07:51.321Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50592268816,"type":"input-ack","seq":515}
+[2026-08-19T21:07:51.321Z] [INPUT] INPUT_APPLIED | seq=515, action=LOOK
+[2026-08-19T21:07:51.332Z] [INPUT] INPUT_RECEIVED | seq=516, action=LOOK, phase=delta
+[2026-08-19T21:07:51.334Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50592398115,"type":"input-ack","seq":516}
+[2026-08-19T21:07:51.334Z] [INPUT] INPUT_APPLIED | seq=516, action=LOOK
+[2026-08-19T21:07:51.474Z] [INPUT] INPUT_RECEIVED | seq=517, action=LOOK, phase=delta
+[2026-08-19T21:07:51.475Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50593811515,"type":"input-ack","seq":517}
+[2026-08-19T21:07:51.476Z] [INPUT] INPUT_APPLIED | seq=517, action=LOOK
+[2026-08-19T21:07:51.497Z] [INPUT] INPUT_RECEIVED | seq=518, action=LOOK, phase=delta
+[2026-08-19T21:07:51.498Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50594039091,"type":"input-ack","seq":518}
+[2026-08-19T21:07:51.498Z] [INPUT] INPUT_APPLIED | seq=518, action=LOOK
+[2026-08-19T21:07:51.874Z] [INPUT] INPUT_RECEIVED | seq=519, action=LOOK, phase=delta
+[2026-08-19T21:07:51.875Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50597812904,"type":"input-ack","seq":519}
+[2026-08-19T21:07:51.876Z] [INPUT] INPUT_APPLIED | seq=519, action=LOOK
+[2026-08-19T21:07:51.904Z] [INPUT] INPUT_RECEIVED | seq=520, action=LOOK, phase=delta
+[2026-08-19T21:07:51.906Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50598115400,"type":"input-ack","seq":520}
+[2026-08-19T21:07:51.906Z] [INPUT] INPUT_APPLIED | seq=520, action=LOOK
+[2026-08-19T21:07:51.921Z] [INPUT] INPUT_RECEIVED | seq=521, action=LOOK, phase=delta
+[2026-08-19T21:07:51.922Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50598279522,"type":"input-ack","seq":521}
+[2026-08-19T21:07:51.922Z] [INPUT] INPUT_APPLIED | seq=521, action=LOOK
+[2026-08-19T21:07:51.976Z] [INPUT] INPUT_RECEIVED | seq=522, action=LOOK, phase=delta
+[2026-08-19T21:07:51.977Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50598831163,"type":"input-ack","seq":522}
+[2026-08-19T21:07:51.978Z] [INPUT] INPUT_APPLIED | seq=522, action=LOOK
+[2026-08-19T21:07:51.988Z] [INPUT] INPUT_RECEIVED | seq=523, action=LOOK, phase=delta
+[2026-08-19T21:07:51.989Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50598950009,"type":"input-ack","seq":523}
+[2026-08-19T21:07:51.990Z] [INPUT] INPUT_APPLIED | seq=523, action=LOOK
+[2026-08-19T21:07:52.034Z] [INPUT] INPUT_RECEIVED | seq=524, action=LOOK, phase=delta
+[2026-08-19T21:07:52.036Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50599418206,"type":"input-ack","seq":524}
+[2026-08-19T21:07:52.036Z] [INPUT] INPUT_APPLIED | seq=524, action=LOOK
+[2026-08-19T21:07:52.045Z] [INPUT] INPUT_RECEIVED | seq=525, action=LOOK, phase=delta
+[2026-08-19T21:07:52.047Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50599527382,"type":"input-ack","seq":525}
+[2026-08-19T21:07:52.047Z] [INPUT] INPUT_APPLIED | seq=525, action=LOOK
+[2026-08-19T21:07:52.087Z] [INPUT] INPUT_RECEIVED | seq=526, action=LOOK, phase=delta
+[2026-08-19T21:07:52.088Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50599944124,"type":"input-ack","seq":526}
+[2026-08-19T21:07:52.089Z] [INPUT] INPUT_APPLIED | seq=526, action=LOOK
+[2026-08-19T21:07:52.101Z] [INPUT] INPUT_RECEIVED | seq=527, action=LOOK, phase=delta
+[2026-08-19T21:07:52.102Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50600084547,"type":"input-ack","seq":527}
+[2026-08-19T21:07:52.103Z] [INPUT] INPUT_APPLIED | seq=527, action=LOOK
+[2026-08-19T21:07:52.144Z] [INPUT] INPUT_RECEIVED | seq=528, action=LOOK, phase=delta
+[2026-08-19T21:07:52.146Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50600515704,"type":"input-ack","seq":528}
+[2026-08-19T21:07:52.146Z] [INPUT] INPUT_APPLIED | seq=528, action=LOOK
+[2026-08-19T21:07:52.158Z] [INPUT] INPUT_RECEIVED | seq=529, action=LOOK, phase=delta
+[2026-08-19T21:07:52.160Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50600658786,"type":"input-ack","seq":529}
+[2026-08-19T21:07:52.160Z] [INPUT] INPUT_APPLIED | seq=529, action=LOOK
+[2026-08-19T21:07:52.201Z] [INPUT] INPUT_RECEIVED | seq=530, action=LOOK, phase=delta
+[2026-08-19T21:07:52.203Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50601086545,"type":"input-ack","seq":530}
+[2026-08-19T21:07:52.203Z] [INPUT] INPUT_APPLIED | seq=530, action=LOOK
+[2026-08-19T21:07:52.214Z] [INPUT] INPUT_RECEIVED | seq=531, action=LOOK, phase=delta
+[2026-08-19T21:07:52.215Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50601215212,"type":"input-ack","seq":531}
+[2026-08-19T21:07:52.216Z] [INPUT] INPUT_APPLIED | seq=531, action=LOOK
+[2026-08-19T21:07:52.258Z] [INPUT] INPUT_RECEIVED | seq=532, action=LOOK, phase=delta
+[2026-08-19T21:07:52.260Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50601656785,"type":"input-ack","seq":532}
+[2026-08-19T21:07:52.260Z] [INPUT] INPUT_APPLIED | seq=532, action=LOOK
+[2026-08-19T21:07:52.317Z] [INPUT] INPUT_RECEIVED | seq=533, action=LOOK, phase=delta
+[2026-08-19T21:07:52.318Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50602240974,"type":"input-ack","seq":533}
+[2026-08-19T21:07:52.318Z] [INPUT] INPUT_APPLIED | seq=533, action=LOOK
+[2026-08-19T21:07:52.326Z] [INPUT] INPUT_RECEIVED | seq=534, action=LOOK, phase=delta
+[2026-08-19T21:07:52.327Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50602332811,"type":"input-ack","seq":534}
+[2026-08-19T21:07:52.328Z] [INPUT] INPUT_APPLIED | seq=534, action=LOOK
+[2026-08-19T21:07:52.352Z] [INPUT] INPUT_RECEIVED | seq=535, action=LOOK, phase=delta
+[2026-08-19T21:07:52.354Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50602596022,"type":"input-ack","seq":535}
+[2026-08-19T21:07:52.354Z] [INPUT] INPUT_APPLIED | seq=535, action=LOOK
+[2026-08-19T21:07:52.998Z] [INPUT] INPUT_RECEIVED | seq=536, action=BACK, phase=down
+[2026-08-19T21:07:52.999Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50609047837,"type":"input-ack","seq":536}
+[2026-08-19T21:07:52.999Z] [INPUT] INPUT_APPLIED | seq=536, action=BACK
+[2026-08-19T21:07:53.643Z] [INPUT] INPUT_RECEIVED | seq=537, action=BACK, phase=up
+[2026-08-19T21:07:53.644Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50615501665,"type":"input-ack","seq":537}
+[2026-08-19T21:07:53.645Z] [INPUT] INPUT_APPLIED | seq=537, action=BACK
+[2026-08-19T21:07:54.092Z] [INPUT] INPUT_RECEIVED | seq=538, action=LOOK, phase=delta
+[2026-08-19T21:07:54.093Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50619994088,"type":"input-ack","seq":538}
+[2026-08-19T21:07:54.094Z] [INPUT] INPUT_APPLIED | seq=538, action=LOOK
+[2026-08-19T21:07:54.135Z] [INPUT] INPUT_RECEIVED | seq=539, action=LOOK, phase=delta
+[2026-08-19T21:07:54.137Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50620427798,"type":"input-ack","seq":539}
+[2026-08-19T21:07:54.137Z] [INPUT] INPUT_APPLIED | seq=539, action=LOOK
+[2026-08-19T21:07:54.178Z] [INPUT] INPUT_RECEIVED | seq=540, action=LOOK, phase=delta
+[2026-08-19T21:07:54.179Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50620852320,"type":"input-ack","seq":540}
+[2026-08-19T21:07:54.180Z] [INPUT] INPUT_APPLIED | seq=540, action=LOOK
+[2026-08-19T21:07:54.191Z] [INPUT] INPUT_RECEIVED | seq=541, action=LOOK, phase=delta
+[2026-08-19T21:07:54.192Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50620978816,"type":"input-ack","seq":541}
+[2026-08-19T21:07:54.192Z] [INPUT] INPUT_APPLIED | seq=541, action=LOOK
+[2026-08-19T21:07:54.233Z] [INPUT] INPUT_RECEIVED | seq=542, action=LOOK, phase=delta
+[2026-08-19T21:07:54.235Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50621405496,"type":"input-ack","seq":542}
+[2026-08-19T21:07:54.235Z] [INPUT] INPUT_APPLIED | seq=542, action=LOOK
+[2026-08-19T21:07:54.247Z] [INPUT] INPUT_RECEIVED | seq=543, action=LOOK, phase=delta
+[2026-08-19T21:07:54.248Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50621540167,"type":"input-ack","seq":543}
+[2026-08-19T21:07:54.248Z] [INPUT] INPUT_APPLIED | seq=543, action=LOOK
+[2026-08-19T21:07:54.290Z] [INPUT] INPUT_RECEIVED | seq=544, action=LOOK, phase=delta
+[2026-08-19T21:07:54.291Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50621970498,"type":"input-ack","seq":544}
+[2026-08-19T21:07:54.292Z] [INPUT] INPUT_APPLIED | seq=544, action=LOOK
+[2026-08-19T21:07:54.303Z] [INPUT] INPUT_RECEIVED | seq=545, action=LOOK, phase=delta
+[2026-08-19T21:07:54.304Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50622099214,"type":"input-ack","seq":545}
+[2026-08-19T21:07:54.304Z] [INPUT] INPUT_APPLIED | seq=545, action=LOOK
+[2026-08-19T21:07:54.341Z] [INPUT] INPUT_RECEIVED | seq=546, action=LOOK, phase=delta
+[2026-08-19T21:07:54.343Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50622487807,"type":"input-ack","seq":546}
+[2026-08-19T21:07:54.343Z] [INPUT] INPUT_APPLIED | seq=546, action=LOOK
+[2026-08-19T21:07:54.441Z] [INPUT] INPUT_RECEIVED | seq=547, action=LOOK, phase=delta
+[2026-08-19T21:07:54.442Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50623481937,"type":"input-ack","seq":547}
+[2026-08-19T21:07:54.443Z] [INPUT] INPUT_APPLIED | seq=547, action=LOOK
+[2026-08-19T21:07:55.479Z] [INPUT] INPUT_RECEIVED | seq=548, action=LOOK, phase=delta
+[2026-08-19T21:07:55.481Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50633867602,"type":"input-ack","seq":548}
+[2026-08-19T21:07:55.481Z] [INPUT] INPUT_APPLIED | seq=548, action=LOOK
+[2026-08-19T21:07:55.513Z] [INPUT] INPUT_RECEIVED | seq=549, action=LOOK, phase=delta
+[2026-08-19T21:07:55.514Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50634201043,"type":"input-ack","seq":549}
+[2026-08-19T21:07:55.514Z] [INPUT] INPUT_APPLIED | seq=549, action=LOOK
+[2026-08-19T21:07:55.534Z] [INPUT] INPUT_RECEIVED | seq=550, action=LOOK, phase=delta
+[2026-08-19T21:07:55.536Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50634418368,"type":"input-ack","seq":550}
+[2026-08-19T21:07:55.536Z] [INPUT] INPUT_APPLIED | seq=550, action=LOOK
+[2026-08-19T21:07:55.576Z] [INPUT] INPUT_RECEIVED | seq=551, action=LOOK, phase=delta
+[2026-08-19T21:07:55.578Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50634841201,"type":"input-ack","seq":551}
+[2026-08-19T21:07:55.579Z] [INPUT] INPUT_APPLIED | seq=551, action=LOOK
+[2026-08-19T21:07:55.615Z] [INPUT] INPUT_RECEIVED | seq=552, action=LOOK, phase=delta
+[2026-08-19T21:07:55.616Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50635223188,"type":"input-ack","seq":552}
+[2026-08-19T21:07:55.617Z] [INPUT] INPUT_APPLIED | seq=552, action=LOOK
+[2026-08-19T21:07:55.628Z] [INPUT] INPUT_RECEIVED | seq=553, action=LOOK, phase=delta
+[2026-08-19T21:07:55.629Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50635353486,"type":"input-ack","seq":553}
+[2026-08-19T21:07:55.630Z] [INPUT] INPUT_APPLIED | seq=553, action=LOOK
+[2026-08-19T21:07:55.656Z] [INPUT] INPUT_RECEIVED | seq=554, action=LOOK, phase=delta
+[2026-08-19T21:07:55.658Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50635635988,"type":"input-ack","seq":554}
+[2026-08-19T21:07:55.658Z] [INPUT] INPUT_APPLIED | seq=554, action=LOOK
+[2026-08-19T21:07:55.670Z] [INPUT] INPUT_RECEIVED | seq=555, action=LOOK, phase=delta
+[2026-08-19T21:07:55.671Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50635773873,"type":"input-ack","seq":555}
+[2026-08-19T21:07:55.672Z] [INPUT] INPUT_APPLIED | seq=555, action=LOOK
+[2026-08-19T21:07:55.708Z] [INPUT] INPUT_RECEIVED | seq=556, action=LOOK, phase=delta
+[2026-08-19T21:07:55.709Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50636152847,"type":"input-ack","seq":556}
+[2026-08-19T21:07:55.710Z] [INPUT] INPUT_APPLIED | seq=556, action=LOOK
+[2026-08-19T21:07:55.751Z] [INPUT] INPUT_RECEIVED | seq=557, action=LOOK, phase=delta
+[2026-08-19T21:07:55.752Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50636581789,"type":"input-ack","seq":557}
+[2026-08-19T21:07:55.753Z] [INPUT] INPUT_APPLIED | seq=557, action=LOOK
+[2026-08-19T21:07:56.058Z] [INPUT] INPUT_RECEIVED | seq=558, action=LOOK, phase=delta
+[2026-08-19T21:07:56.060Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50639658761,"type":"input-ack","seq":558}
+[2026-08-19T21:07:56.060Z] [INPUT] INPUT_APPLIED | seq=558, action=LOOK
+[2026-08-19T21:07:56.143Z] [INPUT] INPUT_RECEIVED | seq=559, action=LOOK, phase=delta
+[2026-08-19T21:07:56.143Z] [INPUT] INPUT_RECEIVED | seq=560, action=LOOK, phase=delta
+[2026-08-19T21:07:56.144Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50640501595,"type":"input-ack","seq":559}
+[2026-08-19T21:07:56.145Z] [INPUT] INPUT_APPLIED | seq=559, action=LOOK
+[2026-08-19T21:07:56.146Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50640506356,"type":"input-ack","seq":560}
+[2026-08-19T21:07:56.146Z] [INPUT] INPUT_APPLIED | seq=560, action=LOOK
+[2026-08-19T21:07:56.167Z] [INPUT] INPUT_RECEIVED | seq=561, action=LOOK, phase=delta
+[2026-08-19T21:07:56.169Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50640748167,"type":"input-ack","seq":561}
+[2026-08-19T21:07:56.169Z] [INPUT] INPUT_APPLIED | seq=561, action=LOOK
+[2026-08-19T21:07:56.181Z] [INPUT] INPUT_RECEIVED | seq=562, action=LOOK, phase=delta
+[2026-08-19T21:07:56.182Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50640884263,"type":"input-ack","seq":562}
+[2026-08-19T21:07:56.183Z] [INPUT] INPUT_APPLIED | seq=562, action=LOOK
+[2026-08-19T21:07:56.235Z] [INPUT] INPUT_RECEIVED | seq=563, action=LOOK, phase=delta
+[2026-08-19T21:07:56.236Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50641422411,"type":"input-ack","seq":563}
+[2026-08-19T21:07:56.237Z] [INPUT] INPUT_APPLIED | seq=563, action=LOOK
+[2026-08-19T21:07:56.248Z] [INPUT] INPUT_RECEIVED | seq=564, action=LOOK, phase=delta
+[2026-08-19T21:07:56.249Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50641554464,"type":"input-ack","seq":564}
+[2026-08-19T21:07:56.250Z] [INPUT] INPUT_APPLIED | seq=564, action=LOOK
+[2026-08-19T21:07:56.290Z] [INPUT] INPUT_RECEIVED | seq=565, action=LOOK, phase=delta
+[2026-08-19T21:07:56.292Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":50641975844,"type":"input-ack","seq":565}
+[2026-08-19T21:07:56.292Z] [INPUT] INPUT_APPLIED | seq=565, action=LOOK
+[2026-08-19T21:10:31.516Z] [INPUT] INPUT_RECEIVED | seq=566, action=FORWARD, phase=down
+[2026-08-19T21:10:31.542Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52194473152,"type":"input-ack","seq":566}
+[2026-08-19T21:10:31.542Z] [INPUT] INPUT_APPLIED | seq=566, action=FORWARD
+[2026-08-19T21:10:31.582Z] [INPUT] INPUT_RECEIVED | seq=567, action=FORWARD, phase=up
+[2026-08-19T21:10:31.583Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52194891216,"type":"input-ack","seq":567}
+[2026-08-19T21:10:31.584Z] [INPUT] INPUT_APPLIED | seq=567, action=FORWARD
+[2026-08-19T21:10:34.709Z] [INPUT] INPUT_RECEIVED | seq=568, action=LOOK, phase=delta
+[2026-08-19T21:10:34.710Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52226160104,"type":"input-ack","seq":568}
+[2026-08-19T21:10:34.711Z] [INPUT] INPUT_APPLIED | seq=568, action=LOOK
+[2026-08-19T21:10:34.749Z] [INPUT] INPUT_RECEIVED | seq=569, action=LOOK, phase=delta
+[2026-08-19T21:10:34.751Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52226563143,"type":"input-ack","seq":569}
+[2026-08-19T21:10:34.751Z] [INPUT] INPUT_APPLIED | seq=569, action=LOOK
+[2026-08-19T21:10:34.771Z] [INPUT] INPUT_RECEIVED | seq=570, action=LOOK, phase=delta
+[2026-08-19T21:10:34.773Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52226783169,"type":"input-ack","seq":570}
+[2026-08-19T21:10:34.773Z] [INPUT] INPUT_APPLIED | seq=570, action=LOOK
+[2026-08-19T21:10:34.816Z] [INPUT] INPUT_RECEIVED | seq=571, action=LOOK, phase=delta
+[2026-08-19T21:10:34.817Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52227228756,"type":"input-ack","seq":571}
+[2026-08-19T21:10:34.817Z] [INPUT] INPUT_APPLIED | seq=571, action=LOOK
+[2026-08-19T21:10:34.856Z] [INPUT] INPUT_RECEIVED | seq=572, action=LOOK, phase=delta
+[2026-08-19T21:10:34.858Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52227635326,"type":"input-ack","seq":572}
+[2026-08-19T21:10:34.858Z] [INPUT] INPUT_APPLIED | seq=572, action=LOOK
+[2026-08-19T21:10:34.879Z] [INPUT] INPUT_RECEIVED | seq=573, action=LOOK, phase=delta
+[2026-08-19T21:10:34.881Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52227865805,"type":"input-ack","seq":573}
+[2026-08-19T21:10:34.881Z] [INPUT] INPUT_APPLIED | seq=573, action=LOOK
+[2026-08-19T21:10:34.889Z] [INPUT] INPUT_RECEIVED | seq=574, action=LOOK, phase=delta
+[2026-08-19T21:10:34.891Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52227963963,"type":"input-ack","seq":574}
+[2026-08-19T21:10:34.891Z] [INPUT] INPUT_APPLIED | seq=574, action=LOOK
+[2026-08-19T21:10:34.919Z] [INPUT] INPUT_RECEIVED | seq=575, action=LOOK, phase=delta
+[2026-08-19T21:10:34.920Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52228258233,"type":"input-ack","seq":575}
+[2026-08-19T21:10:34.921Z] [INPUT] INPUT_APPLIED | seq=575, action=LOOK
+[2026-08-19T21:10:34.931Z] [INPUT] INPUT_RECEIVED | seq=576, action=LOOK, phase=delta
+[2026-08-19T21:10:34.932Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52228378544,"type":"input-ack","seq":576}
+[2026-08-19T21:10:34.932Z] [INPUT] INPUT_APPLIED | seq=576, action=LOOK
+[2026-08-19T21:10:34.982Z] [INPUT] INPUT_RECEIVED | seq=577, action=LOOK, phase=delta
+[2026-08-19T21:10:34.983Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52228890369,"type":"input-ack","seq":577}
+[2026-08-19T21:10:34.984Z] [INPUT] INPUT_APPLIED | seq=577, action=LOOK
+[2026-08-19T21:10:34.994Z] [INPUT] INPUT_RECEIVED | seq=578, action=LOOK, phase=delta
+[2026-08-19T21:10:34.995Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52229010838,"type":"input-ack","seq":578}
+[2026-08-19T21:10:34.996Z] [INPUT] INPUT_APPLIED | seq=578, action=LOOK
+[2026-08-19T21:10:35.037Z] [INPUT] INPUT_RECEIVED | seq=579, action=LOOK, phase=delta
+[2026-08-19T21:10:35.038Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52229441604,"type":"input-ack","seq":579}
+[2026-08-19T21:10:35.039Z] [INPUT] INPUT_APPLIED | seq=579, action=LOOK
+[2026-08-19T21:10:39.386Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-19T21:10:39.387Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":52272923696,"type":"input-ack","seq":4294967294}
+[2026-08-19T21:14:32.212Z] [INFO] REMOTE_SESSION_STOPPING | SIGINT
+[2026-08-19T21:14:32.214Z] [BRIDGE] input-ack | {"ok":true,"appliedTicks":54601195960,"type":"input-ack","seq":4294967295}

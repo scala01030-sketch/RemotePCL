@@ -1,0 +1,71 @@
+{
+  "name": "mc-stream-phase1",
+  "version": "0.1.0",
+  "author": "RemotePCL",
+  "private": true,
+  "description": "Target-safe local Minecraft window capture -> NVENC H.264 -> local hardware decode preview prototype",
+  "type": "commonjs",
+  "main": "ui/main.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "ui": "electron .",
+    "mobile:preview": "node scripts/mobile-preview-server.js",
+    "remote:session": "node scripts/remote-session-server.js",
+    "build:input-agent": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-input-agent.ps1",
+    "build": "npm run build:input-agent && electron-builder --win portable",
+    "doctor": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/doctor.ps1",
+    "smoke:preview": "node scripts/live-preview-smoke.js",
+    "test": "node --test test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "local.remotepcl.phase1",
+    "productName": "RemotePCL",
+    "artifactName": "RemotePCL-Phase1-${version}-portable.${ext}",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "scripts/**/*",
+      "ui/**/*",
+      "mobile/**/*",
+      "package.json",
+      "LICENSE"
+    ],
+    "asarUnpack": [
+      "scripts/**/*"
+    ],
+    "extraResources": [
+      {
+        "from": "vendor/ffmpeg-gfxcapture-runtime",
+        "to": "ffmpeg",
+        "filter": [
+          "ffmpeg.exe",
+          "LICENSE.ffmpeg.txt",
+          "README.ffmpeg.txt"
+        ]
+      },
+      {
+        "from": "build/input-agent-package",
+        "to": "input-agent",
+        "filter": [
+          "remote-input-agent.jar"
+        ]
+      }
+    ],
+    "win": {
+      "target": "portable"
+    }
+  },
+  "dependencies": {
+    "ws": "^8.21.3"
+  }
+}

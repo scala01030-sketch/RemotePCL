@@ -1,0 +1,7 @@
+[2026-08-20T02:38:26.867Z] [BRIDGE] agent-loader | {"type":"agent-loader","level":"info","detail":"REMOTE_INPUT_AGENT_ATTACHED pid=9492"}
+[2026-08-20T02:38:26.876Z] [BRIDGE] ready | {"type":"ready","ok":true,"pid":9492,"hwnd":"3539592","adapter":"minecraft-agent-v1 pid=9492"}
+[2026-08-20T02:38:26.889Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967293,"appliedTicks":"24894794670100","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen","guiWidth":427,"guiHeight":240}
+[2026-08-20T02:38:26.908Z] [INFO] REMOTE_SESSION_STARTED | PID=9492, HWND=0x360288, 854x480
+[2026-08-20T02:38:26.909Z] [MEDIA] VIDEO_CONFIGURATION | codec=H264, format=ANNEX_B, capture=854x480, encode=854x480, bitrate=12M, fps=60, jpegFallback=854x480
+[2026-08-20T02:38:42.497Z] [INFO] REMOTE_SESSION_STOPPING | SIGINT
+[2026-08-20T02:38:42.505Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967295,"appliedTicks":"24910411206900","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen","guiWidth":427,"guiHeight":240}

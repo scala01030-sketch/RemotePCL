@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>RemotePCL Mobile</title>
+  <link rel="stylesheet" href="styles.css?v=20260820-7">
+</head>
+<body>
+  <main class="mobile-shell">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">REMOTE MINECRAFT</p>
+        <h1>RemotePCL</h1>
+      </div>
+      <button id="statusButton" class="status-pill" type="button" aria-label="查看连接状态">
+        <span class="status-dot"></span><span>未连接</span>
+      </button>
+    </header>
+
+    <section id="streamView" class="view active" data-view="stream" aria-labelledby="streamTab">
+      <div class="welcome-row">
+        <div><h2>开始串流</h2><p>连接电脑后，Minecraft 画面会显示在这里。</p></div>
+        <span class="step-mark">01</span>
+      </div>
+
+      <section class="preview-card" aria-label="Minecraft 串流画面">
+        <div class="preview-stage">
+          <div class="preview-grid" aria-hidden="true"></div>
+          <img id="remoteVideo" class="remote-video" alt="Minecraft 实时画面">
+          <canvas id="videoCanvas" class="video-canvas" aria-label="Minecraft 实时画面"></canvas>
+          <div id="hudTelemetry" class="hud-telemetry" aria-live="polite">
+            <span><strong id="hudDisplayFps">—</strong> FPS</span>
+            <small hidden>源 <b id="hudSourceFps">—</b></small>
+            <small id="hudInputState" class="waiting" hidden>输入等待</small>
+          </div>
+          <div id="gameLookLayer" class="game-look-layer" aria-label="在画面上滑动控制视角"></div>
+          <div class="game-controls-overlay" aria-label="画面触控按键">
+            <div class="bedrock-crosshair" aria-hidden="true"></div>
+            <div class="bedrock-topbar" aria-label="游戏菜单">
+              <button id="settingsButton" type="button" aria-label="游戏菜单"><span class="hud-icon menu" aria-hidden="true"></span><small>菜单</small></button>
+            </div>
+            <div id="moveJoystick" class="bedrock-joystick" role="application" aria-label="全方向移动摇杆">
+              <div class="joystick-ring"><div id="joystickKnob" class="joystick-knob"></div></div>
+            </div>
+            <div class="bedrock-actions" aria-label="动作按键">
+              <button class="jump" type="button" data-control="JUMP" data-mode="hold" aria-label="跳跃"><span class="action-icon jump-icon" aria-hidden="true"></span><small>跳跃</small></button>
+              <button class="use" type="button" data-control="USE" data-mode="hold" aria-label="按住使用或连续放置物品"><span class="action-icon use-icon" aria-hidden="true"></span><small>使用</small></button>
+              <button class="pick-block" type="button" data-control="PICK_BLOCK" data-mode="tap" aria-label="选取准星指向的方块或物品"><span class="action-icon pick-icon" aria-hidden="true"></span><small>选取</small></button>
+              <button class="sprint" type="button" data-control="SPRINT" data-mode="toggle" aria-label="切换疾跑"><span class="action-icon sprint-icon" aria-hidden="true"></span><small>疾跑</small></button>
+              <button class="sneak" type="button" data-control="SNEAK" data-mode="toggle" aria-label="切换潜行"><span class="action-icon sneak-icon" aria-hidden="true"></span><small>潜行</small></button>
+            </div>
+            <button id="guiDoneButton" class="gui-done" type="button" aria-label="完成菜单操作并返回游戏控制">×<small>完成</small></button>
+            <section id="gameSettingsPanel" class="game-settings-panel" aria-label="触控设置" hidden>
+              <div><strong>触控设置</strong><button id="closeSettingsButton" type="button" aria-label="关闭设置">×</button></div>
+              <label for="sensitivityRange"><span>视角灵敏度</span><output id="sensitivityValue">100%</output></label>
+              <input id="sensitivityRange" type="range" min="25" max="300" step="5" value="100">
+              <div class="menu-actions">
+                <button type="button" data-control="INVENTORY" data-mode="tap" data-enter-gui="true">背包</button>
+                <button type="button" data-control="CHAT" data-mode="tap" data-enter-gui="true">聊天</button>
+                <button type="button" data-control="PERSPECTIVE" data-mode="tap">切换视角</button>
+                <button type="button" data-control="ESC" data-mode="tap" data-enter-gui="true">暂停 / 返回</button>
+              </div>
+              <small>滑动转向；轻点攻击；长按持续挖掘；按住右侧使用键可持续使用或放置；选取键对应中键选取。</small>
+            </section>
+            <form id="chatComposer" class="chat-composer" hidden>
+              <label for="chatInput">聊天或命令</label>
+              <div><input id="chatInput" type="text" maxlength="256" autocomplete="off" enterkeyhint="send" placeholder="输入消息…"><button type="submit">发送</button><button id="cancelChatButton" type="button">取消</button></div>
+            </form>
+          </div>
+          <div class="preview-empty">
+            <span class="screen-glyph" aria-hidden="true"></span>
+            <strong>等待电脑画面</strong>
+            <small>输入电脑端显示的 6 位配对码<br>连接后会显示实时画面</small>
+          </div>
+          <button id="fullscreenButton" class="corner-button" type="button" aria-label="进入沉浸模式">沉浸</button>
+        </div>
+        <div class="stream-stats" aria-label="串流状态">
+          <span><b>画质</b><strong>—</strong></span>
+          <span><b>显示 / 源帧率</b><strong>—</strong></span>
+          <span><b>延迟</b><strong>—</strong></span>
+        </div>
+      </section>
+
+      <section class="device-card" aria-labelledby="deviceHeading">
+        <div class="card-heading">
+          <span class="device-icon" aria-hidden="true"></span>
+          <div><h3 id="deviceHeading">连接你的电脑</h3><p>电脑端 RemotePCL 需要保持运行。</p></div>
+        </div>
+        <button id="connectButton" class="primary-button" type="button">查找可连接的电脑</button>
+        <button id="requirementsButton" class="plain-button" type="button">连接前需要准备什么？</button>
+      </section>
+
+      <section class="quick-guide" aria-label="使用步骤">
+        <h3>只需三步</h3>
+        <ol>
+          <li><span>1</span><div><strong>打开电脑端</strong><small>启动 RemotePCL 并选择 Minecraft</small></div></li>
+          <li><span>2</span><div><strong>连接同一网络</strong><small>手机与电脑处于同一局域网</small></div></li>
+          <li><span>3</span><div><strong>输入配对码</strong><small>验证成功后启用视频与触控</small></div></li>
+        </ol>
+      </section>
+    </section>
+
+    <section id="controlView" class="view" data-view="control" aria-labelledby="controlTab" hidden>
+      <div class="welcome-row">
+        <div><h2>触控操作</h2><p>连接成功后，可在手机上操作 Minecraft。</p></div>
+        <span class="step-mark">02</span>
+      </div>
+      <div class="notice-card"><strong>当前默认基岩版触控 → Java 默认键位</strong><p>游戏操作集中在串流画面：左侧全方向摇杆，右侧跳跃、疾跑和潜行，画面滑动控制视角。</p></div>
+      <section class="controller control-help" aria-label="触控说明">
+        <h3>触控手势</h3>
+        <p>滑动画面转向；轻点攻击；长按持续挖掘；按住右侧使用键持续使用或放置；点击选取键选取准星指向的方块。背包、暂停菜单直接点按画面。</p>
+      </section>
+    </section>
+
+    <section id="logView" class="view" data-view="log" aria-labelledby="logTab" hidden>
+      <div class="welcome-row log-title-row">
+        <div><h2>运行日志</h2><p>每次点击和界面状态变化都会记录时间。</p></div>
+        <button id="clearLogButton" class="plain-button compact" type="button">清空显示</button>
+      </div>
+      <div class="log-summary"><span>本次会话</span><strong id="eventCount">0 个事件</strong></div>
+      <div id="logOutput" class="log-output" role="log" aria-live="polite"></div>
+    </section>
+
+    <nav class="bottom-nav" aria-label="主要功能">
+      <button id="streamTab" class="nav-item active" type="button" data-tab="stream" aria-current="page"><span class="nav-icon screen"></span><b>串流</b></button>
+      <button id="controlTab" class="nav-item" type="button" data-tab="control"><span class="nav-icon controls"></span><b>控制</b></button>
+      <button id="logTab" class="nav-item" type="button" data-tab="log"><span class="nav-icon logs"></span><b>日志</b></button>
+    </nav>
+  </main>
+
+  <div id="sheetBackdrop" class="sheet-backdrop" hidden></div>
+  <section id="infoSheet" class="info-sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" hidden>
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div class="sheet-heading"><div><p class="eyebrow">CONNECTION</p><h2 id="sheetTitle">连接说明</h2></div><button id="closeSheetButton" type="button" aria-label="关闭">×</button></div>
+    <div id="sheetContent" class="sheet-content"></div>
+    <button id="sheetConfirmButton" class="primary-button" type="button">我知道了</button>
+  </section>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js?v=20260820-7"></script>
+</body>
+</html>

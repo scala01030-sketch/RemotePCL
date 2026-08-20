@@ -1,0 +1,20 @@
+[2026-08-20T00:12:11.990Z] [BRIDGE] agent-loader | {"type":"agent-loader","level":"info","detail":"REMOTE_INPUT_AGENT_ATTACHED pid=11192"}
+[2026-08-20T00:12:12.000Z] [BRIDGE] ready | {"type":"ready","ok":true,"pid":11192,"hwnd":"656556","adapter":"minecraft-agent-v1 pid=11192"}
+[2026-08-20T00:12:12.011Z] [INFO] REMOTE_SESSION_STARTED | PID=11192, HWND=0xA04AC, 854x470
+[2026-08-20T00:12:12.011Z] [MEDIA] VIDEO_CONFIGURATION | codec=H264, format=ANNEX_B, capture=854x470, encode=854x470, bitrate=8M, fps=60, jpegFallback=854x470
+[2026-08-20T00:12:28.482Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:12:28.484Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:12:28.486Z] [INPUT] INPUT_RECEIVED | seq=2, action=GUI_POINTER, phase=tap
+[2026-08-20T00:12:28.504Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":2,"appliedTicks":"16136409367200","screenOpen":false,"screenClass":""}
+[2026-08-20T00:12:28.505Z] [INPUT] INPUT_APPLIED | seq=2, action=GUI_POINTER
+[2026-08-20T00:12:28.508Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:12:28.530Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16136435741000","screenOpen":false,"screenClass":""}
+[2026-08-20T00:12:37.558Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:12:37.561Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:12:37.563Z] [INPUT] INPUT_RECEIVED | seq=3, action=INVENTORY, phase=tap
+[2026-08-20T00:12:37.627Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":3,"appliedTicks":"16145532388800","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen"}
+[2026-08-20T00:12:37.628Z] [INPUT] INPUT_APPLIED | seq=3, action=INVENTORY
+[2026-08-20T00:12:37.631Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:12:37.654Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16145559043000","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen"}
+[2026-08-20T00:17:34.466Z] [INFO] REMOTE_SESSION_STOPPING | SIGINT
+[2026-08-20T00:17:34.478Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967295,"appliedTicks":"16442383408900","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen"}

@@ -1,0 +1,73 @@
+[2026-08-20T00:18:55.707Z] [BRIDGE] agent-loader | {"type":"agent-loader","level":"info","detail":"REMOTE_INPUT_AGENT_ATTACHED pid=11192"}
+[2026-08-20T00:18:55.720Z] [BRIDGE] ready | {"type":"ready","ok":true,"pid":11192,"hwnd":"656556","adapter":"minecraft-agent-v1 pid=11192"}
+[2026-08-20T00:18:55.733Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967293,"appliedTicks":"16523636832700","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:18:55.744Z] [INFO] REMOTE_SESSION_STARTED | PID=11192, HWND=0xA04AC, 854x470
+[2026-08-20T00:18:55.745Z] [MEDIA] VIDEO_CONFIGURATION | codec=H264, format=ANNEX_B, capture=854x470, encode=854x470, bitrate=8M, fps=60, jpegFallback=854x470
+[2026-08-20T00:20:02.147Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:02.151Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:20:02.153Z] [INFO] H264_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:02.161Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:02.164Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:20:02.165Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:20:02.166Z] [INPUT] INPUT_RECEIVED | seq=920001, action=ESC, phase=tap
+[2026-08-20T00:20:02.221Z] [INFO] H264_SOCKET_DISCONNECTED
+[2026-08-20T00:20:02.228Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920001,"appliedTicks":"16590133626100","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:02.229Z] [INPUT] INPUT_APPLIED | seq=920001, action=ESC
+[2026-08-20T00:20:02.230Z] [INPUT] INPUT_RECEIVED | seq=920002, action=ESC, phase=tap
+[2026-08-20T00:20:02.285Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920002,"appliedTicks":"16590190583400","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.PauseScreen","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:02.286Z] [INPUT] INPUT_APPLIED | seq=920002, action=ESC
+[2026-08-20T00:20:02.287Z] [INPUT] INPUT_RECEIVED | seq=920003, action=GUI_POINTER, phase=tap
+[2026-08-20T00:20:02.298Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920003,"appliedTicks":"16590203860200","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:02.299Z] [INPUT] INPUT_APPLIED | seq=920003, action=GUI_POINTER
+[2026-08-20T00:20:02.300Z] [INPUT] INPUT_RECEIVED | seq=920004, action=INVENTORY, phase=tap
+[2026-08-20T00:20:02.364Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920004,"appliedTicks":"16590268972400","screenOpen":true,"screenClass":"net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:02.364Z] [INPUT] INPUT_APPLIED | seq=920004, action=INVENTORY
+[2026-08-20T00:20:02.365Z] [INPUT] INPUT_RECEIVED | seq=920005, action=ESC, phase=tap
+[2026-08-20T00:20:02.424Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":920005,"appliedTicks":"16590329300800","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:02.425Z] [INPUT] INPUT_APPLIED | seq=920005, action=ESC
+[2026-08-20T00:20:02.427Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:20:02.437Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16590342636300","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:07.078Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:07.080Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:20:07.082Z] [INFO] VIDEO_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:07.685Z] [INPUT] INPUT_RECEIVED | seq=910001, action=LOOK, phase=delta
+[2026-08-20T00:20:07.697Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":910001,"appliedTicks":"16595601978400","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:07.697Z] [INPUT] INPUT_APPLIED | seq=910001, action=LOOK
+[2026-08-20T00:20:08.672Z] [INPUT] INPUT_RECEIVED | seq=910002, action=LOOK, phase=delta
+[2026-08-20T00:20:08.682Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":910002,"appliedTicks":"16596587663200","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:08.683Z] [INPUT] INPUT_APPLIED | seq=910002, action=LOOK
+[2026-08-20T00:20:08.758Z] [INFO] VIDEO_SOCKET_DISCONNECTED
+[2026-08-20T00:20:08.759Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:20:08.761Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16596666119800","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:17.084Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:17.086Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:20:17.087Z] [INFO] VIDEO_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:17.196Z] [INPUT] INPUT_RECEIVED | seq=900002, action=FORWARD, phase=down
+[2026-08-20T00:20:17.210Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900002,"appliedTicks":"16605115084400","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:17.210Z] [INPUT] INPUT_APPLIED | seq=900002, action=FORWARD
+[2026-08-20T00:20:17.211Z] [INPUT] INPUT_RECEIVED | seq=900003, action=SPRINT, phase=down
+[2026-08-20T00:20:17.224Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900003,"appliedTicks":"16605129264700","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:17.225Z] [INPUT] INPUT_APPLIED | seq=900003, action=SPRINT
+[2026-08-20T00:20:18.031Z] [INPUT] INPUT_RECEIVED | seq=900004, action=SPRINT, phase=up
+[2026-08-20T00:20:18.052Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900004,"appliedTicks":"16605957849900","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:18.053Z] [INPUT] INPUT_APPLIED | seq=900004, action=SPRINT
+[2026-08-20T00:20:18.054Z] [INPUT] INPUT_RECEIVED | seq=900005, action=FORWARD, phase=up
+[2026-08-20T00:20:18.059Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900005,"appliedTicks":"16605964380400","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:18.060Z] [INPUT] INPUT_APPLIED | seq=900005, action=FORWARD
+[2026-08-20T00:20:18.440Z] [INFO] VIDEO_SOCKET_DISCONNECTED
+[2026-08-20T00:20:18.441Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:20:18.452Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16606357475500","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:18.864Z] [INFO] CONTROL_CLIENT_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:18.866Z] [INFO] PHONE_PAIRED | 127.0.0.1
+[2026-08-20T00:20:18.868Z] [INFO] VIDEO_SOCKET_CONNECTED | 127.0.0.1
+[2026-08-20T00:20:18.976Z] [INPUT] INPUT_RECEIVED | seq=900002, action=SNEAK, phase=down
+[2026-08-20T00:20:18.987Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900002,"appliedTicks":"16606892740800","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:18.988Z] [INPUT] INPUT_APPLIED | seq=900002, action=SNEAK
+[2026-08-20T00:20:19.789Z] [INPUT] INPUT_RECEIVED | seq=900003, action=SNEAK, phase=up
+[2026-08-20T00:20:19.794Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":900003,"appliedTicks":"16607699792400","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:19.795Z] [INPUT] INPUT_APPLIED | seq=900003, action=SNEAK
+[2026-08-20T00:20:20.175Z] [INFO] VIDEO_SOCKET_DISCONNECTED
+[2026-08-20T00:20:20.175Z] [INFO] CONTROL_CLIENT_DISCONNECTED
+[2026-08-20T00:20:20.181Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967294,"appliedTicks":"16608085955700","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
+[2026-08-20T00:20:47.702Z] [INFO] REMOTE_SESSION_STOPPING | SIGINT
+[2026-08-20T00:20:47.718Z] [BRIDGE] input-ack | {"type":"input-ack","ok":true,"seq":4294967295,"appliedTicks":"16635623581300","screenOpen":false,"screenClass":"","guiWidth":854,"guiHeight":470}
